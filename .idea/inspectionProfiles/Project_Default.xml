@@ -1,0 +1,47 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="2.7" />
+            <item index="1" class="java.lang.String" itemvalue="3.6" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="TwoRun.Learn.test_login.User_data" />
+          <option value="TwoRun.Learn.test_login.Data" />
+          <option value="test_pages.testCases" />
+          <option value="test_Pages.*" />
+          <option value="object.driver" />
+          <option value="Interneturok.smoke_test.test_5_Авторизоваться_подтвердить_почту.check_the_mail.is_element_prestnt" />
+          <option value="POM.popup_signin.data_users.assertTrue" />
+          <option value="POM.popup_signin.popup_signIn.assertTrue" />
+          <option value="bool.isEnabled" />
+          <option value="bool.is_enabled" />
+          <option value="str.is_enabled" />
+          <option value="socket.errorr" />
+          <option value="int.*" />
+          <option value="lxml.etree" />
+          <option value="requests.cookies" />
+          <option value="requests.models.Response.*" />
+          <option value="str.text" />
+          <option value="str.raise_for_status" />
+          <option value="str.status_code" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
