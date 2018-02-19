@@ -1,0 +1,31 @@
+import unittest
+from Smoke.test_000_Удаление_юзеров_в_админке import RemovingUsersInAdminPanel
+from Smoke.test_001_Удаление_писем_в_почте_яндекс import DeleteMailsInYandex
+from Smoke.test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж import CreateAccountAndBuyTicket100YesAutoPayment
+from Smoke.test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж import CreateAccountAndBuyTicket900YesAutoPayment
+from Smoke.test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж import CreateAccountAndBuyTicket100NoAutoPayment
+from Smoke.test_005_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом import CheckTheMailUserYesAutoPayment
+from Smoke.test_006_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом import CheckTheMailUserNoAutoPayment
+from Smoke.test_007_Авторизоваться_подтвердить_почту import LoginAndConfirmTheMail
+from Smoke.test_008_Авторизоваться_с_абонементом_продлить_абонемент import SignInAndExtendSubscription
+
+from Smoke.test_21_Проверяю_видео_в_плеере_Youtube import PlayVideoYouTube
+from Smoke.test_22_Проверяю_видео_в_плеере_ИУ import PlayVideoIu
+
+suite = unittest.TestSuite()
+
+suite.addTest(unittest.makeSuite(RemovingUsersInAdminPanel))
+suite.addTest(unittest.makeSuite(DeleteMailsInYandex))
+suite.addTest(unittest.makeSuite(CreateAccountAndBuyTicket100YesAutoPayment))
+suite.addTest(unittest.makeSuite(CreateAccountAndBuyTicket900YesAutoPayment))
+suite.addTest(unittest.makeSuite(CreateAccountAndBuyTicket100NoAutoPayment))
+suite.addTest(unittest.makeSuite(CheckTheMailUserYesAutoPayment))
+suite.addTest(unittest.makeSuite(CheckTheMailUserNoAutoPayment))
+suite.addTest(unittest.makeSuite(LoginAndConfirmTheMail))
+suite.addTest(unittest.makeSuite(SignInAndExtendSubscription))
+
+
+
+
+suite.addTest(unittest.makeSuite(PlayVideoIu))
+suite.addTest(unittest.makeSuite(PlayVideoYouTube))
