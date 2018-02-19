@@ -1,16 +1,16 @@
 import unittest
 from POM.user import Admin
 from POM.popup_authorization_and_registration import PopupSignIn
-from POM.admin_delete_users import DeleteUser
+from POM.admin_delete_users import AdminDeleteUser
 from POM.setUp import StartInterneturokAdmin
 
 
-class DeleteUsers(StartInterneturokAdmin):
-    def test_delete(self):
+class RemovingUsersInAdminPanel(StartInterneturokAdmin):
+    def test_removing_a_users(self):
         driver = self.driver
         steps_admin = Admin(driver)
         steps_login = PopupSignIn(driver)
-        steps_delete = DeleteUser(driver)
+        steps_delete = AdminDeleteUser(driver)
 
         steps_admin.enter_email(user_name="admin")
         steps_admin.enter_password(password="qwedsazxc")
