@@ -53,7 +53,7 @@ class PageFreeLessonCheckVideo(object):
         self.driver.find_element_by_class_name("vjs-paused").click()
 
     def watching_that_video_iu_was_reproduced(self):
-        assert (u"Pause", self.driver.find_element_by_class_name("vjs-co2ntrol-text").text)
+        assert (u"Pause", self.driver.find_element_by_class_name("vjs-control-text").text)
         time.sleep(0.5)
         assert (self.driver.find_element_by_class_name("vjs-playing"))
 

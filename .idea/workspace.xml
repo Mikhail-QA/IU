@@ -5,25 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/POM/admin_delete_users.py" afterPath="$PROJECT_DIR$/POM/admin_delete_users.py" />
       <change beforePath="$PROJECT_DIR$/POM/page_free_lesson.py" afterPath="$PROJECT_DIR$/POM/page_free_lesson.py" />
-      <change beforePath="$PROJECT_DIR$/POM/url_lesson.py" afterPath="$PROJECT_DIR$/POM/url_lesson.py" />
       <change beforePath="$PROJECT_DIR$/POM/user.py" afterPath="$PROJECT_DIR$/POM/user.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_10_Оставить_комментарий_в_беспл_уроке.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_11_C_абонементом_оставить_комментарий_в_платном_уроке.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_12_Задать_вопрос_в_уроке_в_бесплатном_предмете.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_платного_предмета.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_14_Пройти_тренажер_в_платном_уроке.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_16_Оставить_заметки_в_платном_уроке.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_17_Проверка_поиска.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_18_Оставить_отзыв.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_19_Отключить_автоплатеж.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_20.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_21.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_21.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test_go.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,11 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_007_Авторизоваться_подтвердить_почту.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_007_Авторизоваться_подтвердить_почту.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
               <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_000_Удаление_юзеров_в_админке.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -893,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/POM/user.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -995,6 +980,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="56" />
           <folding />
         </state>
       </provider>

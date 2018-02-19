@@ -70,8 +70,6 @@ class Admin(object):
         self.driver = driver
 
     def enter_email(self, user_name):
-        # wait = WebDriverWait(self.driver, 30)
-        # wait.until(EC.element_to_be_clickable((By.ID, "user_email"))).send_keys(user_name)
         self.driver.find_element_by_name("user[email]").clear()
         self.driver.find_element_by_name("user[email]").send_keys("%s" % user_name)
 
