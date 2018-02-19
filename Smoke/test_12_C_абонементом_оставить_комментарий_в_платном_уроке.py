@@ -20,7 +20,7 @@ class Send_comment_in_paid_lesson(StartInterneturok):
         user_steps.enter_password()
         popup_steps.click_button_login()
         self.driver.get(
-            "https://staging.interneturok.ru/algebra/11-klass/bzadachi-iz-egeb/urok-17-vopros-3-vypolnyayte-proverku-v-uravneniyah-i-neravenstvah")
+            "https://fast-staging.interneturok.ru/algebra/11-klass/bzadachi-iz-egeb/urok-17-vopros-3-vypolnyayte-proverku-v-uravneniyah-i-neravenstvah")
 
         user.click_link_comments()
         user.write_comment()

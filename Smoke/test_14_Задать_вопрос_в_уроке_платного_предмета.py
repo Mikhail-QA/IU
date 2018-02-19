@@ -22,7 +22,7 @@ class Ask_question_in_paid_lesson(StartInterneturok):
         user_steps.enter_password()
         popup_steps.click_button_login()
         self.driver.get(
-            "https://staging.interneturok.ru/russian/9-klass/slozhnopodchinyonnye-predlozheniya/pravopisanie-predlozheniy-s-soyuzom-kak/questions")
+            "https://fast-staging.interneturok.ru/russian/9-klass/slozhnopodchinyonnye-predlozheniya/pravopisanie-predlozheniy-s-soyuzom-kak/questions")
         delete_steps.delete_all_question()
 
         user.ask_question()

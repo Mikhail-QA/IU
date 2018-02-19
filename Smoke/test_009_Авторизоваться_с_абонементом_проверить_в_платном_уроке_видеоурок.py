@@ -20,7 +20,7 @@ class User_with_abonement_check_no_plugs(StartInterneturok):
         user_steps.enter_password()
         popup_steps.click_button_login()
         self.driver.get(
-            "https://staging.interneturok.ru/physics/11-klass/bmagnitnoe-poleb/magnitnoe-pole-ego-svoystva")
+            "https://fast-staging.interneturok.ru/physics/11-klass/bmagnitnoe-poleb/magnitnoe-pole-ego-svoystva")
         self.assertFalse(self.is_element_present(By.CLASS_NAME, "video-blocker__body"))
 
     def is_element_present(self, how, what):

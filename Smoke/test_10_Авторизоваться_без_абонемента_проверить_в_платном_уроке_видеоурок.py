@@ -21,7 +21,7 @@ class User_no_abonement_check_plugs(StartInterneturok):
         popup_steps.click_button_login()
 
         self.driver.get(
-            "https://staging.interneturok.ru/russian/9-klass/vvedenie/mezhdunarodnoe-znachenie-russkogo-yazyka")
+            "https://fast-staging.interneturok.ru/russian/9-klass/vvedenie/mezhdunarodnoe-znachenie-russkogo-yazyka")
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.video-blocker"))
 
     def is_element_present(self, how, what):

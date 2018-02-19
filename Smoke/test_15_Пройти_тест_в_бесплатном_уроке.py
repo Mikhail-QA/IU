@@ -21,7 +21,7 @@ class Pass_test(StartInterneturok):
         user_steps.enter_password()
         popup_steps.click_button_login()
         driver.get(
-            "https://staging.interneturok.ru/biology/7-klass/zhivotnye-ploskie-chervi/lentochnye-chervi/testcases")
+            "https://fast-staging.interneturok.ru/biology/7-klass/zhivotnye-ploskie-chervi/lentochnye-chervi/testcases")
         time.sleep(2)
         steps_test.go_test()
         steps_test.start_test()

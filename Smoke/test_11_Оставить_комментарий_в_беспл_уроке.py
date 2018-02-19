@@ -22,7 +22,7 @@ class Send_commnen_in_free_lesson(StartInterneturok):
         user_steps.enter_password()
         popup_steps.click_button_login()
         self.driver.get(
-            "https://staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy")
+            "https://fast-staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy")
 
         user.click_button_comments()
         delete_steps.delete_old_comments()

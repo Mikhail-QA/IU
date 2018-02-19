@@ -21,7 +21,7 @@ class Pass_simulator(StartInterneturok):
         user_steps.enter_password()
         popup_steps.click_button_login()
         self.driver.get(
-            "https://staging.interneturok.ru/physics/7-klass/vzaimodejstvie-tel/plotnost/trainers")
+            "https://fast-staging.interneturok.ru/physics/7-klass/vzaimodejstvie-tel/plotnost/trainers")
         time.sleep(2)
         steps_exercise.go_exercise()
         steps_exercise.test()

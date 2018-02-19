@@ -20,7 +20,7 @@ class Write_a_note(StartInterneturok):
         user_steps.enter_password()
         popup_steps.click_button_login()
         self.driver.get(
-            "https://staging.interneturok.ru/physics/7-klass/rabota-moshnost-energija/energiya-zakon-sohraneniya-energii")
+            "https://fast-staging.interneturok.ru/physics/7-klass/rabota-moshnost-energija/energiya-zakon-sohraneniya-energii")
 
         notes_steps.open_notes()
         notes_steps.write_note()
