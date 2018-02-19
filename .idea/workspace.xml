@@ -2,8 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/POM/admin_delete_users.py" afterPath="$PROJECT_DIR$/POM/admin_delete_users.py" />
       <change beforePath="$PROJECT_DIR$/POM/page_free_lesson.py" afterPath="$PROJECT_DIR$/POM/page_free_lesson.py" />
+      <change beforePath="$PROJECT_DIR$/POM/url_lesson.py" afterPath="$PROJECT_DIR$/POM/url_lesson.py" />
+      <change beforePath="$PROJECT_DIR$/POM/user.py" afterPath="$PROJECT_DIR$/POM/user.py" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_10_Оставить_комментарий_в_беспл_уроке.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_11_C_абонементом_оставить_комментарий_в_платном_уроке.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_12_Задать_вопрос_в_уроке_в_бесплатном_предмете.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_платного_предмета.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_14_Пройти_тренажер_в_платном_уроке.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_16_Оставить_заметки_в_платном_уроке.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_17_Проверка_поиска.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_18_Оставить_отзыв.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_19_Отключить_автоплатеж.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_20.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_21.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_21.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_go.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,21 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py">
+      <file leaf-file-name="test_smoke.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_smoke.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_go.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_go.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="480">
+              <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -40,31 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_20.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Smoke/test_20.py">
+      <file leaf-file-name="test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_free_lesson.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/POM/page_free_lesson.py">
+      <file leaf-file-name="test_007_Авторизоваться_подтвердить_почту.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="55" column="73" lean-forward="false" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_000_Удаление_юзеров_в_админке.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="560">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -125,18 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_ok.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_go.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_22_В_платном_уроке_нажать_на_кнопку_Плей.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_23_В_платном_уроке_нажать_на_кнопку_Оплатить_абонемент.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_24_В_платном_уроке_нажать_на_кнопку_Войти.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_22_В_платном_уроке_нажать_на_кнопку_Плей.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_23_В_платном_уроке_нажать_на_кнопку_Оплатить_абонемент.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_24_В_платном_уроке_нажать_на_кнопку_Войти.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_4_тренажер_в_платном_уроке_нажать_на_кнопку_Плей.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_1_В_платном_уроке_нажать_на_кнопку_Плей.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_2_В_платном_уроке_нажать_на_кнопку_Оплатить_абонемент.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_4_В_платном_уроке_нажать_на_кнопку_Войти.py" />
         <option value="$PROJECT_DIR$/Web_services/app/SetUp.py" />
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" />
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_2_Видеоурок_платный_нажать_на_кнопку_Оплатить_абонемент.py" />
@@ -165,17 +153,29 @@
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in.py" />
         <option value="$PROJECT_DIR$/POM/main_page.py" />
         <option value="$PROJECT_DIR$/POM/popup_authorization_and_registration.py" />
-        <option value="$PROJECT_DIR$/POM/user.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py" />
-        <option value="$PROJECT_DIR$/POM/admin_delete_users.py" />
-        <option value="$PROJECT_DIR$/POM/url_lesson.py" />
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" />
         <option value="$PROJECT_DIR$/test_21.py" />
         <option value="$PROJECT_DIR$/POM/setUp.py" />
         <option value="$PROJECT_DIR$/Smoke/test_20.py" />
         <option value="$PROJECT_DIR$/Smoke/test_21.py" />
-        <option value="$PROJECT_DIR$/test_go.py" />
+        <option value="$PROJECT_DIR$/POM/url_lesson.py" />
         <option value="$PROJECT_DIR$/POM/page_free_lesson.py" />
+        <option value="$PROJECT_DIR$/test_go.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Smoke/module.py" />
+        <option value="$PROJECT_DIR$/POM/admin_delete_users.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py" />
+        <option value="$PROJECT_DIR$/POM/user.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_001_Удаление_писем_в_почте_яндекс.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_005_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_006_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py" />
+        <option value="$PROJECT_DIR$/test_smoke.py" />
       </list>
     </option>
   </component>
@@ -220,7 +220,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -249,6 +248,7 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,19 +258,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;https://staging-api.interneturok.ru/v1/articles/9&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Михаил\IU" />
-      <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson paid\User not auth" />
-      <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson" />
-      <recent name="C:\Users\Михаил\IU\Web_services\Main_page\Check that all elements" />
-      <recent name="C:\Users\Михаил\IU\Smoke" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\IU" />
       <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson paid\User without ticket is logged in" />
       <recent name="C:\Users\Михаил\IU\Smoke" />
       <recent name="C:\Users\Михаил\PycharmProjects\Interneturok\web_services" />
       <recent name="C:\Users\Михаил\PycharmProjects\Interneturok\smoke_test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\IU" />
+      <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson paid\User not auth" />
+      <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson" />
+      <recent name="C:\Users\Михаил\IU\Web_services\Main_page\Check that all elements" />
+      <recent name="C:\Users\Михаил\IU\Smoke" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,7 +285,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py">
+  <component name="RunManager">
+    <configuration name="Smoke" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IU" />
+      <option name="SCRIPT_NAME" value="C:\Users\Михаил\IU\test_smoke.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -406,21 +424,6 @@
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in Checks Pop-up in lesson paid" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Checks Pop-up in lesson paid" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IU" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Checks Pop-up in lesson paid&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <configuration name="py.test in test_000_Удаление_юзеров_в_админке.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -451,7 +454,22 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_21.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_21_Проверяю_видео_в_плеере_Youtube.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Smoke" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="IU" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <configuration name="py.test in test_smoke.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -463,39 +481,24 @@
       <module name="IU" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_21.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="py.test in test_sitemap_404.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ParsingSiteMap" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="IU" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/ParsingSiteMap/test_sitemap_404.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_smoke.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Checks Pop-up in lesson paid" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_sitemap_404.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_21.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_000_Удаление_юзеров_в_админке.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_000_Удаление_юзеров_в_админке.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_smoke.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_21_Проверяю_видео_в_плеере_Youtube.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python.Smoke" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_smoke.py" />
         <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_000_Удаление_юзеров_в_админке.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_21.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_sitemap_404.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in Checks Pop-up in lesson paid" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Smoke" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_21_Проверяю_видео_в_плеере_Youtube.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" />
       </list>
     </recent_temporary>
   </component>
@@ -516,35 +519,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.17 at 23h 51m 39s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_000_Удаление_юзеров_в_админке_py - 2018.02.19 at 12h 50m 21s.xml">
+      <configuration name="py.test in test_000_Удаление_юзеров_в_админке.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.17 at 23h 53m 10s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_000_Удаление_юзеров_в_админке_py - 2018.02.19 at 12h 50m 32s.xml">
+      <configuration name="py.test in test_000_Удаление_юзеров_в_админке.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.17 at 23h 54m 37s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_000_Удаление_юзеров_в_админке_py - 2018.02.19 at 12h 53m 44s.xml">
+      <configuration name="py.test in test_000_Удаление_юзеров_в_админке.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.17 at 23h 55m 43s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_000_Удаление_юзеров_в_админке_py - 2018.02.19 at 12h 54m 32s.xml">
+      <configuration name="py.test in test_000_Удаление_юзеров_в_админке.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.17 at 23h 56m 56s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_000_Удаление_юзеров_в_админке_py - 2018.02.19 at 13h 04m 57s.xml">
+      <configuration name="py.test in test_000_Удаление_юзеров_в_админке.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.17 at 23h 57m 53s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_smoke_py - 2018.02.19 at 12h 04m 53s.xml">
+      <configuration name="py.test in test_smoke.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.17 at 23h 59m 31s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_smoke_py - 2018.02.19 at 12h 15m 06s.xml">
+      <configuration name="py.test in test_smoke.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.18 at 00h 19m 48s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_smoke_py - 2018.02.19 at 12h 17m 42s.xml">
+      <configuration name="py.test in test_smoke.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.18 at 00h 21m 20s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_smoke_py - 2018.02.19 at 12h 17m 57s.xml">
+      <configuration name="py.test in test_smoke.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_1_Видеоурок_платный_нажать_на_кнопку_Плей_py - 2018.02.18 at 00h 24m 30s.xml">
-      <configuration name="py.test in test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_smoke_py - 2018.02.19 at 14h 01m 30s.xml">
+      <configuration name="py.test in test_smoke.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -560,17 +563,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41897655" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31876332" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.43550107" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39782608" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -624,42 +627,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_10_Вопрос_платный_нажать_на_кнопку_Комментировать.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_16_Комментарии_нажать_на_поле_ввода.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson/.cache/v/cache/lastfailed" />
-    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_11_Заметка_нажать_на_кнопку_Сохранить.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_2_Видеоурок_платный_нажать_на_кнопку_Оплатить_абонемент.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_3_Видеоурок_платный_нажать_на_кнопку_Войти.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -705,98 +672,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_001_Удаление_писем_в_почте_яндекс.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_003_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_006_Авторизоваться_подтвердить_почту.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_007_Авторизоваться_с_абонементом_продлить_абонемент.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-300">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_009_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_10_Оставить_комментарий_в_беспл_уроке.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-163">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_11_C_абонементом_оставить_комментарий_в_платном_уроке.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_12_C_абонементом_оставить_комментарий_в_платном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-143">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_12_Задать_вопрос_в_уроке_в_бесплатном_предмете.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_платного_предмета.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_14_Задать_вопрос_в_уроке_платного_предмета.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_14_Пройти_тренажер_в_платном_уроке.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-229">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -810,28 +721,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_16_Оставить_заметки_в_платном_уроке.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_17_Проверка_поиска.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_18_Оставить_отзыв.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-69">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_19_Отключить_автоплатеж.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-240">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -842,21 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-200">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/POM/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="77" column="6" lean-forward="false" selection-start-line="77" selection-start-column="6" selection-end-line="77" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/POM/admin_delete_users.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="37" column="14" lean-forward="false" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -881,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-123">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -889,53 +784,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/POM/url_lesson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="49" lean-forward="false" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="140">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_21.py">
+    <entry file="file://$PROJECT_DIR$/POM/page_free_lesson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="260">
+          <caret line="55" column="72" lean-forward="false" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POM/setUp.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="320">
+          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_005_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом.py">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -943,39 +819,183 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_21.py">
+    <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_21.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POM/page_free_lesson.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-report/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="23" column="352289" lean-forward="false" selection-start-line="23" selection-start-column="352289" selection-end-line="23" selection-end-column="352289" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/setUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/admin_delete_users.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
-          <caret line="55" column="73" lean-forward="false" selection-start-line="55" selection-start-column="73" selection-end-line="55" selection-end-column="73" />
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_20.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="79">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_go.py">
+    <entry file="file://$PROJECT_DIR$/POM/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="298">
+          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/data_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_001_Удаление_писем_в_почте_яндекс.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="48" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_005_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_006_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_smoke.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
