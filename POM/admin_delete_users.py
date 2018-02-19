@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class DeleteUser(object):
+class AdminDeleteUser(object):
     def __init__(self, driver):
         self.driver = driver
 
