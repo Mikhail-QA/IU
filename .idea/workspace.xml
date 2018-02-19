@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" afterPath="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" afterPath="$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_12_C_абонементом_оставить_комментарий_в_платном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_12_C_абонементом_оставить_комментарий_в_платном_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py" afterPath="$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_14_Задать_вопрос_в_уроке_платного_предмета.py" afterPath="$PROJECT_DIR$/Smoke/test_14_Задать_вопрос_в_уроке_платного_предмета.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" afterPath="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" afterPath="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" afterPath="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py" afterPath="$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py" afterPath="$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,10 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_11_Заметка_нажать_на_кнопку_Сохранить.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_12_Заметка_нажать_на_поле_ввода.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_13_Избранное_нажать_на_кнопку_в_Избранное.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_14_Оценить_урок_нажать_на_кнопку_Оценить_урок.py" />
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_15_Комментарии_нажать_на_кнопку_Отправить.py" />
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_16_Комментарии_нажать_на_поле_ввода.py" />
         <option value="$PROJECT_DIR$/POM/page_paid_lesson.py" />
@@ -133,6 +119,10 @@
         <option value="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" />
         <option value="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" />
         <option value="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_23.py" />
+        <option value="$PROJECT_DIR$/test_23.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py" />
       </list>
     </option>
   </component>
@@ -215,19 +205,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;https://staging-api.interneturok.ru/v1/articles/9&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Михаил\IU" />
-      <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson paid\User without ticket is logged in" />
-      <recent name="C:\Users\Михаил\IU\Smoke" />
-      <recent name="C:\Users\Михаил\PycharmProjects\Interneturok\web_services" />
-      <recent name="C:\Users\Михаил\PycharmProjects\Interneturok\smoke_test" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\IU" />
       <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson paid\User not auth" />
       <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson" />
       <recent name="C:\Users\Михаил\IU\Web_services\Main_page\Check that all elements" />
       <recent name="C:\Users\Михаил\IU\Smoke" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\IU" />
+      <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson paid\User without ticket is logged in" />
+      <recent name="C:\Users\Михаил\IU\Smoke" />
+      <recent name="C:\Users\Михаил\PycharmProjects\Interneturok\web_services" />
+      <recent name="C:\Users\Михаил\PycharmProjects\Interneturok\smoke_test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -583,13 +573,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_4_Тренажер_платный_нажать_на_кнопку_Оплатить_абонемент.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ParsingSiteMap/test_sitemap_404.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -611,13 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python/Lib/site-packages/allure/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -666,14 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POM/page_free_lesson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="55" column="72" lean-forward="false" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -693,6 +661,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="95" column="5" lean-forward="false" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -738,14 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="56" />
           <folding />
         </state>
       </provider>
@@ -918,28 +879,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_smoke.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python/Lib/site-packages/allure/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/page_free_lesson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="55" column="82" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="21" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
+        <state relative-caret-position="0">
+          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding />
         </state>
       </provider>
