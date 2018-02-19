@@ -2,9 +2,10 @@ import unittest
 from POM.data_mail import DataMail
 from POM.setUp import StartYandexMail
 
-class Delete_mail_in_yandex(StartYandexMail):
 
-    def test_delete(self):
+class DeleteMailsInYandex(StartYandexMail):
+
+    def test_removing_a_mails(self):
         driver = self.driver
         steps_delete = DataMail(driver)
 

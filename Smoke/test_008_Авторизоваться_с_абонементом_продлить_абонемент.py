@@ -5,8 +5,9 @@ from POM.popup_authorization_and_registration import PopupSignIn
 from POM.pageprofile import PageProfile
 from POM.user import PaymNotYandexRu
 
-class Extend_subscription(StartInterneturok):
-    def test_user_extend_abonement(self):
+
+class SignInAndExtendSubscription(StartInterneturok):
+    def test_user_extend_subscription(self):
         driver = self.driver
         main_steps = MainPage(driver)
         popup_steps = PopupSignIn(driver)
@@ -26,7 +27,7 @@ class Extend_subscription(StartInterneturok):
         profile_steps.go_to_my_profile()
         driver.refresh()
         self.assertIn("Осталось:\n62 дня\nАвтопродление:\n\nВкл.\nПодробнее об абонементе Продлить абонемент",
-                     driver.find_element_by_class_name("profile-abonement__body").text)
+                      driver.find_element_by_class_name("profile-abonement__body").text)
 
     def tearDown(self):
         self.driver.quit()

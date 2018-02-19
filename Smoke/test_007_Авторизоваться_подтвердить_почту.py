@@ -8,7 +8,7 @@ from POM.user import PaymNotYandexRu
 from selenium.webdriver.common.by import By
 
 
-class Sign_in_and_confirm_the_mail(StartYandexMail):
+class LoginAndConfirmTheMail(StartYandexMail):
     def test_confirm_the_mail(self):
         driver = self.driver
         steps_mail = DataMail(driver)

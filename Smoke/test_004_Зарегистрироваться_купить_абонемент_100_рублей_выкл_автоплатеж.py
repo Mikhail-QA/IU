@@ -6,8 +6,8 @@ from POM.user import PaymNotYandexRu
 from POM.pageprofile import PageProfile
 
 
-class Registration_and_buy_a_subscription(StartInterneturok):
-    def test_no_auto_payment(self):
+class CreateAccountAndBuyTicket100NoAutoPayment(StartInterneturok):
+    def test_buy_ticket_per_100_rubles(self):
         driver = self.driver
         steps_main_page = MainPage(driver)
         steps_popup = PopupRegistration(driver)

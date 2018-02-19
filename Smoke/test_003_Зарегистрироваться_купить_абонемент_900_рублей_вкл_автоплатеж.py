@@ -5,8 +5,9 @@ from POM.user import PaymentnotMailRu
 from POM.pageprofile import PageProfile
 from POM.setUp import StartInterneturok
 
-class Registration_and_buy_a_subscription(StartInterneturok):
-    def test__auto_payment(self):
+
+class CreateAccountAndBuyTicket900YesAutoPayment(StartInterneturok):
+    def test_buy_ticket_per_900_rubles(self):
         driver = self.driver
         steps_main = MainPage(driver)
         steps_user = PaymentnotMailRu(driver)

@@ -5,8 +5,9 @@ from POM.user import VratchGlavYandexRu
 from POM.pageprofile import PageProfile
 from POM.setUp import StartInterneturok
 
-class Registration_and_buy_a_subscription(StartInterneturok):
-    def test__auto_payment(self):
+
+class CreateAccountAndBuyTicket100YesAutoPayment(StartInterneturok):
+    def test_buy_ticket_per_100_rubles(self):
         driver = self.driver
         steps_main = MainPage(driver)
         steps_user = VratchGlavYandexRu(driver)
