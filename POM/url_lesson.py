@@ -13,15 +13,15 @@ class URLPaidLesson(object):
 
     def go_algebra_8_grade_trainers(self):
         self.driver.get(
-            "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/trainers")
+            "https:/fast-staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/trainers")
         time.sleep(1.5)
 
     def go_algebra_8_grade_test(self):
         self.driver.get(
-            "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/testcases")
+            "https://fast-staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/testcases")
         time.sleep(1.5)
 
     def go_algebra_8_grade_questions(self):
         self.driver.get(
-            "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/questions")
+            "https://fast-staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/questions")
         time.sleep(1.5)
