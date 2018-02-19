@@ -7,8 +7,8 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
 
-class User_with_abonement_check_no_plugs(StartInterneturok):
-    def test_no_plugs_in_paid_lesson(self):
+class CheckWithSubscriptionVideoInPayLesson(StartInterneturok):
+    def test_no_stub_in_pay_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         popup_steps = PopupSignIn(driver)

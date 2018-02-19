@@ -3,7 +3,7 @@ from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 
 
-class Check_search(StartInterneturok):
+class CheckSearch(StartInterneturok):
     def test_search_shows_successfully(self):
         driver = self.driver
         steps_search = MainPage(driver)

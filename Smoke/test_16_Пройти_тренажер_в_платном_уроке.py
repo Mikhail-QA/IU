@@ -7,8 +7,8 @@ from POM.user import PaymNotYandexRu
 from POM.paid_exercise import Exercise
 
 
-class Pass_simulator(StartInterneturok):
-    def test_simulator_passed(self):
+class PassSimulatorInPayLesson(StartInterneturok):
+    def test_simulator_passed_in_pay_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         user_steps = PaymNotYandexRu(driver)

@@ -4,8 +4,8 @@ from POM.main_page import PopupFeedback
 from POM.data_mail import DataMail
 
 
-class Write_a_review(StartInterneturok):
-    def test_the_letter_came_in_the_mail(self):
+class WriteReview(StartInterneturok):
+    def test_the_review_came_the_mail(self):
         driver = self.driver
         steps_feedback = PopupFeedback(driver)
         steps_mail = DataMail(driver)

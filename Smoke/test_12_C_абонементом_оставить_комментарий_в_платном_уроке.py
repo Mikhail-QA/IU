@@ -6,8 +6,8 @@ from POM.user import PaymNotYandexRu
 from POM.page_paid_lesson import PagePaidLessonComment
 
 
-class Send_comment_in_paid_lesson(StartInterneturok):
-    def test_user_write_comment(self):
+class SendCommentInPayLesson(StartInterneturok):
+    def test_user_write_comment_in_pay_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         user_steps = PaymNotYandexRu(driver)

@@ -7,8 +7,8 @@ from POM.page_paid_lesson import PagePaidLessonQuestion
 from POM.cycles import Cycles
 
 
-class Ask_question_in_paid_lesson(StartInterneturok):
-    def test_user_ask_question(self):
+class AskQuestionInPayLesson(StartInterneturok):
+    def test_user_ask_question_In_pay_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         popup_steps = PopupSignIn(driver)

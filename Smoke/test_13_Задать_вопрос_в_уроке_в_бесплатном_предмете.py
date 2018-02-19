@@ -7,8 +7,8 @@ from POM.page_free_lesson import PageFreeLessonQuestion
 from POM.cycles import Cycles
 
 
-class Ask_question_in_free_lesson(StartInterneturok):
-    def test_user_ask_question(self):
+class AskQuestionInFreeLesson(StartInterneturok):
+    def test_user_ask_question_in_free_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         popup_steps = PopupSignIn(driver)

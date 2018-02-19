@@ -6,8 +6,8 @@ from POM.user import PaymNotYandexRu
 from POM.page_paid_lesson import Notes
 
 
-class Write_a_note(StartInterneturok):
-    def test_a_note_left(self):
+class WriteNoteInPayLesson(StartInterneturok):
+    def test_user_note_in_pay_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         user_steps = PaymNotYandexRu(driver)

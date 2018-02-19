@@ -7,8 +7,8 @@ from POM.popup_authorization_and_registration import PopupSignIn
 from POM.freetest import FreeTest
 
 
-class Pass_test(StartInterneturok):
-    def test_passed(self):
+class PassTestInFreeLesson(StartInterneturok):
+    def test_passed_in_free_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         user_steps = PaymNotYandexRu(driver)

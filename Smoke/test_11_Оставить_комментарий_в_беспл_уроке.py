@@ -7,8 +7,8 @@ from POM.page_free_lesson import PageFreeLessonComment
 from POM.cycles import Cycles
 
 
-class Send_commnen_in_free_lesson(StartInterneturok):
-    def test_user_write_comment(self):
+class SendCommentInFreeLesson(StartInterneturok):
+    def test_user_write_comment_in_free_lesson(self):
         driver = self.driver
         steps_page = MainPage(driver)
         popup_steps = PopupSignIn(driver)

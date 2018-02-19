@@ -7,8 +7,8 @@ from POM.pageprofile import PageProfile
 from POM.user import VratchGlavYandexRu
 
 
-class Disable_autopayment(StartInterneturok):
-    def test_off_autopayment(self):
+class DisableAutoPayment(StartInterneturok):
+    def test_user_off_auto_payment(self):
         driver = self.driver
         main_steps = MainPage(driver)
         popup_steps = PopupSignIn(driver)

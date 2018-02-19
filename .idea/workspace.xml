@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/POM/pageprofile.py" afterPath="$PROJECT_DIR$/POM/pageprofile.py" />
       <change beforePath="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" afterPath="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" />
       <change beforePath="$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" afterPath="$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" />
       <change beforePath="$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py" />
@@ -13,6 +11,9 @@
       <change beforePath="$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py" />
       <change beforePath="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" />
       <change beforePath="$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" afterPath="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" afterPath="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" afterPath="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,30 +27,7 @@
     <favorites_list name="PycharmProjects" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_smoke.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_smoke.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -104,9 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_9_Вопрос_платный_нажать_на_кнопку_Войти.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_10_Вопрос_платный_нажать_на_кнопку_Комментировать.py" />
-        <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_11_Заметка_нажать_на_кнопку_Отправить.py" />
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_11_Заметка_нажать_на_кнопку_Сохранить.py" />
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_12_Заметка_нажать_на_поле_ввода.py" />
         <option value="$PROJECT_DIR$/Checks Pop-up in lesson/test_13_Избранное_нажать_на_кнопку_в_Избранное.py" />
@@ -145,8 +120,8 @@
         <option value="$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py" />
         <option value="$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py" />
         <option value="$PROJECT_DIR$/test_smoke.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" />
         <option value="$PROJECT_DIR$/POM/pageprofile.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" />
         <option value="$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" />
         <option value="$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py" />
         <option value="$PROJECT_DIR$/Smoke/test_12_C_абонементом_оставить_комментарий_в_платном_уроке.py" />
@@ -155,6 +130,9 @@
         <option value="$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py" />
         <option value="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" />
         <option value="$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
       </list>
     </option>
   </component>
@@ -540,11 +518,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32249466" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32249466" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.43550107" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
@@ -557,7 +535,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -568,11 +545,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.43550107" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39658847" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32249466" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -648,6 +625,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-200">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -662,6 +640,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="87" column="8" lean-forward="false" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -683,6 +662,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -690,6 +670,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="55" column="72" lean-forward="false" selection-start-line="55" selection-start-column="72" selection-end-line="55" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -749,6 +730,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -756,6 +738,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="34" column="8" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -823,6 +806,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/POM/pageprofile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -833,105 +824,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="27" column="50" lean-forward="true" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        <state relative-caret-position="60">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="10" column="35" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_12_C_абонементом_оставить_комментарий_в_платном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_14_Задать_вопрос_в_уроке_платного_предмета.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="80">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/POM/pageprofile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="45" column="8" lean-forward="false" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        <state relative-caret-position="40">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="80">
+          <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="160">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_smoke.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -939,24 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_smoke.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="60" lean-forward="false" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
           <folding />
         </state>
       </provider>

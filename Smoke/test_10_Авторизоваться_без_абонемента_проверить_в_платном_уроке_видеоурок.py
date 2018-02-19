@@ -7,8 +7,8 @@ from POM.setUp import StartInterneturok
 from POM.user import AutopaymentMailRu
 
 
-class User_no_abonement_check_plugs(StartInterneturok):
-    def test_yes_plugs_in_free_lesson(self):
+class CheckNoSubscriptionVideoInPayLesson(StartInterneturok):
+    def test_yes_stub_in_pay_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         popup_steps = PopupSignIn(driver)
