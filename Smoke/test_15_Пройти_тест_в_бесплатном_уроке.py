@@ -35,7 +35,7 @@ class PassTestInFreeLesson(StartInterneturok):
         with allure.step("В финальном поп-апе нажать на кнопку Завершить"):
             steps_test.click_button_finish()
         with allure.step("После пройденного Теста название кнопки Пройти поменялась на Повторить"):
-            assert (u"Повторить", self.driver.find_element_by_xpath("//li/div[2]/span/a").text)
+            self.assertEquals(u"Повторить", self.driver.find_element_by_xpath("//li/div[2]/span/a").text)
 
     def tearDown(self):
         self.driver.quit()

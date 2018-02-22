@@ -35,7 +35,7 @@ class WriteNoteInPayLesson(StartInterneturok):
         with allure.step("Перейти в ЛК во вкладку Заметка"):
             notes_steps.go_to_profile()
         with allure.step("В ЛК отображается сохранённая Заметка"):
-            self.assertIn("Hello", self.driver.find_element_by_css_selector("div.profile-content.show").text)
+            self.assertEquals("Hello", self.driver.find_element_by_css_selector("p.profile-content__note").text)
 
     def tearDown(self):
         self.driver.quit()

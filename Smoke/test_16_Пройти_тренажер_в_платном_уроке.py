@@ -37,7 +37,7 @@ class PassSimulatorInPayLesson(StartInterneturok):
         with allure.step("Пройденный Тренажёр помечается как Пройден"):
             assert self.driver.find_element_by_css_selector("span.result-mark.good")
         with allure.step("После пройденного Тренажёра название кнопки Пройти поменялась на Повторить"):
-            assert (u"Повторить", self.driver.find_element_by_xpath("//li/div[2]/span/a").text)
+            self.assertEquals(u"Повторить", self.driver.find_element_by_xpath("//li/div[2]/span/a").text)
 
     def tearDown(self):
         self.driver.quit()

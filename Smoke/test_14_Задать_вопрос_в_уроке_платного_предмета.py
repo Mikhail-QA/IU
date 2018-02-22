@@ -36,7 +36,7 @@ class AskQuestionInPayLesson(StartInterneturok):
             user.post_question()
         with allure.step("Проверяю отображение опубликованного в списке Вопроса"):
             # self.assertEqual(u"Привет Rich", self.driver.find_element_by_css_selector("p.comment__text").text)
-            assert (u"Привет Rich", self.driver.find_element_by_css_selector("p.comment__text").text)
+            self.assertEquals(u"Привет Rich", self.driver.find_element_by_css_selector("p.comment__text").text)
 
     def tearDown(self):
         self.driver.quit()

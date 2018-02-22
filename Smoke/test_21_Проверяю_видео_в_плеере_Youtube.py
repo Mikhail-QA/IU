@@ -14,7 +14,7 @@ class PlayVideoYouTube(StartInterneturok):
         with allure.step("Перейти на урок"):
             driver.get(
                 "https://fast-staging.interneturok.ru/idei-i-smysly/osnovy-ratsionalnogo-povedeniya/spisok-urokov/kogda-nam-trudno-vybirat-paradoks-kondorse")
-        time.sleep(5)
+            time.sleep(2)
         with allure.step("Нажать на область превью"):
             steps_video.click_play_video_YouTube()
 

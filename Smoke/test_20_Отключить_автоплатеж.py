@@ -37,7 +37,7 @@ class DisableAutoPayment(StartInterneturok):
         with allure.step("Обновить страницу"):
             self.driver.refresh()
         with allure.step("В ЛК, в виджете абонемента статус автоплатежа поменялся на ВЫКЛ"):
-            assert (u"Выкл.", self.driver.find_element_by_css_selector("a.link_dotted").text)
+            self.assertEquals(u"Выкл.", self.driver.find_element_by_css_selector("a.link_dotted").text)
 
     def tearDown(self):
         self.driver.quit()
