@@ -1,3 +1,4 @@
+import allure
 import unittest
 from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
@@ -7,6 +8,8 @@ from POM.page_paid_lesson import PagePaidLessonQuestion
 from POM.cycles import Cycles
 
 
+@allure.feature("Вопрос к уроку")
+@allure.story("Публикация вопроса пользователем с абонементом в платном уроке")
 class AskQuestionInPayLesson(StartInterneturok):
     def test_user_ask_question_In_pay_lesson(self):
         driver = self.driver
@@ -15,19 +18,25 @@ class AskQuestionInPayLesson(StartInterneturok):
         user_steps = PaymNotYandexRu(driver)
         user = PagePaidLessonQuestion(driver)
         delete_steps = Cycles(driver)
-
-        main_steps.go_to_sgnIn()
-
-        user_steps.enter_email()
-        user_steps.enter_password()
-        popup_steps.click_button_login()
-        self.driver.get(
-            "https://fast-staging.interneturok.ru/russian/9-klass/slozhnopodchinyonnye-predlozheniya/pravopisanie-predlozheniy-s-soyuzom-kak/questions")
-        delete_steps.delete_all_question()
-
-        user.ask_question()
-        user.post_question()
-        self.assertEqual(u"Привет Rich", self.driver.find_element_by_css_selector("p.comment__text").text)
+        with allure.step("Нажать на кнопку Войти"):
+            main_steps.go_to_sgnIn()
+        with allure.step("Ввожу email/password"):
+            user_steps.enter_email()
+            user_steps.enter_password()
+        with allure.step("Нажать на кнопку Авторизоваться"):
+            popup_steps.click_button_login()
+        with allure.step("Перейти на урок"):
+            self.driver.get(
+                "https://fast-staging.interneturok.ru/russian/9-klass/slozhnopodchinyonnye-predlozheniya/pravopisanie-predlozheniy-s-soyuzom-kak/questions")
+        with allure.step("Удалить существующие вопросы в списке"):
+            delete_steps.delete_all_question()
+        with allure.step("Ввести текст в поле ввода Привет Rich"):
+            user.ask_question()
+        with allure.step("Нажать на кнопку Отправить"):
+            user.post_question()
+        with allure.step("Проверяю отображение опубликованного в списке Вопроса"):
+            # self.assertEqual(u"Привет Rich", self.driver.find_element_by_css_selector("p.comment__text").text)
+            assert (u"Привет Rich", self.driver.find_element_by_css_selector("p.comment__text").text)
 
     def tearDown(self):
         self.driver.quit()

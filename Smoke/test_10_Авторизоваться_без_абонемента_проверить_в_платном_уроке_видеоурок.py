@@ -1,3 +1,4 @@
+import allure
 import unittest
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
@@ -7,22 +8,26 @@ from POM.setUp import StartInterneturok
 from POM.user import AutopaymentMailRu
 
 
+@allure.feature("Платный видеоурок")
+@allure.story("Авторизоваться без абонемента, проверить в платном уроке отображение заглушки видеоурока")
 class CheckNoSubscriptionVideoInPayLesson(StartInterneturok):
     def test_yes_stub_in_pay_lesson(self):
         driver = self.driver
         main_steps = MainPage(driver)
         popup_steps = PopupSignIn(driver)
         user_steps = AutopaymentMailRu(driver)
-
-        main_steps.go_to_sgnIn()
-
-        user_steps.enter_email()
-        user_steps.enter_password()
-        popup_steps.click_button_login()
-
-        self.driver.get(
-            "https://fast-staging.interneturok.ru/russian/9-klass/vvedenie/mezhdunarodnoe-znachenie-russkogo-yazyka")
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.video-blocker"))
+        with allure.step("Нажать на кнопку Войти"):
+            main_steps.go_to_sgnIn()
+        with allure.step("Ввожу email/password"):
+            user_steps.enter_email()
+            user_steps.enter_password()
+        with allure.step("Нажать на кнопку Авторизоваться"):
+            popup_steps.click_button_login()
+        with allure.step("Перейти на урок"):
+            self.driver.get(
+                "https://fast-staging.interneturok.ru/russian/9-klass/vvedenie/mezhdunarodnoe-znachenie-russkogo-yazyka")
+        with allure.step("Проверить присутствие заглушки видеоурока"):
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.video-blocker"))
 
     def is_element_present(self, how, what):
         try:

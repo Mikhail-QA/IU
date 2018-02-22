@@ -1,3 +1,4 @@
+import allure
 import unittest
 from POM.setUp import StartYandexMail
 from selenium.common.exceptions import NoSuchElementException
@@ -8,6 +9,8 @@ from POM.user import PaymNotYandexRu
 from selenium.webdriver.common.by import By
 
 
+@allure.feature("Почтовые уведомления")
+@allure.story("Авторизоваться подтверить почту в мылке и проверить исчезновение нотификации у пользователя")
 class LoginAndConfirmTheMail(StartYandexMail):
     def test_confirm_the_mail(self):
         driver = self.driver
@@ -15,19 +18,24 @@ class LoginAndConfirmTheMail(StartYandexMail):
         steps_main = MainPage(driver)
         steps_user = PaymNotYandexRu(driver)
         steps_popup = PopupSignIn(driver)
-
-        steps_mail.login_in_accaunt_user_Paymnotyandex_check_mail()
-        steps_mail.open_mail_click_on_the_link_to_confirm_the_mail()
-
-        steps_main.go_to_internetUrok()
-        steps_main.go_to_sgnIn()
-
-        steps_user.enter_email()
-        steps_user.enter_password()
-        steps_popup.click_button_login()
-        self.assertEqual(u"Адрес электронной почты успешно подтвержден",
-                         driver.find_element_by_css_selector("p.top-banner__text").text)
-        self.assertFalse(self.is_element_present(By.CSS_SELECTOR, "div.top-banner__buttons"))
+        with allure.step("Авторизоваться в почте mail П paym.not@yandex.ru"):
+            steps_mail.login_in_accaunt_user_Paymnotyandex_check_mail()
+        with allure.step("Зайти в пришедшее письмо и подтверить почту"):
+            steps_mail.open_mail_click_on_the_link_to_confirm_the_mail()
+        with allure.step("Перейти на сайт ИУ на главную страницу"):
+            steps_main.go_to_internetUrok()
+        with allure.step("Нажать на кнопку Войти"):
+            steps_main.go_to_sgnIn()
+        with allure.step("Ввожу email/password"):
+            steps_user.enter_email()
+            steps_user.enter_password()
+        with allure.step("Нажать на кнопку Авторизоваться"):
+            steps_popup.click_button_login()
+        with allure.step("У П отображается нотификация ""Адрес электронной почты успешно подтвержден"" "):
+            self.assertEqual(u"Адрес электронной почты успешно подтвержден",
+                             driver.find_element_by_css_selector("p.top-banner__text").text)
+        with allure.step("У П не отображается нотификация ""Подтвердите адрес электронной почты в течение 48 ч."" "):
+            self.assertFalse(self.is_element_present(By.CSS_SELECTOR, "div.top-banner__buttons"))
 
     def is_element_present(self, how, what):
         try:

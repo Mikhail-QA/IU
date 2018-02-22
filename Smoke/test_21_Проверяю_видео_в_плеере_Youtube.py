@@ -4,6 +4,7 @@ import unittest
 from POM.page_free_lesson import PageFreeLessonCheckVideo
 from POM.setUp import StartInterneturok
 
+
 @allure.feature("Плеер Ютуб")
 @allure.story("Проверяю воспроизведения видео в плеере YouTube")
 class PlayVideoYouTube(StartInterneturok):
