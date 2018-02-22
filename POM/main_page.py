@@ -23,7 +23,7 @@ class MainPage(object):
             "#payment-blocks > div > div > div > a.info__item-button.b-button.b-button_color_green").click()
 
     def go_to_internetUrok(self):
-        self.driver.get("https://staging.interneturok.ru")
+        self.driver.get("https://fast-staging.interneturok.ru")
 
     def enter_data(self, data="ty"):
         self.driver.find_element_by_css_selector("input.search.home-search").send_keys(data)
