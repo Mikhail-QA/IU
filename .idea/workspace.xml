@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/test_smoke.py" afterPath="$PROJECT_DIR$/test_smoke.py" />
+      <change beforePath="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" afterPath="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +20,8 @@
       <file leaf-file-name="test_smoke.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_smoke.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="411">
+              <caret line="52" column="53" lean-forward="true" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -125,7 +125,6 @@
         <option value="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" />
         <option value="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" />
         <option value="$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
         <option value="$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py" />
         <option value="$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py" />
         <option value="$PROJECT_DIR$/POM/pageprofile.py" />
@@ -133,6 +132,7 @@
         <option value="$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py" />
         <option value="$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" />
         <option value="$PROJECT_DIR$/test_smoke.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
       </list>
     </option>
   </component>
@@ -241,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_18_Проверка_поиска.py">
+  <component name="RunManager" selected="Python tests.py.test in test_smoke.py">
     <configuration name="Smoke" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -450,8 +450,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_18_Проверка_поиска.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_smoke.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_smoke.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_18_Проверка_поиска.py" />
         <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_000_Удаление_юзеров_в_админке.py" />
         <item index="3" class="java.lang.String" itemvalue="Python.Smoke" />
         <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_21_Проверяю_видео_в_плеере_Youtube.py" />
@@ -475,9 +475,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_000_Удаление_юзеров_в_админке_py - 2018.02.19 at 13h 04m 57s.xml">
-      <configuration name="py.test in test_000_Удаление_юзеров_в_админке.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="py_test_in_test_18_Проверка_поиска_py - 2018.02.22 at 15h 36m 49s.xml">
       <configuration name="py.test in test_18_Проверка_поиска.py" configurationId="tests" />
     </history-entry>
@@ -505,6 +502,9 @@
     <history-entry file="py_test_in_test_smoke_py - 2018.02.19 at 14h 01m 30s.xml">
       <configuration name="py.test in test_smoke.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="py_test_in_test_smoke_py - 2018.02.22 at 17h 13m 51s.xml">
+      <configuration name="py.test in test_smoke.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,7 +524,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.43550107" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -782,14 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
@@ -934,10 +926,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="34" column="88" lean-forward="false" selection-start-line="34" selection-start-column="88" selection-end-line="34" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_smoke.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="411">
+          <caret line="52" column="53" lean-forward="true" selection-start-line="52" selection-start-column="53" selection-end-line="52" selection-end-column="53" />
           <folding />
         </state>
       </provider>

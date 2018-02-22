@@ -30,9 +30,9 @@ class DisableAutoPayment(StartInterneturok):
         with allure.step("В виджете абонемент нажать на кнопку Выкл автоплатёж"):
             profile_steps.click_button_off_autopayment()
             time.sleep(1.5)
-        with allure.step("В появившемся тултипе нажать на кнопку ДА"):
+        with allure.step("В появившемся тултипе нажать на кнопку Отключить автопродление"):
             profile_steps.click_in_popup1_off_autopayment()
-        with allure.step("В появившемся поп-апе нажать на кнопку ДА"):
+        with allure.step("В появившемся поп-апе нажать на кнопку Отключить автопродление"):
             profile_steps.click_in_popup2_off_autopayment()
         with allure.step("Обновить страницу"):
             self.driver.refresh()
