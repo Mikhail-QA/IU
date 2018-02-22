@@ -33,7 +33,7 @@ class SendCommentInFreeLesson(StartInterneturok):
         with allure.step("Нажать на кнопку Отправить"):
             user.post_comment()
         with allure.step("Проверяю отображение опубликованного в списке комментария"):
-            assert (u"Привет Yonga", self.driver.find_element_by_css_selector("p.comment__text").text)
+            self.assertEquals(u"Привет Yonga", self.driver.find_element_by_xpath("//div/div[2]/p").text)
         with allure.step("Удалить опубликованный комментарий"):
             user.delete_comment()
 

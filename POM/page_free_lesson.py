@@ -20,9 +20,9 @@ class PageFreeLessonComment(object):
         time.sleep(2)
 
     def delete_comment(self):
-        self.driver.find_element_by_link_text(u"Удалить").click()
+        self.driver.find_element_by_xpath("//div/div[2]/div/span[3]").click()
         assert (u"Отправить",
-                self.driver.find_element_by_css_selector("#new_comment > div.b-comment-form__actions > input").text)
+                self.driver.find_element_by_css_selector("div > div.comment__col.comment__col-body > div > button").text)
 
 
 # https://web-dev01.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/razvitie-evolyutsionnyh-vzglyadov-v-dodarvinovskiy-period/questions
