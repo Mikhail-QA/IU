@@ -22,6 +22,10 @@ class PageProfile(object):
     def popup_click_enable_autopayment(self):
         self.driver.find_element_by_xpath("//div/div[3]/div[2]/div/div[1]/div[1]/label").click()
 
+    def popup_click_include_autopayment(self):
+        self.driver.find_element_by_xpath("//div/div[3]/div[2]/div/div[1]/div[1]/label").click()
+
+
     def click_button_off_autopayment(self):
         self.driver.find_element_by_css_selector("a.link_green.link_dotted").click()
         time.sleep(1)

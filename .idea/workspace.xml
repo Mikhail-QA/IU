@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/POM/freetest.py" afterPath="$PROJECT_DIR$/POM/freetest.py" />
-      <change beforePath="$PROJECT_DIR$/POM/page_free_lesson.py" afterPath="$PROJECT_DIR$/POM/page_free_lesson.py" />
-      <change beforePath="$PROJECT_DIR$/POM/page_paid_lesson.py" afterPath="$PROJECT_DIR$/POM/page_paid_lesson.py" />
       <change beforePath="$PROJECT_DIR$/POM/pageprofile.py" afterPath="$PROJECT_DIR$/POM/pageprofile.py" />
-      <change beforePath="$PROJECT_DIR$/POM/paid_exercise.py" afterPath="$PROJECT_DIR$/POM/paid_exercise.py" />
       <change beforePath="$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py" afterPath="$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py" />
       <change beforePath="$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" afterPath="$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" />
       <change beforePath="$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py" afterPath="$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_005_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом.py" afterPath="$PROJECT_DIR$/Smoke/test_005_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_006_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом.py" afterPath="$PROJECT_DIR$/Smoke/test_006_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py" afterPath="$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py" afterPath="$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" afterPath="$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" afterPath="$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_12_C_абонементом_оставить_комментарий_в_платном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_12_C_абонементом_оставить_комментарий_в_платном_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py" afterPath="$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_14_Задать_вопрос_в_уроке_платного_предмета.py" afterPath="$PROJECT_DIR$/Smoke/test_14_Задать_вопрос_в_уроке_платного_предмета.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py" afterPath="$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" afterPath="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" afterPath="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" afterPath="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py" afterPath="$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py" />
-      <change beforePath="$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py" afterPath="$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -122,9 +99,6 @@
         <option value="$PROJECT_DIR$/test_23.py" />
         <option value="$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py" />
         <option value="$PROJECT_DIR$/Smoke/test_001_Удаление_писем_в_почте_яндекс.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" />
         <option value="$PROJECT_DIR$/Smoke/test_005_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом.py" />
         <option value="$PROJECT_DIR$/Smoke/test_006_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом.py" />
         <option value="$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py" />
@@ -145,9 +119,12 @@
         <option value="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" />
         <option value="$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py" />
         <option value="$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py" />
-        <option value="$PROJECT_DIR$/POM/pageprofile.py" />
         <option value="$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py" />
         <option value="$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py" />
+        <option value="$PROJECT_DIR$/POM/pageprofile.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" />
       </list>
     </option>
   </component>
@@ -209,11 +186,6 @@
             <path>
               <item name="IU" type="b2602c69:ProjectViewProjectNode" />
               <item name="IU" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IU" type="462c0819:PsiDirectoryNode" />
-              <item name="POM" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IU" type="b2602c69:ProjectViewProjectNode" />
@@ -712,34 +684,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="91" lean-forward="false" selection-start-line="40" selection-start-column="91" selection-end-line="40" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_005_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -928,14 +876,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POM/pageprofile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/POM/page_free_lesson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -956,6 +896,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" column="68" lean-forward="true" selection-start-line="31" selection-start-column="68" selection-end-line="31" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/pageprofile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="32" column="68" lean-forward="true" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
           <folding />
         </state>
       </provider>
