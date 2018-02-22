@@ -21,7 +21,7 @@ class AdminDeleteUser(object):
         self.driver.find_element_by_link_text(u"Удалить").click()
         time.sleep(1)
         self.driver.switch_to.alert.accept()
-        time.sleep(5)
+        time.sleep(6)
 
     def user_2(self, pupil_2):
         self.driver.find_element_by_id("search_name").clear()
@@ -33,7 +33,7 @@ class AdminDeleteUser(object):
         self.driver.find_element_by_link_text(u"Удалить").click()
         time.sleep(1)
         self.driver.switch_to.alert.accept()
-        time.sleep(5)
+        time.sleep(6)
 
     def user_3(self, pupil_3):
         self.driver.find_element_by_id("search_name").clear()
@@ -45,4 +45,4 @@ class AdminDeleteUser(object):
         self.driver.find_element_by_link_text(u"Удалить").click()
         time.sleep(1)
         self.driver.switch_to.alert.accept()
-        time.sleep(5)
+        time.sleep(6)
