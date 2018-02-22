@@ -27,6 +27,7 @@ class PassSimulatorInPayLesson(StartInterneturok):
         with allure.step("Перейти на урок"):
             self.driver.get(
                 "https://fast-staging.interneturok.ru/physics/7-klass/vzaimodejstvie-tel/plotnost/trainers")
+            time.sleep(2)
         with allure.step("Нажать на кнопку Пройти"):
             steps_exercise.go_exercise()
         with allure.step("Начать отвечать на ответы в Тренажере"):

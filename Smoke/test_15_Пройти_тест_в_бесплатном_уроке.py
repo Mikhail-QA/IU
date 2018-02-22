@@ -27,8 +27,7 @@ class PassTestInFreeLesson(StartInterneturok):
         with allure.step("Перейти на урок"):
             driver.get(
                 "https://fast-staging.interneturok.ru/biology/7-klass/zhivotnye-ploskie-chervi/lentochnye-chervi/testcases")
-
-        # time.sleep(2)
+        time.sleep(2)
         with allure.step("Нажать на кнопку Пройти"):
             steps_test.go_test()
         with allure.step("Отвечать на вопросы в тесте"):
