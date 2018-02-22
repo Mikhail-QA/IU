@@ -9,7 +9,7 @@ class Exercise(object):
 
     def go_exercise(self):
         self.driver.find_element_by_css_selector("li:nth-child(1) > div.col-action > span > a").click()
-        time.sleep(3)
+        time.sleep(1)
 
     def test(self):
         step = 1
@@ -95,5 +95,3 @@ class Exercise(object):
 
     def click_button_finish(self):
         self.driver.find_element_by_css_selector("body > div.arcticmodal-container > table > tbody > tr > td > div > div > div.b-popup__footer.b-practice__actions > div > a").click()
-        self.driver.refresh()
-        assert self.driver.find_element_by_css_selector("span.result-mark.good")

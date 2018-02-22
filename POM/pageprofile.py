@@ -32,8 +32,6 @@ class PageProfile(object):
     def click_in_popup2_off_autopayment(self):
         self.driver.find_element_by_class_name("button_blue").click()
         time.sleep(1)
-        self.driver.refresh()
-        assert (u"Выкл.", self.driver.find_element_by_css_selector("a.link_dotted").text)
 
     def enter_data_card(self):
         self.driver.find_element_by_id("cardNumber").send_keys("4444444444444448")

@@ -32,6 +32,7 @@ class PagePaidLessonComment(object):
     def click_field_textarea(self):
         self.driver.find_element_by_xpath("//div/textarea").click()
 
+
 class PagePaidLessonQuestion(object):
     # https://web-dev01.interneturok.ru/russian/9-klass/slozhnopodchinyonnye-predlozheniya/pravopisanie-predlozheniy-s-soyuzom-kak/questions
 
@@ -44,7 +45,7 @@ class PagePaidLessonQuestion(object):
 
     def post_question(self):
         self.driver.find_element_by_css_selector("button.comment__button").click()
-        assert (self.driver.find_element_by_css_selector("p.comment__text"))
+        time.sleep(1)
 
     def delete_question(self):
         self.driver.find_element_by_xpath("//div/div[2]/div/span[3]").click()

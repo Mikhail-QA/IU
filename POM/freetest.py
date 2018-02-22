@@ -7,7 +7,7 @@ class FreeTest(object):
 
     def go_test(self):
         self.driver.find_element_by_css_selector("div.col-action").click()
-        time.sleep(2)
+        time.sleep(1)
 
     def start_test(self):
         self.driver.find_element_by_css_selector("div.b-input-radio__name").click()
@@ -52,4 +52,3 @@ class FreeTest(object):
 
     def click_button_finish(self):
         self.driver.find_element_by_link_text("Завершить").click()
-        assert (self.driver.find_element_by_xpath("//a[contains(text(),'Повторить')]"))

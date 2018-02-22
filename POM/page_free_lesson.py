@@ -18,8 +18,6 @@ class PageFreeLessonComment(object):
     def post_comment(self):
         self.driver.find_element_by_css_selector("button.comment__button").click()
         time.sleep(2)
-        assert (u"Привет Yonga", self.driver.find_element_by_css_selector("p.comment__text").text)
-        assert (u"Удалить", self.driver.find_element_by_class_name("comment__col-body").text)
 
     def delete_comment(self):
         self.driver.find_element_by_link_text(u"Удалить").click()
@@ -38,7 +36,6 @@ class PageFreeLessonQuestion(object):
     def post_question(self):
         self.driver.find_element_by_css_selector("button.comment__button").click()
         time.sleep(2)
-        assert (self.driver.find_element_by_css_selector("p.comment__text"))
 
     def delete_question(self):
         self.driver.find_element_by_link_text(u"Удалить").click()
@@ -61,6 +58,6 @@ class PageFreeLessonCheckVideo(object):
         self.driver.find_element_by_id("player").click()
 
     # def watching_that_video_YouTube_was_reproduced(self):
-        # assert (
-        # self.driver.find_element_by_class_name("div.html5-video-player.iv-module-loaded.playing-mode.ytp-autohide"))
-        # self.driver.find_element_by_css_selector("button.ytp-play-button.ytp-button").click()
+    # assert (
+    # self.driver.find_element_by_class_name("div.html5-video-player.iv-module-loaded.playing-mode.ytp-autohide"))
+    # self.driver.find_element_by_css_selector("button.ytp-play-button.ytp-button").click()
