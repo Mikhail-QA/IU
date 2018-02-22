@@ -25,7 +25,6 @@ class PageProfile(object):
     def popup_click_include_autopayment(self):
         self.driver.find_element_by_xpath("//div/div[3]/div[2]/div/div[1]/div[1]/label").click()
 
-
     def click_button_off_autopayment(self):
         self.driver.find_element_by_css_selector("a.link_green.link_dotted").click()
         time.sleep(1)
@@ -47,4 +46,4 @@ class PageProfile(object):
 
     def go_to_my_profile(self):
         self.driver.get("https://fast-staging.interneturok.ru/profile")
-        time.sleep(1)
+        time.sleep(2)

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/POM/page_paid_lesson.py" afterPath="$PROJECT_DIR$/POM/page_paid_lesson.py" />
+      <change beforePath="$PROJECT_DIR$/POM/pageprofile.py" afterPath="$PROJECT_DIR$/POM/pageprofile.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_17_Оставить_заметки_в_платном_уроке.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py">
+      <file leaf-file-name="test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state relative-caret-position="340">
+              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POM/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -122,7 +132,6 @@
         <option value="$PROJECT_DIR$/POM/paid_exercise.py" />
         <option value="$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py" />
         <option value="$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py" />
-        <option value="$PROJECT_DIR$/POM/pageprofile.py" />
         <option value="$PROJECT_DIR$/Smoke/test_004_Зарегистрироваться_купить_абонемент_100_рублей_выкл_автоплатеж.py" />
         <option value="$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py" />
         <option value="$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py" />
@@ -143,6 +152,7 @@
         <option value="$PROJECT_DIR$/POM/freetest.py" />
         <option value="$PROJECT_DIR$/POM/main_page.py" />
         <option value="$PROJECT_DIR$/POM/page_paid_lesson.py" />
+        <option value="$PROJECT_DIR$/POM/pageprofile.py" />
       </list>
     </option>
   </component>
@@ -251,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_15_Пройти_тест_в_бесплатном_уроке.py">
+  <component name="RunManager" selected="Python tests.py.test in test_17_Оставить_заметки_в_платном_уроке.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,7 +397,7 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_16_Пройти_тренажер_в_платном_уроке.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_17_Оставить_заметки_в_платном_уроке.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -399,7 +409,7 @@
       <module name="IU" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="py.test in test_20_Отключить_автоплатеж.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -450,18 +460,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unnamed" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_15_Пройти_тест_в_бесплатном_уроке.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_16_Пройти_тренажер_в_платном_уроке.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_20_Отключить_автоплатеж.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_22_Проверяю_видео_в_плеере_ИУ.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_21_Проверяю_видео_в_плеере_Youtube.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_20_Отключить_автоплатеж.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_22_Проверяю_видео_в_плеере_ИУ.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_21_Проверяю_видео_в_плеере_Youtube.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_17_Оставить_заметки_в_платном_уроке.py" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_15_Пройти_тест_в_бесплатном_уроке.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_21_Проверяю_видео_в_плеере_Youtube.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_22_Проверяю_видео_в_плеере_ИУ.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_20_Отключить_автоплатеж.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_16_Пройти_тренажер_в_платном_уроке.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_17_Оставить_заметки_в_платном_уроке.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_15_Пройти_тест_в_бесплатном_уроке.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_21_Проверяю_видео_в_плеере_Youtube.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_22_Проверяю_видео_в_плеере_ИУ.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_20_Отключить_автоплатеж.py" />
       </list>
     </recent_temporary>
   </component>
@@ -485,8 +495,8 @@
     <history-entry file="py_test_in_test_15_Пройти_тест_в_бесплатном_уроке_py - 2018.02.22 at 22h 22m 48s.xml">
       <configuration name="py.test in test_15_Пройти_тест_в_бесплатном_уроке.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_20_Отключить_автоплатеж_py - 2018.02.22 at 21h 34m 22s.xml">
-      <configuration name="py.test in test_20_Отключить_автоплатеж.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_17_Оставить_заметки_в_платном_уроке_py - 2018.02.22 at 22h 54m 16s.xml">
+      <configuration name="py.test in test_17_Оставить_заметки_в_платном_уроке.py" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_20_Отключить_автоплатеж_py - 2018.02.22 at 21h 35m 59s.xml">
       <configuration name="py.test in test_20_Отключить_автоплатеж.py" configurationId="tests" />
@@ -679,13 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POM/pageprofile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/POM/admin_delete_users.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
@@ -697,13 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="13" column="62" lean-forward="true" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -732,14 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="36" selection-end-column="88" />
           <folding />
         </state>
       </provider>
@@ -922,14 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POM/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="41" column="55" lean-forward="false" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/POM/page_paid_lesson.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -940,8 +920,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state relative-caret-position="400">
+          <caret line="32" column="55" lean-forward="true" selection-start-line="32" selection-start-column="55" selection-end-line="32" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="62" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="60" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/pageprofile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
           <folding />
         </state>
       </provider>
