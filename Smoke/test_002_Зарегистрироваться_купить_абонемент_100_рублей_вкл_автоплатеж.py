@@ -30,6 +30,10 @@ class CreateAccountAndBuyTicket100YesAutoPayment(StartInterneturok):
             steps_in_profile.go_to_my_profile()
         with allure.step("В ЛК, в виджете абонемент нажать на кнопку оплатить абонемент"):
             steps_in_profile.click_button_buy_subscription()
+
+        with allure.step("В поп-апе оплаты включить автоплатеж"): # Удалить после 11.03.18
+            steps_in_profile.popup_click_include_autopayment() # Удалить после 11.03.18
+
         with allure.step("В поп-апе оплаты нажать на кнопку Оплатить абонемент"):
             steps_in_profile.popup_click_buy_subscription()
         with allure.step("На сайте ЯК ввести данные карты"):
