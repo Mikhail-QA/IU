@@ -41,7 +41,7 @@ class CreateAccountAndBuyTicket100YesAutoPayment(StartInterneturok):
         with allure.step("Вернулся в Мой профиль"):
             steps_in_profile.go_to_my_profile()
         with allure.step("Обновить страницу"):
-            driver.refresh()
+            self.driver.refresh()
         with allure.step("В виджете отображается купленный абонемент с вкл автопродлением и тарифом 31 день"):
             self.assertIn("Осталось:\n31 день\nАвтопродление:\n\nВкл.\nПодробнее об абонементе Продлить абонемент",
                           driver.find_element_by_class_name("profile-abonement__body").text)
