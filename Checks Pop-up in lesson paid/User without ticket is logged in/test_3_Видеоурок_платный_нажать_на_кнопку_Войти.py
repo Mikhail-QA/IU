@@ -11,5 +11,5 @@ class ClickButtonSignInVideo(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         url_get.go_algebra_8_grade_video()
-        step_user.click_button_sing_in_cover()
+        step_user.click_button_sign_in_stubs()
         self.assertEquals(u"Войдите в профиль", self.driver.find_element_by_css_selector("h5.popup-header__title").text)
