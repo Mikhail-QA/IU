@@ -88,10 +88,10 @@ class PaidLesson(object):
     def click_button_play_video(self):
         self.driver.find_element_by_css_selector("div.player__block-play").click()
 
-    def click_button_pay_abonement(self):
+    def click_button_buy_ticket_in_stubs(self):
         self.driver.find_element_by_css_selector("a.abonement__buy").click()
 
-    def click_button_sing_in_cover(self):
+    def click_button_sign_in_stubs(self):
         self.driver.find_element_by_css_selector("div.video-blocker__body > div > div:nth-child(1) > p > a").click()
 
     def click_button_comments(self):
@@ -111,4 +111,4 @@ class Value(object):
         self.driver = driver
 
     def click_button_value_lesson(self):
-        self.driver.find_element_by_css_selector("label.ember-radio-button").click()
+        self.driver.find_element_by_xpath("//div/label[1]").click()
