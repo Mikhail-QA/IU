@@ -2,34 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_2_Платный_урок_проверка_через_кнопку_Оплатить_абонемент.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_3_Платный_урок_проверка_через_кнопку_Войти.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_10_Вопрос_платный_нажать_на_кнопку_Комментировать.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_10_Вопрос_платный_нажать_на_кнопку_Комментировать.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_11_Заметка_нажать_на_кнопку_Сохранить.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_11_Заметка_нажать_на_кнопку_Сохранить.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_12_Заметка_нажать_на_поле_ввода.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_12_Заметка_нажать_на_поле_ввода.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_13_Избранное_нажать_на_кнопку_в_Избранное.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_13_Избранное_нажать_на_кнопку_в_Избранное.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_14_Оценить_урок_нажать_на_кнопку_Оценить_урок.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_14_Оценить_урок_нажать_на_кнопку_Оценить_урок.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_15_Комментарии_нажать_на_кнопку_Отправить.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_15_Комментарии_нажать_на_кнопку_Отправить.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_16_Комментарии_нажать_на_поле_ввода.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_16_Комментарии_нажать_на_поле_ввода.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_2_Видеоурок_платный_нажать_на_кнопку_Оплатить_абонемент.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_2_Видеоурок_платный_нажать_на_кнопку_Оплатить_абонемент.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_3_Видеоурок_платный_нажать_на_кнопку_Войти.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_3_Видеоурок_платный_нажать_на_кнопку_Войти.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_4_Тренажер_платный_нажать_на_кнопку_Оплатить_абонемент.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_4_Тренажер_платный_нажать_на_кнопку_Оплатить_абонемент.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_5_Тренажер_платный_нажать_на_кнопку_Войти.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_5_Тренажер_платный_нажать_на_кнопку_Войти.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_6_Тест_платный_нажать_на_кнопку_Оплатить_абонемент.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_6_Тест_платный_нажать_на_кнопку_Оплатить_абонемент.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_7_Тест_платный_нажать_на_кнопку_Войти.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_7_Тест_платный_нажать_на_кнопку_Войти.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_8_Вопрос_плантый_нажать_на_кнопку_Оплатить_абонемент.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_8_Вопрос_плантый_нажать_на_кнопку_Оплатить_абонемент.py" />
-      <change beforePath="$PROJECT_DIR$/Checks Pop-up in lesson paid/User without ticket is logged in/test_9_Вопрос_платный_нажать_на_кнопку_Войти.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User without ticket is logged in/test_9_Вопрос_платный_нажать_на_кнопку_Войти.py" />
+      <change beforePath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_1_Платный_урок_проверка_через_все_места.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_1_Платный_урок_проверка_через_все_места.py" />
+      <change beforePath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_2_Платный_урок_проверка_через_кнопку_Оплатить_абонемент.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_2_Платный_урок_проверка_через_кнопку_Оплатить_абонемент.py" />
+      <change beforePath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_3_Платный_урок_проверка_через_кнопку_Войти.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_3_Платный_урок_проверка_через_кнопку_Войти.py" />
       <change beforePath="$PROJECT_DIR$/Other/OneRun/Test1/test_5.py" afterPath="$PROJECT_DIR$/Other/OneRun/Test1/test_5.py" />
       <change beforePath="$PROJECT_DIR$/POM/main_page.py" afterPath="$PROJECT_DIR$/POM/main_page.py" />
-      <change beforePath="$PROJECT_DIR$/POM/page_paid_lesson.py" afterPath="$PROJECT_DIR$/POM/page_paid_lesson.py" />
-      <change beforePath="$PROJECT_DIR$/PopUp/test_1_Платный_урок_проверка_через_все_места.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_1_Платный_урок_проверка_через_все_места.py" />
-      <change beforePath="$PROJECT_DIR$/PopUp/test_2_Платный_урок_проверка_через_кнопку_Оплатить_абонемент.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_2_Платный_урок_проверка_через_кнопку_Оплатить_абонемент.py" />
-      <change beforePath="$PROJECT_DIR$/PopUp/test_3_Платный_урок_проверка_через_кнопку_Войти.py" afterPath="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_3_Платный_урок_проверка_через_кнопку_Войти.py" />
       <change beforePath="$PROJECT_DIR$/Web_services/other/test_ope_test_responses.py" afterPath="$PROJECT_DIR$/Web_services/other/test_ope_test_responses.py" />
-      <change beforePath="$PROJECT_DIR$/test_checks_pop_up_lesson_paid.py" afterPath="$PROJECT_DIR$/test_checks_pop_up_lesson_paid.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -163,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="14" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -546,7 +526,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3251599" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
@@ -980,26 +960,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_1_Платный_урок_проверка_через_все_места.py">
+    <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_3_Платный_урок_проверка_через_кнопку_Войти.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="117" column="54" lean-forward="true" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="54" />
+        <state relative-caret-position="160">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_2_Платный_урок_проверка_через_кнопку_Оплатить_абонемент.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="75" />
+        <state relative-caret-position="220">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_3_Платный_урок_проверка_через_кнопку_Войти.py">
+    <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_1_Платный_урок_проверка_через_все_места.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="53" column="43" lean-forward="false" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        <state relative-caret-position="240">
+          <caret line="20" column="75" lean-forward="true" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
           <folding />
         </state>
       </provider>
