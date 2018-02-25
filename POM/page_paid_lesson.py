@@ -32,6 +32,9 @@ class PagePaidLessonComment(object):
     def click_field_textarea(self):
         self.driver.find_element_by_xpath("//div/textarea").click()
 
+    def click_button_comment(self):
+        self.driver.find_element_by_css_selector("span.comment__action").click()
+
 
 class PagePaidLessonQuestion(object):
     # https://web-dev01.interneturok.ru/russian/9-klass/slozhnopodchinyonnye-predlozheniya/pravopisanie-predlozheniy-s-soyuzom-kak/questions
@@ -49,6 +52,9 @@ class PagePaidLessonQuestion(object):
 
     def delete_question(self):
         self.driver.find_element_by_xpath("//div/div[2]/div/span[3]").click()
+
+    def click_button_comment(self):
+        self.driver.find_element_by_css_selector("span.comment__action").click()
 
 
 # https://staging.interneturok.ru/physics/7-klass/rabota-moshnost-energija/energiya-zakon-sohraneniya-energii
@@ -93,9 +99,6 @@ class PaidLesson(object):
 
     def click_button_sign_in_stubs(self):
         self.driver.find_element_by_css_selector("div.video-blocker__body > div > div:nth-child(1) > p > a").click()
-
-    def click_button_comments(self):
-        self.driver.find_element_by_css_selector("span.comment__action").click()
 
 
 class Favourites(object):
