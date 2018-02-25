@@ -14,5 +14,5 @@ class ClickButtonPlayInVideo(StartInterneturokClassMethod):
 
         url_get.go_algebra_8_grade_test()
         step_user.click_link_comments()
-        click_comment.click_button_comments()
+        click_comment.click_button_comment()
         self.assertEquals(u"Зарегистрируйтесь", self.driver.find_element_by_css_selector("h5.popup-header__title").text)
