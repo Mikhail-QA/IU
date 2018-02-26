@@ -1,3 +1,4 @@
+import unittest
 import allure
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupRegistration
@@ -30,3 +31,9 @@ class ReghAndCheckinMailUserToProfile(StartInterneturok):
             self.assertEqual(u"iuuser@yopmail.com",
                              self.driver.find_element_by_css_selector("input.profile-input").get_attribute("value"))
 
+    def tearDown(self):
+        self.driver.quit()
+
+
+if __name__ == "__main__":
+    unittest.main()

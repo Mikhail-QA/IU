@@ -1,3 +1,4 @@
+import unittest
 import allure
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
@@ -25,3 +26,10 @@ class AuthAndCheckinMailUserToProfile(StartInterneturok):
         with allure.step("В поле email отображается (почта-autopayment@mail.ru) зарегистрировшего пользователя"):
             self.assertEqual(u"autopayment@mail.ru",
                              self.driver.find_element_by_css_selector("input.profile-input").get_attribute("value"))
+
+    def tearDown(self):
+        self.driver.quit()
+
+
+if __name__ == "__main__":
+    unittest.main()

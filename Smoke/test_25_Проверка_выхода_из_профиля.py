@@ -1,3 +1,4 @@
+import unittest
 import allure
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
@@ -30,3 +31,10 @@ class CheckingOutProfile(StartInterneturok):
             self.driver.refresh()
         with allure.step("Для не авторизованного пользователя отображается кнопка Войти"):
             self.assertEqual(u"Войти", driver.find_element_by_css_selector("span.button_login").text)
+
+    def tearDown(self):
+        self.driver.quit()
+
+
+if __name__ == "__main__":
+    unittest.main()
