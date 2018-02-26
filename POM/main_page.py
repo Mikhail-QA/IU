@@ -1,5 +1,7 @@
 import time
 
+from selenium.webdriver import ActionChains
+
 
 class MainPage(object):
     def __init__(self, driver):
@@ -17,7 +19,6 @@ class MainPage(object):
     def click_the_feedback(self):
         self.driver.find_element_class_name("b-button-review__trigger-form").click()
 
-
     def click_button_check_mail(self):
         self.driver.find_element_by_css_selector(
             "#payment-blocks > div > div > div > a.info__item-button.b-button.b-button_color_green").click()
@@ -31,6 +32,15 @@ class MainPage(object):
     def click_search(self):
         self.driver.find_element_by_class_name("home-search__button").click()
         time.sleep(0.5)
+
+    def hover_mouse_to_button_my_profile(self):
+        element_to_hover_over = self.driver.find_element_by_css_selector("div.header__title")
+        hover = ActionChains(self.driver).move_to_element(element_to_hover_over)
+        hover.perform()
+        time.sleep(1)
+
+    def click_button_exit_in_tab_my_profile(self):
+        self.driver.find_element_by_xpath("//div[2]/div[2]/div/div/ul/li[4]").click()
 
 
 class PopupFeedback(object):
@@ -55,6 +65,3 @@ class PopupFeedback(object):
 
     def click_in_button_name_close(self):
         self.driver.find_element_by_css_selector("div.popup-header__close").click()
-
-
-
