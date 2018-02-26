@@ -27,6 +27,9 @@ from Smoke.test_19_Оставить_отзыв import WriteReview
 from Smoke.test_20_Отключить_автоплатеж import DisableAutoPayment
 from Smoke.test_21_Проверяю_видео_в_плеере_Youtube import PlayVideoYouTube
 from Smoke.test_22_Проверяю_видео_в_плеере_ИУ import PlayVideoIu
+from Smoke.test_23_После_авторизации_проверка_соответствия_почты_пользователя import AuthAndCheckinMailUserToProfile
+from Smoke.test_24_После_регистрации_проверка_соответствия_почты_пользователя import ReghAndCheckinMailUserToProfile
+from Smoke.test_25_Проверка_выхода_из_профиля import CheckingOutProfile
 
 suite = unittest.TestSuite()
 
@@ -53,3 +56,7 @@ suite.addTest(unittest.makeSuite(WriteReview))
 suite.addTest(unittest.makeSuite(DisableAutoPayment))
 suite.addTest(unittest.makeSuite(PlayVideoIu))
 suite.addTest(unittest.makeSuite(PlayVideoYouTube))
+suite.addTest(unittest.makeSuite(AuthAndCheckinMailUserToProfile))
+suite.addTest(unittest.makeSuite(ReghAndCheckinMailUserToProfile))
+suite.addTest(unittest.makeSuite(CheckingOutProfile))
+
