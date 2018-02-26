@@ -28,6 +28,8 @@ class RemovingUsersInAdminPanel(StartInterneturokAdmin):
 
         with allure.step("Удаляю пользователя payment.not@mail.ru"):
             steps_delete.user_3(pupil_3="payment.not@mail.ru")
+        with allure.step("Удаляю пользователя iuuser@yopmail.com"):
+            steps_delete.user_4(pupil_4="iuuser@yopmail.com")
 
     def tearDown(self):
         self.driver.quit()
