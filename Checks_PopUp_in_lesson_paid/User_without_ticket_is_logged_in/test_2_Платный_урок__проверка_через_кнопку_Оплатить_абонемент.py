@@ -11,7 +11,7 @@ from POM.user import AutopaymentMailRu
 @allure.story("Авторизованный П проверяю в платном уроке появления поп-апов при клике на кнопку Оплатить абонемент")
 class UserAuthClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
 
-    def test_000_open_popup_in_payment_subject(self):
+    def test_000_click_button_buy_ticket_in_stub_video(self):
         driver = self.driver
         step_user = PaidLesson(driver)
         url_get = URLPaidLesson(driver)
