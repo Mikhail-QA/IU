@@ -9,6 +9,7 @@ class All_elements(unittest.TestCase):
         super().__init__()
         self.driver = driver
         # self.verificationErrors = []
+
     def logotype_internetUrok(self):
         try:
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.b-header__logo.b-header__logo_style"))
@@ -81,6 +82,3 @@ class All_elements(unittest.TestCase):
         except NoSuchElementException as e:
             return False
         return True
-
-
-
