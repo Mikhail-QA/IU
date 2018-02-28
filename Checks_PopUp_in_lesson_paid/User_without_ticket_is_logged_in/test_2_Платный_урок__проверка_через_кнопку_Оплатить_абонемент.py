@@ -30,8 +30,11 @@ class UserAuthClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
             url_get.go_algebra_8_grade_video()
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_stubs()
-        with allure.step("Поп-ап Оплаты появился"):
-            assert (self.driver.find_element_by_css_selector("div.popup.popup-payment"))
+        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
+            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
+        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
+            self.assertIn(u"По абонементу доступны:",
+                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
 
     def test_click_button_buy_ticket_in_stub_trainers(self):
         driver = self.driver
@@ -42,8 +45,11 @@ class UserAuthClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
             url_get.go_algebra_8_grade_trainers()
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_stubs()
-        with allure.step("Поп-ап Оплаты появился"):
-            assert (self.driver.find_element_by_css_selector("div.popup.popup-payment"))
+        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
+            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
+        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
+            self.assertIn(u"По абонементу доступны:",
+                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
 
     def test_click_button_buy_ticket_in_stub_test(self):
         driver = self.driver
@@ -54,8 +60,11 @@ class UserAuthClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
             url_get.go_algebra_8_grade_test()
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_stubs()
-        with allure.step("Поп-ап Оплаты появился"):
-            assert (self.driver.find_element_by_css_selector("div.popup.popup-payment"))
+        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
+            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
+        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
+            self.assertIn(u"По абонементу доступны:",
+                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
 
     def test_click_button_buy_ticket_in_stub_questions(self):
         driver = self.driver
@@ -66,5 +75,8 @@ class UserAuthClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
             url_get.go_algebra_8_grade_questions()
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_stubs()
-        with allure.step("Поп-ап Оплаты появился"):
-            assert (self.driver.find_element_by_css_selector("div.popup.popup-payment"))
+        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
+            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
+        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
+            self.assertIn(u"По абонементу доступны:",
+                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
