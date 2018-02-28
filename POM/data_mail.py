@@ -30,7 +30,7 @@ class DataMail(object):
         self.driver.find_element_by_name("login").send_keys("vratch.glav@yandex.ru")
         self.driver.find_element_by_name("passwd").send_keys("Testng1991")
         self.driver.find_element_by_css_selector("button.passport-Button").click()
-        time.sleep(3)
+        time.sleep(4)
 
     def login_in_accaunt_user_Paymnotyandex_check_mail(self):
         self.driver.find_element_by_css_selector("a.new-hr-auth-Form_Button-enter").click()
