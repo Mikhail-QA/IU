@@ -32,10 +32,10 @@ class PassSimulatorInPayLesson(StartInterneturok):
             steps_exercise.go_exercise()
         with allure.step("Начать отвечать на ответы в Тренажере"):
             steps_exercise.test()
-        with allure.step("Начать отвечать на ответы в Тренажере"):
+        with allure.step("Нажать на кнопку Завершить"):
             steps_exercise.click_button_finish()
         with allure.step("Пройденный Тренажёр помечается как Пройден"):
-            assert self.driver.find_element_by_css_selector("span.result-mark.good")
+            self.assertEquals(u"Пройден", self.driver.find_element_by_css_selector("span.result-mark.good").text)
         with allure.step("После пройденного Тренажёра название кнопки Пройти поменялась на Повторить"):
             self.assertEquals(u"Повторить", self.driver.find_element_by_xpath("//li/div[2]/span/a").text)
 
