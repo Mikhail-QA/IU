@@ -16,7 +16,7 @@ class PlayVideoIu(StartInterneturok):
         with allure.step("Нажать на кнопку Плей"):
             steps_video.click_play_video_iu()
         with allure.step("После вкл видео в плеере появилась кнопка Pause"):
-            self.assertEquals(u"Pause", self.driver.find_element_by_class_name("vjs-control-text").text)
+            self.assertEquals(u"Pause", self.driver.find_element_by_xpath("//div[6]/div[3]/div/span").text)
         with allure.step("Элемент плеера поменял статус на vjs-playing"):
             assert (self.driver.find_element_by_class_name("vjs-playing"))
 
