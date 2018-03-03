@@ -3,6 +3,7 @@ from POM.setUp import StartInterneturokClassMethod
 from POM.page_abonement import PageAbonement
 from POM.page_abonement import URLAbonement
 
+
 @allure.feature("Поп-апы для не авторизованного пользователя")
 @allure.story(
     "Не авторизованным П проверяю на странице абонемент появления поп-апов при клике на кнопку Оплатить абонемент")
@@ -18,8 +19,8 @@ class ClickButtonBuyTicketOnPageAbonement(StartInterneturokClassMethod):
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_header()
         with allure.step("Поп-ап Регистрации появился"):
-            self.assertEquals(u"Зарегистрируйтесь",
-                              self.driver.find_element_by_css_selector("h5.popup-header__title").text)
+            self.assertEqual(u"Зарегистрируйтесь",
+                             self.driver.find_element_by_css_selector("h5.popup-header__title").text)
 
     def test_click_button_buy_ticket_in_footer(self):
         driver = self.driver
@@ -31,5 +32,5 @@ class ClickButtonBuyTicketOnPageAbonement(StartInterneturokClassMethod):
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_footer()
         with allure.step("Поп-ап Регистрации появился"):
-            self.assertEquals(u"Зарегистрируйтесь",
-                              self.driver.find_element_by_css_selector("h5.popup-header__title").text)
+            self.assertEqual(u"Зарегистрируйтесь",
+                             self.driver.find_element_by_css_selector("h5.popup-header__title").text)
