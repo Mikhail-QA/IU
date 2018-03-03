@@ -5,7 +5,7 @@ URL: https://interneturok.ru/users/sign_in?tab=regTab"	На странице о�
 
 import time
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
 

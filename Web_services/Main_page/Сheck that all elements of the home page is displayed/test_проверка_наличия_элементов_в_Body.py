@@ -3,7 +3,7 @@
 URL: https://interneturok.ru/"
 """
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
 class ChecksAllElementsThePageInBody(StartInterneturokClassMethod):

@@ -11,7 +11,7 @@ URL:
 """
 
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.user import AutopaymentMailRu
@@ -20,7 +20,7 @@ from POM.user import PaymNotYandexRu
 
 class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
     def test_001_open_popup_flash(self):
-        self.driver.find_element_by_id("widget-container").click()
+        self.driver.find_element_by_css_selector("div.icon-flash").click()
 
     def test_002_look_button_close(self):
         self.assertTrue(self.is_element_present(By.LINK_TEXT, "close"))
@@ -51,6 +51,7 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
         steps_main = MainPage(driver)
         user_step = AutopaymentMailRu(driver)
         steps_signIn = PopupSignIn(driver)
+
         steps_main.go_to_sgnIn()
         user_step.enter_email()
         user_step.enter_password()
@@ -58,7 +59,7 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
         driver.refresh()
 
     def test_009_open_popup_flash(self):
-        self.driver.find_element_by_id("widget-container").click()
+        self.driver.find_element_by_css_selector("div.icon-flash").click()
 
     def test_10_look_button_close(self):
         self.assertTrue(self.is_element_present(By.LINK_TEXT, "close"))
@@ -85,7 +86,8 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
         steps_main = MainPage(driver)
         user_step = PaymNotYandexRu(driver)
         steps_signIn = PopupSignIn(driver)
-        driver.get("https://web-dev01.interneturok.ru/signout")
+
+        driver.get("https://fast-staging.interneturok.ru/")
         steps_main.go_to_sgnIn()
         user_step.enter_email()
         user_step.enter_password()
@@ -93,7 +95,7 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
         driver.refresh()
 
     def test_16_open_popup_flash(self):
-        self.driver.find_element_by_id("widget-container").click()
+        self.driver.find_element_by_css_selector("div.icon-flash").click()
 
     def test_17_look_button_close(self):
         self.assertTrue(self.is_element_present(By.LINK_TEXT, "close"))

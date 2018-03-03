@@ -5,7 +5,7 @@ URL: https://interneturok.ru/grades/1?_=1503573733002"	На странице о�
 
 import time
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
 class CheckAllElementsTheGrades(StartInterneturokClassMethod):

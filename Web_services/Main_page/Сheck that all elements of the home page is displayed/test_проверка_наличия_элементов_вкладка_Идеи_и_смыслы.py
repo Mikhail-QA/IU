@@ -5,11 +5,11 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 
 import time
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
 class CheckIdea(StartInterneturokClassMethod):
-    def test_1_a_open_blick_idea(self):
+    def test_1_a_open_block_idea(self):
         self.driver.find_element_by_link_text("Идеи и смыслы").click()
         time.sleep(0.5)
 

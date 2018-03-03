@@ -4,7 +4,7 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 """
 
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
 class Checks_all_elements_the_page_in_footer(StartInterneturokClassMethod):
