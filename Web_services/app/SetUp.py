@@ -1,3 +1,4 @@
+import time
 import unittest
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
@@ -12,6 +13,7 @@ class StartInterneturokClassMethod(unittest.TestCase):
         cls.driver.implicitly_wait(40)
         cls.driver.maximize_window()
         cls.driver.get("https://fast-staging.interneturok.ru/")
+        time.sleep(1)
         cls.verificationErrors = []
 
     def is_element_present(self, how, what):
