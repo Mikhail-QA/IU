@@ -100,3 +100,4 @@ allure-report/d9bc7fd6-8264-47d1-8304-43128fbbcc2b-testsuite.xml
 *.js
 *.html
 *.css
+.idea/workspace.xml
