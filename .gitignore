@@ -94,3 +94,9 @@ ENV/
 
 # mkdocs documentation
 /site
+allure-report/d9bc7fd6-8264-47d1-8304-43128fbbcc2b-testsuite.xml
+*.txt
+*.ico
+*.js
+*.html
+*.css
