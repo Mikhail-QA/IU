@@ -12,8 +12,11 @@ from POM.popup_authorization_and_registration import PopupSignIn
 from POM.user import AutopaymentMailRu
 
 
+@allure.feature("Главная страница")
+@allure.story("Проверка наличия элементов в Header для авторизованного пользователя")
 class ChecksAllElementsTheHeadersUserAuth(StartInterneturokClassMethod):
-    def test_001_go(self):
+    @allure.step("Авторизоваться пользователем")
+    def test_000_logged_user(self):
         StartInterneturokClassMethod = self.driver
         steps_main = MainPage(StartInterneturokClassMethod)
         steps_user = AutopaymentMailRu(StartInterneturokClassMethod)
@@ -24,14 +27,14 @@ class ChecksAllElementsTheHeadersUserAuth(StartInterneturokClassMethod):
         steps_user.enter_password()
         steps_popup.click_button_login()
 
-    @allure.step("Логотип отображается")
-    def test_logo_interneturok(self):
+    @allure.step("Элемент Логотип отображается")
+    def test_logo_is_displayed(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo_full.active"))
 
-    @allure.step("Флешка отображается")
-    def test_flash(self):
+    @allure.step("Элемент Флешка отображается")
+    def test_flash_is_displayed(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon.icon-flash"))
 
     @allure.step("Кнопка Мой профиль отображается")
-    def test_signIn(self):
+    def test_signIn_is_displayed(self):
         self.assertEqual(u"Мой профиль", self.driver.find_element_by_css_selector("div.header__menu_profile").text)

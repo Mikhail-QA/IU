@@ -3,17 +3,22 @@
 Пользователь не авторизован
 URL: https://interneturok.ru/"	"На странице отображаются: http://joxi.ru/E2pLd3xcBvV7K2
 """
-
+import allure
 from selenium.webdriver.common.by import By
 from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
+@allure.feature("Главная страница")
+@allure.story("Проверка наличия элементов в Header для не авторизованного пользователя")
 class ChecksAllElementsTheHeadersUserNotAuth(StartInterneturokClassMethod):
-    def test_logo_interneturok(self):
+    @allure.step("Элемент Логотип отображается")
+    def test_logo_is_displayed(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo_full.active"))
 
-    def test_flash(self):
+    @allure.step("Элемент Флешка отображается")
+    def test_flash_is_displayed(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon.icon-flash"))
 
-    def test_signIn(self):
+    @allure.step("Кнопка Войти отображается")
+    def test_signIn_is_displayed(self):
         self.assertEqual(u"Войти", self.driver.find_element_by_class_name("button_login").text)
