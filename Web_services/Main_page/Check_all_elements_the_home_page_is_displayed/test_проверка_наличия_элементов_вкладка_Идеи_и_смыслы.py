@@ -6,8 +6,6 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 import allure
 import time
 from selenium.webdriver.common.by import By
-
-from Web_services.Main_page.Elements.Footer import Checks_all_elements_the_page_in_footer
 from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
@@ -15,9 +13,9 @@ from Web_services.app.SetUp import StartInterneturokClassMethod
 @allure.story("Проверка наличия элементов в разделе Идеи и смыслы")
 class CheckIdea(StartInterneturokClassMethod):
 
-    @allure.step("Нажать на кнопку Идеи и смыслы")
+    @allure.step("Перейти на страницу Идеи и смыслы")
     def test_1_a_open_block_idea(self):
-        self.driver.find_element_by_link_text("Идеи и смыслы").click()
+        self.driver.get("https://fast-staging.interneturok.ru/idei-i-smysly")
         time.sleep(0.5)
 
     @allure.step("Элемент Логотип отображается")
