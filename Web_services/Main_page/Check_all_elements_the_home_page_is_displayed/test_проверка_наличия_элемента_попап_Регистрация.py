@@ -11,7 +11,7 @@ from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
 
 
-@allure.feature("Главная страница поп-ап Авторизации/Регистрации")
+@allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в поп-апе Регистрации")
 class CheckPopupReg(StartInterneturokClassMethod):
     @allure.step("Открыть поп-ап Регистрации")

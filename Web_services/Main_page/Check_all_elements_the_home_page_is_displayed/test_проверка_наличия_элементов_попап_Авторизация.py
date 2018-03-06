@@ -9,7 +9,7 @@ from Web_services.app.SetUp import StartInterneturokClassMethod
 from POM.main_page import MainPage
 
 
-@allure.feature("Главная страница поп-ап Авторизации/Регистрации")
+@allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в поп-апе Авторизации")
 class CheckPopupAuth(StartInterneturokClassMethod):
     @allure.step("Открыть поп-ап Авторизации")
