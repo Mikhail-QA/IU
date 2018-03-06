@@ -3,10 +3,28 @@ from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_�
     ChecksAllElementsTheHeadersUserAuth
 from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_пользователь_не_авторизован_проверка_Header import \
     ChecksAllElementsTheHeadersUserNotAuth
-
 from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_попап_оставить_отзыв import CheckPopupReview
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_попап_флешки import ChecksAllElementsInPopupFlash
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элемента_попап_Регистрация import CheckPopupReg
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элементов_в_Body import ChecksAllElementsThePageInBody
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элементов_в_Footer import Checks_all_elements_the_page_in_footer
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы import CheckIdea
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элементов_вкладка_Классы import CheckAllElementsTheGrades
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элементов_вкладка_Классы_1_класс import CheckAllElementsTheGradesOneSubject
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элементов_вкладка_Предметы_Алгебра import CheckAllElementsTheSubject
+from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элементов_попап_Авторизация import CheckPopupAuth
 
 suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(ChecksAllElementsTheHeadersUserNotAuth))
 suite.addTest(unittest.makeSuite(CheckPopupReview))
 suite.addTest(unittest.makeSuite(ChecksAllElementsTheHeadersUserAuth))
+# suite.addTest(unittest.makeSuite(ChecksAllElementsInPopupFlash))
+suite.addTest(unittest.makeSuite(CheckPopupReg))
+suite.addTest(unittest.makeSuite(ChecksAllElementsThePageInBody))
+suite.addTest(unittest.makeSuite(Checks_all_elements_the_page_in_footer))
+suite.addTest(unittest.makeSuite(CheckIdea))
+suite.addTest(unittest.makeSuite(CheckAllElementsTheGrades))
+suite.addTest(unittest.makeSuite(CheckAllElementsTheGradesOneSubject))
+suite.addTest(unittest.makeSuite(CheckAllElementsTheSubject))
+suite.addTest(unittest.makeSuite(CheckPopupAuth))
+
