@@ -40,14 +40,30 @@ class CheckIdea(StartInterneturokClassMethod):
         self.assertEqual(u"Видео, конспекты, тесты, тренажеры",
                          self.driver.find_element_by_css_selector("p.home-title_small").text)
 
+    @allure.step("Отображается кнопка (Предметы)")
+    def test_button_subjects(self):
+        self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Предметы"))
+
+    @allure.step("Отображается кнопка (Классы)")
+    def test_button_grades(self):
+        self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Классы"))
+
+    @allure.step("Отображается кнопка (Все предметы)")
+    def test_button_back_main_page(self):
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "span.subjects__grades-nav-back-text"))
+
     @allure.step("Отображается заголовок с текстом (Идеи и смыслы)")
     def test_notification_displayed_ideas_and_meanings(self):
         self.assertEqual(u"Идеи и смыслы",
                          self.driver.find_element_by_css_selector("span.subjects__grades-nav-current").text)
 
-    @allure.step("Отображается кнопка (Все предметы)")
-    def test_button_back_main_page(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "span.subjects__grades-nav-back-text"))
+    @allure.step("На главной страницы отображается полле ввода Поиск")
+    def test_field_search(self):
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "input.home-search"))
+
+    @allure.step("На главной страницы в элементе поиска отображается кнопка лупа (Поиск)")
+    def test_button_search(self):
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "button.home-search__button"))
 
     @allure.step("Отображается кнопка (Математика за 20 уроков Общие идеи)")
     def test_board_grades1(self):
@@ -75,11 +91,3 @@ class CheckIdea(StartInterneturokClassMethod):
     @allure.step("Отображается кнопка (Опыт внимательного чтения)")
     def test_board_grades6(self):
         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Опыт внимательного чтения"))
-
-    @allure.step("Отображается кнопка (Предметы)")
-    def test_button_subjects(self):
-        self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Предметы"))
-
-    @allure.step("Отображается кнопка (Классы)")
-    def test_button_grades(self):
-        self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Классы"))
