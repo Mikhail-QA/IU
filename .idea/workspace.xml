@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Cheks_PopUp_on_page_abonement/User_not_auth/test_1_Проверка_через_кнопку_Оплатить_абонемент.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Cheks_PopUp_on_page_abonement/User_without_ticket_is_logged_in/test_1_Проверка_через_кнопку_Оплатить_абонемент.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Other/OneRun/Test1/test_5.py" afterPath="$PROJECT_DIR$/Other/OneRun/Test1/test_5.py" />
       <change beforePath="$PROJECT_DIR$/POM/user.py" afterPath="$PROJECT_DIR$/POM/user.py" />
+      <change beforePath="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py" afterPath="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py" />
       <change beforePath="$PROJECT_DIR$/Web_services/other/test_ope_test_responses.py" afterPath="$PROJECT_DIR$/Web_services/other/test_ope_test_responses.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,14 +22,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_check_element_to_main_page.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_check_element_to_main_page.py">
+      <file leaf-file-name="test_попап_оставить_отзыв.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="457">
+              <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,7 +126,6 @@
         <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_Header.py" />
         <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_Header.py" />
         <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_пользователь_авторизован_проверка_Header.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py" />
         <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_пользователь_не_авторизован_проверка_Header.py" />
         <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_флешки.py" />
         <option value="$PROJECT_DIR$/Web_services/Main_page/Elements/Footer.py" />
@@ -140,12 +137,12 @@
         <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элемента_попап_Регистрация.py" />
         <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_попап_Авторизация.py" />
         <option value="$PROJECT_DIR$/test_check_element_to_main_page.py" />
+        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1895" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -544,7 +541,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1895" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.358742" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
@@ -856,30 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1300">
-          <caret line="25" column="18" lean-forward="true" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_в_Body.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="19" column="63" lean-forward="true" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_в_Footer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
@@ -936,13 +909,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_в_Footer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_в_Body.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_check_element_to_main_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="340">
+          <caret line="17" column="73" lean-forward="true" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
