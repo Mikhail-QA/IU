@@ -11,7 +11,7 @@ from Web_services.app.SetUp import StartInterneturokClassMethod
 
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в разделе Классы, 1 Класс")
-class CheckAllElementsTheGrades(StartInterneturokClassMethod):
+class CheckAllElementsTheGradesOneSubject(StartInterneturokClassMethod):
     @allure.step("Нажать на кнопку Классы")
     def test_001_click_button_grades(self):
         self.driver.find_element_by_xpath("//main/nav/div/a[2]").click()

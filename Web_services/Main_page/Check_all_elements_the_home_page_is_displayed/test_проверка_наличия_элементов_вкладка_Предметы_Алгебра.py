@@ -11,7 +11,7 @@ from Web_services.app.SetUp import StartInterneturokClassMethod
 
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в разделе Предмет (Алгебра)")
-class CheckAllElementsTheGrades(StartInterneturokClassMethod):
+class CheckAllElementsTheSubject(StartInterneturokClassMethod):
     @allure.step("Нажать на Предмет Алгебра")
     def test_000_click_button_Algebra(self):
         self.driver.find_element_by_xpath("//div/div/div[1]/ul/li[1]/a").click()
