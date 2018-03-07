@@ -10,6 +10,7 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 URL:
 """
 
+import pytest
 import allure
 from selenium.webdriver.common.by import By
 from Web_services.app.SetUp import StartInterneturokClassMethod
@@ -21,6 +22,7 @@ from POM.user import PaymNotYandexRu
 
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в виджете Флешка")
+@pytest.mark.xfail()
 class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
     @allure.step("Нажать на кнопку Флешка")
     def test_001_open_popup_flash(self):
