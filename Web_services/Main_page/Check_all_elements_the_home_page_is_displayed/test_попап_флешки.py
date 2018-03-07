@@ -22,7 +22,8 @@ from POM.user import PaymNotYandexRu
 
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в виджете Флешка")
-@pytest.mark.xfail()
+# @pytest.mark.xfail()
+@pytest.mark.skip(reason="no way of currently testing this")
 class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
     @allure.step("Нажать на кнопку Флешка")
     def test_001_open_popup_flash(self):
