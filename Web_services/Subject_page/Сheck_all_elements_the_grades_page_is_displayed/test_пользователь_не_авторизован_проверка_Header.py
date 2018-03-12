@@ -42,4 +42,4 @@ class ChecksAllElementsInSubjectPageTheHeadersUserNotAuth(StartInterneturokClass
 
     @allure.step("Кнопка Войти отображается")
     def test_button_enter_is_displayed(self):
-        self.assertEqual(u"Войти", self.driver.find_element_by_css_selector("span.button_login").text)
+        self.assertEqual(u"Войти", self.driver.find_element_by_css_selector("div.header-menu-wrapper").text)
