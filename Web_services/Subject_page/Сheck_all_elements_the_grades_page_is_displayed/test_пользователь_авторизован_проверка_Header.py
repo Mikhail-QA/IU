@@ -15,7 +15,7 @@ from Web_services.Subject_page.URL import UrlLesson
 
 @allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов в Header для авторизованного пользователя")
-class ChecksAllElementsTheHeadersUserNotAuth(StartInterneturokClassMethod):
+class ChecksAllElementsInSubjectPageTheHeadersUserAuth(StartInterneturokClassMethod):
     @allure.step("Авторизоваться пользователем")
     def test_000_logged_user(self):
         StartInterneturokClassMethod = self.driver
