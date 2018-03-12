@@ -28,7 +28,7 @@ class StartInterneturokAdmin(unittest.TestCase):
         self.driver = webdriver.Edge()
         self.driver.implicitly_wait(40)
         self.driver.maximize_window()
-        self.driver.get("https://staging-api.interneturok.ru/users/sign_in")
+        self.driver.get("https://staging-admin.interneturok.ru/accounts/sign_in")
         self.verificationErrors = []
 
 
