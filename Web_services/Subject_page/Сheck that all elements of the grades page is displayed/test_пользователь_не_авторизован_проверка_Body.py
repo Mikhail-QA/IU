@@ -6,12 +6,12 @@ URL: https://web-dev01.interneturok.ru/algebra/8-klass"
 """
 
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
 class ChecksAllElementsTheBodyUserNotAuth(StartInterneturokClassMethod):
     def test_001_open_page(self):
-        self.driver.get("https://staging.interneturok.ru/algebra/8-klass")
+        self.driver.get("https://fast-staging.interneturok.ru/algebra/8-klass")
 
     def test_title_body(self):
         self.assertEqual(u"Алгебра", self.driver.find_element_by_css_selector("h1.subject-title").text)

@@ -5,7 +5,7 @@ URL: https://web-dev01.interneturok.ru/algebra/8-klass"
 На странице отображаются: http://joxi.ru/82Q0wVOH13jPlm
 """
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.user import AutopaymentMailRu
 from POM.main_page import MainPage
@@ -23,7 +23,7 @@ class ChecksAllElementsTheHeadersUserNotAuth(StartInterneturokClassMethod):
         steps_popup.click_button_login()
 
     def test_002_open_page(self):
-        self.driver.get("https://staging.interneturok.ru/algebra/8-klass")
+        self.driver.get("https://fast-staging.interneturok.ru/algebra/8-klass")
 
     def test_logo_interneturok(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo.header__logo"))

@@ -4,12 +4,12 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 """
 
 from selenium.webdriver.common.by import By
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
 class Checks_all_elements_the_page_in_footer(StartInterneturokClassMethod):
     def test_go_page_algebra(self):
-        self.driver.get("https://staging.interneturok.ru/algebra/8-klass")
+        self.driver.get("https://fast-staging.interneturok.ru/algebra/8-klass")
 
     def test_block_education_center_displayed(self):
         self.assertEqual(u"Центр образования",

@@ -4,13 +4,13 @@ URL: https://web-dev01.interneturok.ru/algebra/8-klass"
 На странице отображаются: http://prntscr.com/gev0y8
 """
 import time
-from Interneturok.web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.app.SetUp import StartInterneturokClassMethod
 from selenium.webdriver import ActionChains
 
 
 class CheckAllElementInGrade(StartInterneturokClassMethod):
     def test_001_go_page(self):
-        self.driver.get("https://staging.interneturok.ru/algebra/8-klass")
+        self.driver.get("https://fast-staging.interneturok.ru/algebra/8-klass")
         time.sleep(2)
         element_to_hover_over = self.driver.find_element_by_xpath("//header/div[1]/div[2]")
         hover = ActionChains(self.driver).move_to_element(element_to_hover_over)
