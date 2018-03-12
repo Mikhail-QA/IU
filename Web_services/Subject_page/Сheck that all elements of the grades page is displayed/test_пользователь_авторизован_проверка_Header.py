@@ -41,7 +41,7 @@ class ChecksAllElementsTheHeadersUserNotAuth(StartInterneturokClassMethod):
     def test_button_grades_displayed(self):
         self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[1]"))
 
-    @allure.step("Элемент Флешка отображается")
+    @allure.step("Элемент Поиск отображается")
     def test_field_search(self):
         self.assertTrue(self.is_element_present(By.NAME, "query"))
 
@@ -50,5 +50,5 @@ class ChecksAllElementsTheHeadersUserNotAuth(StartInterneturokClassMethod):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon.icon-flash"))
 
     @allure.step("Кнопка Мой профиль отображается")
-    def test_signIn_is_displayed(self):
+    def test_button_signIn_is_displayed(self):
         self.assertEqual(u"Мой профиль", self.driver.find_element_by_css_selector("div.header__menu_profile").text)
