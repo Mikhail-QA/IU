@@ -9,7 +9,7 @@ class AdminDeleteUser(object):
         self.driver = driver
 
     def go_to_admin(self):
-        self.driver.get("https://staging-api.interneturok.ru/users")
+        self.driver.get("https://staging-admin.interneturok.ru/users")
 
     def user_1(self, pupil_1):
         self.driver.find_element_by_id("search_name").clear()
