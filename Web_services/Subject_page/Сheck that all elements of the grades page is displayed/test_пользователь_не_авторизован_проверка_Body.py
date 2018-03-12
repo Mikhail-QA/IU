@@ -14,7 +14,7 @@ from Web_services.Subject_page.URL import UrlLesson
 @allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов в Body для не авторизованного пользователя")
 class ChecksAllElementsTheBodyUserNotAuth(StartInterneturokClassMethod):
-    @allure.step("Авторизоваться пользователем")
+    @allure.step("Перейти на страницу Алгебра 8 класс")
     def test_000_open_page(self):
         StartInterneturokClassMethod = self.driver
         go_page = UrlLesson(StartInterneturokClassMethod)
