@@ -5,12 +5,19 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 
 import allure
 from selenium.webdriver.common.by import By
+from Web_services.Subject_page.URL import UrlLesson
 from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
 @allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов и текста в Footer")
 class ChecksAllElementsThePageInFooter(StartInterneturokClassMethod):
+    @allure.step("Перейти на страницу Алгебра 8 класс")
+    def test_000_open_page(self):
+        StartInterneturokClassMethod = self.driver
+        go_page = UrlLesson(StartInterneturokClassMethod)
+        go_page.go_algebra_8_grade()
+
     def test_block_education_center_displayed(self):
         with allure.step("Отображается название блока (Центр образования)"):
             self.assertEqual(u"Центр образования",

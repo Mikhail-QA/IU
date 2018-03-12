@@ -5,6 +5,7 @@ URL: https://web-dev01.interneturok.ru/algebra/8-klass"
 """
 import allure
 import time
+from Web_services.Subject_page.URL import UrlLesson
 from Web_services.app.SetUp import StartInterneturokClassMethod
 from selenium.webdriver import ActionChains
 
@@ -13,8 +14,10 @@ from selenium.webdriver import ActionChains
 @allure.story("Проверка наличия элементов в открытой кнопке Классы")
 class CheckAllElementInGrade(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
-    def test_000_go_page(self):
-        self.driver.get("https://fast-staging.interneturok.ru/algebra/8-klass")
+    def test_000_open_page(self):
+        StartInterneturokClassMethod = self.driver
+        go_page = UrlLesson(StartInterneturokClassMethod)
+        go_page.go_algebra_8_grade()
 
     @allure.step("Навести мышку на кнопку Классы")
     def test_000_hover_mouse_button_grades(self):
