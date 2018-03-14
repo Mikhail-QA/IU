@@ -20,7 +20,7 @@ class DataMail(object):
         self.driver.get("https://mail.ru")
 
     def go_site_yandex(self):
-        self.driver.get("https://mail.yandex.ru/?uid=522249103&login=vratch-glav#inbox")
+        self.driver.get("https://passport.yandex.ru/")
 
     def click_send(self):
         self.driver.find_element_by_css_selector("b-datalist__item__pic").click()
@@ -72,20 +72,17 @@ class DataMail(object):
         time.sleep(3)
 
     def login_in_accaunt_user_testinterneturok_check_mail(self):
-        self.driver.find_element_by_css_selector("a.new-hr-auth-Form_Button-enter").click()
         self.driver.find_element_by_name("login").send_keys("test@interneturok.ru")
         self.driver.find_element_by_name("passwd").send_keys("xvmb-nfrb-q0sp")
         self.driver.find_element_by_css_selector("button.passport-Button").click()
-        time.sleep(7)
-        self.driver.refresh()
+        time.sleep(3)
+        self.driver.get("https://mail.yandex.ru/?uid=1130000006443638&login=test#inbox")
 
     def delete_mail(self):
         WebDriverWait(self.driver, 15).until(lambda driver: driver.find_element_by_css_selector(
             "span._nb-checkbox-flag._nb-checkbox-normal-flag")).click()
         WebDriverWait(self.driver, 15).until(
             lambda driver: driver.find_element_by_css_selector(".ns-view-toolbar-button-delete")).click()
-
-
 
         # self.driver.find_element_by_css_selector("span._nb-checkbox-flag._nb-checkbox-normal-flag").click()
         # self.driver.find_element_by_css_selector(".ns-view-toolbar-button-delete").click()
