@@ -3,6 +3,7 @@ import unittest
 from POM.data_mail import DataMail
 from POM.setUp import StartYandexMail
 
+
 @allure.feature("Почтовые уведомления")
 @allure.story("Удаляю письма в почте пользоватлей")
 class DeleteMailsInYandex(StartYandexMail):
