@@ -32,6 +32,26 @@ class StartInterneturokAdmin(unittest.TestCase):
         self.verificationErrors = []
 
 
+class StartInterneturokAdminClassMethod(unittest.TestCase):
+    driver = None
+
+    @classmethod
+    def setUpClass(cls):
+        cls.driver = webdriver.Edge()
+        cls.driver.implicitly_wait(40)
+        cls.driver.maximize_window()
+        cls.driver.get("https://staging-admin.interneturok.ru/accounts/sign_in")
+        cls.verificationErrors = []
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.driver.quit()
+
+
+if __name__ == "__main__":
+    unittest.main()
+
+
 class StartInterneturokClassMethod(unittest.TestCase):
     driver = None
 
