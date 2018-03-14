@@ -1,15 +1,14 @@
 import allure
-import unittest
 from POM.user import Admin
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.admin_delete_users import AdminDeleteUser
-from POM.setUp import StartInterneturokAdmin
+from POM.setUp import StartInterneturokAdminClassMethod
 
 
 @allure.feature("Админка")
 @allure.story("Удаляю пользователей в админке")
-class RemovingUsersInAdminPanel(StartInterneturokAdmin):
-    def test_login_admin(self):
+class RemovingUsersInAdminPanel(StartInterneturokAdminClassMethod):
+    def test_000_login_admin(self):
         driver = self.driver
         steps_admin = Admin(driver)
         steps_login = PopupSignIn(driver)
@@ -47,10 +46,3 @@ class RemovingUsersInAdminPanel(StartInterneturokAdmin):
 
         with allure.step("Удаляю пользователя iuuser@yopmail.com"):
             steps_delete.user_4(pupil_4="iuuser@yopmail.com")
-
-    def tearDown(self):
-        self.driver.quit()
-
-
-if __name__ == "__main__":
-    unittest.main()
