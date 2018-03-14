@@ -5,12 +5,14 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 
 import allure
 import time
+import pytest
 from selenium.webdriver.common.by import By
 from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в разделе Идеи и смыслы")
+@pytest.mark.skip(reason="Убрали Флешку из проекта")
 class CheckIdea(StartInterneturokClassMethod):
 
     @allure.step("Перейти на страницу Идеи и смыслы")
