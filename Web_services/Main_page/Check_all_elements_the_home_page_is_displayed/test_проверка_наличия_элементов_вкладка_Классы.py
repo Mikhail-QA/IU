@@ -125,11 +125,11 @@ class CheckAllElementsTheGrades(StartInterneturokClassMethod):
             self.assertEqual(u"Полезные видеолекции:",
                              self.driver.find_element_by_css_selector(
                                  "#app > div.wrapper__column > div > main > div.home-footer > div > div:nth-child(2) > div > div.col > div > p > span").text)
-        with allure.step("В блоке (Ученые — детям) отображается ссылка (Детская психология)"):
+        with allure.step("В блоке (Родителям и учителям) отображается ссылка (Детская психология)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Детская психология"))
-        with allure.step("В блоке (Ученые — детям) отображается ссылка (Здоровье ребенка)"):
+        with allure.step("В блоке (Родителям и учителям) отображается ссылка (Здоровье ребенка)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Здоровье ребенка"))
-        with allure.step("В блоке (Ученые — детям) отображается ссылка (Советы специалистов)"):
+        with allure.step("В блоке (Родителям и учителям) отображается ссылка (Советы специалистов)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Советы специалистов"))
-        with allure.step("В блоке (Ученые — детям) отображается ссылка (Психология на Univertv.ru)"):
+        with allure.step("В блоке (Родителям и учителям) отображается ссылка (Психология на Univertv.ru)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Психология на Univertv.ru"))
