@@ -64,7 +64,7 @@ class Notes(object):
 
     def open_notes(self):
         self.driver.find_element_by_css_selector("div.lesson-note-widget").click()
-        time.sleep(1)
+        time.sleep(3)
 
     def write_note(self, note="Hello"):
         self.driver.find_element_by_css_selector("textarea.ember-text-area.ember-view").send_keys(note)
