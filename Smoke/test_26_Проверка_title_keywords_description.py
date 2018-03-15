@@ -15,7 +15,7 @@ from POM.setUp import StartInterneturokClassMethod
 @allure.feature("Проверка title, description, keywords на разных страницах")
 @allure.story("Перейти по страницам и сравнить title, description, keywords")
 class CheckMetaTeg(StartInterneturokClassMethod):
-    @allure.step("Проверка title на Главной странице")
+    @allure.step("Проверка на Главной странице")
     def test_meta_teg_in_home_page(self):
         URL = "https://fast-staging.interneturok.ru/"
         driver = self.driver
@@ -31,7 +31,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
                 u"видео уроки, видеоуроки, смотреть видео, дистанционное образование, конспекты уроков, электронный учебник, школа-экстернат, помощь в учёбе, удалённая школа",
                 driver.find_element_by_name("keywords").get_attribute('content'))
 
-    @allure.step("Проверка title на странице урока")
+    @allure.step("Проверка на странице урока")
     def test_meta_teg_in_page_lesson(self):
         driver = self.driver
         URL = "https://fast-staging.interneturok.ru/physics/8-klass/teplovye-yavleniya/teplovoe-dvizhenie-temperatura"
@@ -49,7 +49,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
                 u"Видеоурок Физика, видеоурок Физика 8 класс, Тепловое движение. Температура",
                 driver.find_element_by_name("keywords").get_attribute('content'))
 
-    @allure.step("Проверка title на странице Предмет-Класс ")
+    @allure.step("Проверка на странице Предмет-Класс ")
     def test_meta_teg_in_page_subject_grades(self):
         URL = "https://fast-staging.interneturok.ru/literatura/8-klass"
         driver = self.driver
@@ -67,7 +67,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
             self.assertEqual(u"Литература 8 класс",
                              driver.find_element_by_name("keywords").get_attribute('content'))
 
-    @allure.step("Проверка title на статичной странице")
+    @allure.step("Проверка на статичной странице")
     def test_meta_teg_in_static_page(self):
         URL = "https://fast-staging.interneturok.ru/article/how-you-can-use-interneturok"
         driver = self.driver
