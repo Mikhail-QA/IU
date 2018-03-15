@@ -16,7 +16,7 @@ from Smoke.test_009_Авторизоваться_с_абонементом_пр�
 from Smoke.test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок import \
     CheckNoSubscriptionVideoInPayLesson
 from Smoke.test_11_Оставить_комментарий_в_беспл_уроке import SendCommentInFreeLesson
-from Smoke.test_12_C_абонементом_оставить_комментарий_в_платном_уроке import SendCommentInPayLesson
+from Smoke.test_12_Оставить_комментарий_в_платном_уроке import SendCommentInPayLesson
 from Smoke.test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете import AskQuestionInFreeLesson
 from Smoke.test_14_Задать_вопрос_в_уроке_платного_предмета import AskQuestionInPayLesson
 from Smoke.test_15_Пройти_тест_в_бесплатном_уроке import PassTestInFreeLesson
