@@ -9,7 +9,7 @@ class PagePaidLessonComment(object):
 
     def click_link_comments(self):
         self.driver.find_element_by_id("comments-link").click()
-        time.sleep(1)
+        time.sleep(3)
 
     def write_comment(self):
         self.driver.find_element_by_name("text").send_keys("Привет Rich")

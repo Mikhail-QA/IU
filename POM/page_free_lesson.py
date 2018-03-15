@@ -10,7 +10,7 @@ class PageFreeLessonComment(object):
 
     def click_button_comments(self):
         self.driver.find_element_by_id("comments-link").click()
-        time.sleep(0.5)
+        time.sleep(3)
 
     def wtire_comment(self):
         self.driver.find_element_by_name("text").send_keys("Привет Yonga")
