@@ -47,3 +47,7 @@ class PageProfile(object):
     def go_to_my_profile(self):
         self.driver.get("https://fast-staging.interneturok.ru/profile")
         time.sleep(2)
+
+    def go_to_my_profile_edit(self):
+        self.driver.get("https://fast-staging.interneturok.ru/profile/edit")
+        time.sleep(2)
