@@ -13,22 +13,22 @@ class URLPaidLesson(object):
     def go_algebra_8_grade_trainers(self):
         self.driver.get(
             "https:/fast-staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/trainers")
-        time.sleep(1.5)
+        time.sleep(2)
 
     def go_algebra_8_grade_test(self):
         self.driver.get(
             "https://fast-staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/testcases")
-        time.sleep(1.5)
+        time.sleep(2)
 
     def go_algebra_8_grade_questions(self):
         self.driver.get(
             "https://fast-staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/questions")
-        time.sleep(1.5)
+        time.sleep(2)
 
     def go_algebra_11_grade_comment(self):
         self.driver.get(
             "https://fast-staging.interneturok.ru/algebra/11-klass/bzadachi-iz-egeb/urok-17-vopros-3-vypolnyayte-proverku-v-uravneniyah-i-neravenstvah")
-        time.sleep(1.5)
+        time.sleep(2)
 
 
 class URLFreeLesson(object):
