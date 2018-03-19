@@ -6,6 +6,7 @@ from POM.popup_authorization_and_registration import PopupSignIn
 from POM.user import AutopaymentMailRu
 from POM.page_free_lesson import PageFreeLessonQuestion
 from POM.cycles import Cycles
+from POM.url_lesson import URLFreeLesson
 
 
 @allure.feature("Вопрос к уроку")
@@ -18,6 +19,7 @@ class AskQuestionInFreeLesson(StartInterneturok):
         user_steps = AutopaymentMailRu(driver)
         delete_steps = Cycles(driver)
         user = PageFreeLessonQuestion(driver)
+        get_url = URLFreeLesson(driver)
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
         with allure.step("Ввожу email/password"):
@@ -26,8 +28,7 @@ class AskQuestionInFreeLesson(StartInterneturok):
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
         with allure.step("Перейти на урок"):
-            self.driver.get(
-                "https://fast-staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/razvitie-evolyutsionnyh-vzglyadov-v-dodarvinovskiy-period/questions")
+            get_url.go_biology_11_grade_questions()
         with allure.step("Удалить существующие вопросы в списке"):
             delete_steps.delete_all_question()
         with allure.step("Ввести текст в поле ввода Привет Yonga"):
