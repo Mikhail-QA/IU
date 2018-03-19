@@ -1,6 +1,6 @@
 """
 Проверить наличия элементов на странице Алгебра 8 класс в Body
-Пользователь не авторизован
+Пользователь не авторизован И проверка наличия инфоблока в Предмете Литература 8класс
 URL: https://web-dev01.interneturok.ru/algebra/8-klass"
 На странице отображаются: http://joxi.ru/vAWbBDLHkK1YM2
 """
@@ -14,8 +14,28 @@ from Web_services.Subject_page.URL import UrlLesson
 @allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов в Body для не авторизованного пользователя")
 class ChecksAllElementsInSubjectPageTheBodyUserNotAuth(StartInterneturokClassMethod):
+    @allure.step("Перейти на страницу урока Литература 8 класс")
+    def test_000_go_literature(self):
+        StartInterneturokClassMethod = self.driver
+        go_page = UrlLesson(StartInterneturokClassMethod)
+        go_page.go_literature_8_grade()
+
+    @allure.step("В предмете Литература на странице Предмет/Класс отображается информационный блок")
+    def test_001_info_block(self):
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.notification__header"))
+        with allure.step(
+                "В инфоблоке отображается текст (На сайте представлены уроки по отдельным произведениям школьной программы, а темы и содержание уроков не всегда строго соответствуют учебникам.)"):
+            self.assertEqual(
+                u"На сайте представлены уроки по отдельным произведениям школьной программы, а темы и содержание уроков не всегда строго соответствуют учебникам.",
+                self.driver.find_element_by_css_selector("div.notification__title").text)
+        with allure.step("В инфоблоке отображается Ссылка с текстом (В связи с этим хотим заметить)"):
+            self.assertEqual(u"В связи с этим хотим заметить",
+                             self.driver.find_element_by_css_selector("a.notification__toggle").text)
+        with allure.step("В инфоблоке отображается кнопка (Закрыть)"):
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.notification__close"))
+
     @allure.step("Перейти на страницу Алгебра 8 класс")
-    def test_000_open_page(self):
+    def test_002_open_page(self):
         StartInterneturokClassMethod = self.driver
         go_page = UrlLesson(StartInterneturokClassMethod)
         go_page.go_algebra_8_grade()
