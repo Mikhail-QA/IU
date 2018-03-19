@@ -25,6 +25,7 @@ class MainPage(object):
 
     def go_to_internetUrok(self):
         self.driver.get("https://fast-staging.interneturok.ru")
+        time.sleep(2)
 
     def enter_data(self, data="ty"):
         self.driver.find_element_by_css_selector("input.search.home-search").send_keys(data)
