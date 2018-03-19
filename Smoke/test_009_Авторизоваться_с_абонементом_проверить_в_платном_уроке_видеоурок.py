@@ -8,6 +8,7 @@ from POM.url_lesson import URLPaidLesson
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 
+
 @allure.feature("Платный Видеоурок")
 @allure.story("Авторизоваться с абонементом, проверить в платном уроке отсутствия заглушки видеоурока")
 class CheckWithSubscriptionVideoInPayLesson(StartInterneturok):
