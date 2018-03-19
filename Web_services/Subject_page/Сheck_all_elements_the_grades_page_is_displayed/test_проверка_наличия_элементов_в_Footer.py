@@ -5,7 +5,7 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 
 import allure
 from selenium.webdriver.common.by import By
-from Web_services.Subject_page.URL import UrlLesson
+from Web_services.URL import SubjectPage
 from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
@@ -15,7 +15,7 @@ class ChecksAllElementsInSubjectPageThePageInFooter(StartInterneturokClassMethod
     @allure.step("Перейти на страницу Алгебра 8 класс")
     def test_000_open_page(self):
         StartInterneturokClassMethod = self.driver
-        go_page = UrlLesson(StartInterneturokClassMethod)
+        go_page = SubjectPage(StartInterneturokClassMethod)
         go_page.go_algebra_8_grade()
 
     def test_block_education_center_displayed(self):

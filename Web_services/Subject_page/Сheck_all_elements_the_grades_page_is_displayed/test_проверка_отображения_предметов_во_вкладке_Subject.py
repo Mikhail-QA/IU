@@ -5,7 +5,7 @@ URL: https://web-dev01.interneturok.ru/algebra/8-klass"
 """
 import allure
 import time
-from Web_services.Subject_page.URL import UrlLesson
+from Web_services.URL import SubjectPage
 from Web_services.app.SetUp import StartInterneturokClassMethod
 from selenium.webdriver import ActionChains
 
@@ -16,7 +16,7 @@ class CheckAllElementInSubject(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
     def test_000_open_page(self):
         StartInterneturokClassMethod = self.driver
-        go_page = UrlLesson(StartInterneturokClassMethod)
+        go_page = SubjectPage(StartInterneturokClassMethod)
         go_page.go_algebra_8_grade()
 
     @allure.step("Навести мышку на кнопку Предметы")

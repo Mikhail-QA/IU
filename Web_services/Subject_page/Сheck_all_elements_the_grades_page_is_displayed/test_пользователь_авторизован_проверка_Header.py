@@ -10,7 +10,7 @@ from Web_services.app.SetUp import StartInterneturokClassMethod
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.user import AutopaymentMailRu
 from POM.main_page import MainPage
-from Web_services.Subject_page.URL import UrlLesson
+from Web_services.URL import SubjectPage
 
 
 @allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
@@ -22,7 +22,7 @@ class ChecksAllElementsInSubjectPageTheHeadersUserAuth(StartInterneturokClassMet
         steps_main = MainPage(StartInterneturokClassMethod)
         steps_user = AutopaymentMailRu(StartInterneturokClassMethod)
         steps_popup = PopupSignIn(StartInterneturokClassMethod)
-        go_page = UrlLesson(StartInterneturokClassMethod)
+        go_page = SubjectPage(StartInterneturokClassMethod)
         steps_main.go_to_sgnIn()
         steps_user.enter_email()
         steps_user.enter_password()
