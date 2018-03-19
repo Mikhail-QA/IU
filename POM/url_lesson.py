@@ -12,7 +12,7 @@ class URLPaidLesson(object):
 
     def go_algebra_8_grade_trainers(self):
         self.driver.get(
-            "https:/fast-staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/trainers")
+            "https://fast-staging.interneturok.ru/physics/7-klass/vzaimodejstvie-tel/plotnost/trainers")
         time.sleep(2)
 
     def go_algebra_8_grade_test(self):
