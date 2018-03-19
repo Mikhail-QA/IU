@@ -24,3 +24,13 @@ class URLPaidLesson(object):
         self.driver.get(
             "https://fast-staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/questions")
         time.sleep(1.5)
+
+
+class URLFreeLesson(object):
+    def __init__(self, driver):
+        self.driver = driver
+
+    def go_biology_11_grade(self):
+        self.driver.get(
+            "https://fast-staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy")
+        time.sleep(2)
