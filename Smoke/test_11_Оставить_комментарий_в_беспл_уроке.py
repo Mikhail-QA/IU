@@ -26,7 +26,7 @@ class SendCommentInFreeLesson(StartInterneturok):
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
         with allure.step("Перейти на урок"):
-            get_url.go_biology_11_grade()
+            get_url.go_biology_11_grade_comment()
         with allure.step("На странице урока нажать на кнопку Комментарии"):
             user.click_button_comments()
         with allure.step("Ввести текст в поле ввода Привет Yonga"):
