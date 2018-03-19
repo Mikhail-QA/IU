@@ -5,6 +5,7 @@ from POM.popup_authorization_and_registration import PopupRegistration
 from POM.setUp import StartInterneturok
 from POM.user import IuUseryopmail
 from POM.popup_authorization_and_registration import PopupSignIn
+from POM.pageprofile import PageProfile
 
 
 @allure.feature("Мой профиль")
@@ -16,6 +17,7 @@ class ReghAndCheckinMailUserToProfile(StartInterneturok):
         popup_auth = PopupSignIn(driver)
         popup_reg = PopupRegistration(driver)
         user_steps = IuUseryopmail(driver)
+        get_url = PageProfile(driver)
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
         with allure.step("Перейти в поп-ап Регистрации"):
@@ -26,7 +28,7 @@ class ReghAndCheckinMailUserToProfile(StartInterneturok):
         with allure.step("Нажать на кнопку Зарегистрироваться"):
             popup_reg.click_sign_up()
         with allure.step("Перейти в ЛК во вкладку /edit"):
-            self.driver.get("https://fast-staging.interneturok.ru/profile/edit")
+            get_url.go_to_my_profile_edit()
         with allure.step("В поле email отображается (почта-iuuser@yopmail.com) зарегистрировшего пользователя"):
             self.assertEqual(u"iuuser@yopmail.com",
                              self.driver.find_element_by_css_selector("input.profile-input").get_attribute("value"))
