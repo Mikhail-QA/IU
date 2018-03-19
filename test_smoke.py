@@ -30,6 +30,9 @@ from Smoke.test_22_Проверить_видео_в_плеере_ИУ import Pla
 from Smoke.test_23_После_авторизации_проверка_соответствия_почты_пользователя import AuthAndCheckinMailUserToProfile
 from Smoke.test_24_После_регистрации_проверка_соответствия_почты_пользователя import ReghAndCheckinMailUserToProfile
 from Smoke.test_25_Проверка_выхода_из_профиля import CheckingOutProfile
+from Smoke.test_26_Проверка_title_keywords_description import CheckMetaTeg
+from Smoke.test_27_Проверка_rel_canonical import CheckCanonical
+from Smoke.test_28_Проверка_перехода_по_ссылке_с_www import CheckDomain
 
 suite = unittest.TestSuite()
 
@@ -59,4 +62,6 @@ suite.addTest(unittest.makeSuite(PlayVideoYouTube))
 suite.addTest(unittest.makeSuite(AuthAndCheckinMailUserToProfile))
 suite.addTest(unittest.makeSuite(ReghAndCheckinMailUserToProfile))
 suite.addTest(unittest.makeSuite(CheckingOutProfile))
-
+suite.addTest(unittest.makeSuite(CheckMetaTeg))
+suite.addTest(unittest.makeSuite(CheckCanonical))
+suite.addTest(unittest.makeSuite(CheckDomain))
