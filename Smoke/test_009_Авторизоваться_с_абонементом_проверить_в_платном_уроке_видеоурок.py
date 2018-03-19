@@ -4,9 +4,9 @@ from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.user import PaymNotYandexRu
+from POM.url_lesson import URLPaidLesson
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
-
 
 @allure.feature("Платный Видеоурок")
 @allure.story("Авторизоваться с абонементом, проверить в платном уроке отсутствия заглушки видеоурока")
@@ -16,6 +16,7 @@ class CheckWithSubscriptionVideoInPayLesson(StartInterneturok):
         main_steps = MainPage(driver)
         popup_steps = PopupSignIn(driver)
         user_steps = PaymNotYandexRu(driver)
+        get_url = URLPaidLesson(driver)
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
         with allure.step("Ввожу email/password"):
@@ -24,8 +25,7 @@ class CheckWithSubscriptionVideoInPayLesson(StartInterneturok):
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
         with allure.step("Перейти на урок"):
-            self.driver.get(
-                "https://fast-staging.interneturok.ru/physics/11-klass/bmagnitnoe-poleb/magnitnoe-pole-ego-svoystva")
+            get_url.go_algebra_8_grade_video()
         with allure.step("Проверить отсуствия заглушки видеоурока"):
             self.assertFalse(self.is_element_present(By.CLASS_NAME, "video-blocker__body"))
 
