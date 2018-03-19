@@ -1,5 +1,6 @@
 import time
 
+
 class URLAbonement(object):
     def __init__(self, driver):
         self.driver = driver
@@ -7,6 +8,7 @@ class URLAbonement(object):
     def go_page_abonement(self):
         self.driver.get("https://fast-staging.interneturok.ru/abonement")
         time.sleep(1.5)
+
 
 class PageAbonement(object):
     def __init__(self, driver):
