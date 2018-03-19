@@ -6,6 +6,7 @@ from POM.user import PaymNotYandexRu
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.page_paid_lesson import PagePaidLessonQuestion
 from POM.cycles import Cycles
+from POM.url_lesson import URLPaidLesson
 
 
 @allure.feature("Вопрос к уроку")
@@ -17,6 +18,7 @@ class AskQuestionInPayLesson(StartInterneturok):
         popup_steps = PopupSignIn(driver)
         user_steps = PaymNotYandexRu(driver)
         user = PagePaidLessonQuestion(driver)
+        get_url = URLPaidLesson(driver)
         delete_steps = Cycles(driver)
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
@@ -26,8 +28,7 @@ class AskQuestionInPayLesson(StartInterneturok):
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
         with allure.step("Перейти на урок"):
-            self.driver.get(
-                "https://fast-staging.interneturok.ru/russian/9-klass/slozhnopodchinyonnye-predlozheniya/pravopisanie-predlozheniy-s-soyuzom-kak/questions")
+            get_url.go_algebra_8_grade_questions()
         with allure.step("Удалить существующие вопросы в списке"):
             delete_steps.delete_all_question()
         with allure.step("Ввести текст в поле ввода Привет Rich"):
