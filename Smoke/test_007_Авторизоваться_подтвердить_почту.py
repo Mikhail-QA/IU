@@ -31,11 +31,11 @@ class LoginAndConfirmTheMail(StartYandexMail):
             steps_user.enter_password()
         with allure.step("Нажать на кнопку Авторизоваться"):
             steps_popup.click_button_login()
-        with allure.step("У П отображается нотификация ""Адрес электронной почты успешно подтвержден"" "):
+        with allure.step("После авторизации у П не отображается нотификация ""Подтвердите адрес электронной почты в течение 48 ч."" "):
+            self.assertFalse(self.is_element_present(By.CSS_SELECTOR, "div.top-banner__buttons"))
+        with allure.step("После авторизации у П отображается нотификация (Адрес электронной почты успешно подтвержден)"):
             self.assertEqual(u"Адрес электронной почты успешно подтвержден",
                              driver.find_element_by_css_selector("p.top-banner__text").text)
-        with allure.step("У П не отображается нотификация ""Подтвердите адрес электронной почты в течение 48 ч."" "):
-            self.assertFalse(self.is_element_present(By.CSS_SELECTOR, "div.top-banner__buttons"))
 
     def is_element_present(self, how, what):
         try:
