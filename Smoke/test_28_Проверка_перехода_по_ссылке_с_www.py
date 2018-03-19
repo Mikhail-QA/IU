@@ -9,8 +9,8 @@ from POM.setUp import StartInterneturokClassMethod
 
 @allure.feature("Проверка перехода по ссылке с (WWW)")
 @allure.story("Перейти по ссылке https://www.fast-staging.interneturok.ru/ и убедится что в URL не отображается WWW")
-class CheckCanonical(StartInterneturokClassMethod):
-    def test_attribute_canonical_is_HTTPS(self):
+class CheckDomain(StartInterneturokClassMethod):
+    def test_domain_www(self):
         URL = "https://www.interneturok.ru"
         driver = self.driver
         driver.get(URL)
