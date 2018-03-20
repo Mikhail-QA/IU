@@ -23,12 +23,12 @@ from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_�
     CheckAllElementsTheSubject
 from Web_services.Main_page.Check_all_elements_the_home_page_is_displayed.test_проверка_наличия_элементов_попап_Авторизация import \
     CheckPopupAuth
-from Web_services.Subject_page.Сheck_all_elements_the_grades_page_is_displayed.test_пользователь_авторизован_проверка_Header import ChecksAllElementsInSubjectPageTheHeadersUserAuth
-from Web_services.Subject_page.Сheck_all_elements_the_grades_page_is_displayed.test_пользователь_не_авторизован_проверка_Body import ChecksAllElementsInSubjectPageTheBodyUserNotAuth
-from Web_services.Subject_page.Сheck_all_elements_the_grades_page_is_displayed.test_пользователь_не_авторизован_проверка_Header import ChecksAllElementsInSubjectPageTheHeadersUserNotAuth
-from Web_services.Subject_page.Сheck_all_elements_the_grades_page_is_displayed.test_проверка_наличия_элементов_в_Footer import ChecksAllElementsInSubjectPageThePageInFooter
-from Web_services.Subject_page.Сheck_all_elements_the_grades_page_is_displayed.test_проверка_отображения_номеров_класса_во_вкладке_Grades import CheckAllElementInGrade
-from Web_services.Subject_page.Сheck_all_elements_the_grades_page_is_displayed.test_проверка_отображения_предметов_во_вкладке_Subject import CheckAllElementInSubject
+from Web_services.Subject_page.Сheck_all_elements_the_subject_page_is_displayed.test_пользователь_авторизован_проверка_Header import ChecksAllElementsInSubjectPageTheHeadersUserAuth
+from Web_services.Subject_page.Сheck_all_elements_the_subject_page_is_displayed.test_пользователь_не_авторизован_проверка_Body import ChecksAllElementsInSubjectPageTheBodyUserNotAuth
+from Web_services.Subject_page.Сheck_all_elements_the_subject_page_is_displayed.test_пользователь_не_авторизован_проверка_Header import ChecksAllElementsInSubjectPageTheHeadersUserNotAuth
+from Web_services.Subject_page.Сheck_all_elements_the_subject_page_is_displayed.test_проверка_наличия_элементов_в_Footer import ChecksAllElementsInSubjectPageThePageInFooter
+from Web_services.Subject_page.Сheck_all_elements_the_subject_page_is_displayed.test_проверка_отображения_номеров_класса_во_вкладке_Grades import CheckAllElementInGrade
+from Web_services.Subject_page.Сheck_all_elements_the_subject_page_is_displayed.test_проверка_отображения_предметов_во_вкладке_Subject import CheckAllElementInSubject
 
 # Проверка элементов и текста на главной страницы
 suite = unittest.TestSuite()
