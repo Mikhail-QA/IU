@@ -114,7 +114,7 @@ class ChecksAllElementsInSubjectPageTheHeadersUserNotAuth(StartInterneturokClass
 
     @allure.step("В конце списка вопросов отображается кнопка (Показть еще вопросы)")
     def test_displayed_button_comment_more_all(self):
-        self.assertEqual("Показать еще вопр2осы", self.driver.find_element_by_css_selector(
+        self.assertEqual("Показать еще вопросы", self.driver.find_element_by_css_selector(
             "div.questions-wrapper > div.comments-more > a").text)
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Информация об уроке)")
