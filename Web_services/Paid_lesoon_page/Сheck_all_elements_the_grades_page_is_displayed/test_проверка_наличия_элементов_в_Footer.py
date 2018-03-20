@@ -4,7 +4,7 @@ from Web_services.URL import Paid_lesson_page
 from Web_services.app.SetUp import StartInterneturokClassMethod
 
 
-@allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
+@allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов и текста в Footer")
 class ChecksAllElementsInSubjectPageThePageInFooter(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
