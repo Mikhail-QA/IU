@@ -6,7 +6,7 @@ from Web_services.app.SetUp import StartInterneturokClassMethod
 
 @allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов в Body во вкладке Тесты для не авторизованного пользователя")
-class ChecksAllElementsInSubjectPageTheHeadersUserNotAuth(StartInterneturokClassMethod):
+class ChecksAllElementsInLessonPageTheBodyTabTestUserNotAuth(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
     def test_000_open_page(self):
         StartInterneturokClassMethod = self.driver

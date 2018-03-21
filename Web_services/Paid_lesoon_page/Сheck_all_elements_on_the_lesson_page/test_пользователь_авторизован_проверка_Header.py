@@ -9,7 +9,7 @@ from Web_services.URL import Paid_lesson_page
 
 @allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов в Header для авторизованного пользователя")
-class ChecksAllElementsInSubjectPageTheHeadersUserAuth(StartInterneturokClassMethod):
+class ChecksAllElementsInLessonPageTheHeadersUserAuth(StartInterneturokClassMethod):
     @allure.step("Авторизоваться пользователем")
     def test_000_logged_user(self):
         StartInterneturokClassMethod = self.driver
