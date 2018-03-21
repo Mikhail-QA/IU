@@ -15,6 +15,7 @@ class MainPage(object):
 
     def go_to_sgnIn(self):
         self.driver.find_element_by_css_selector("span.button_login").click()
+        time.sleep(0.5)
 
     def click_the_feedback(self):
         self.driver.find_element_class_name("b-button-review__trigger-form").click()
