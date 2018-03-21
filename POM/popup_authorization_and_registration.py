@@ -14,8 +14,12 @@ class PopupSignIn(object):
     def go_to_popup_authorization(self):
         self.driver.find_element_by_link_text("Вход").click()
 
-    def click_button_vk(self):
+    def click_button_vk_reg(self):
         self.driver.find_element_by_css_selector("a.icon-social_vk").click()
+
+    def click_button_vk_auth(self):
+        self.driver.find_element_by_css_selector("a.icon-social_vk").click()
+        assert (self.driver.find_element_by_css_selector("div.header__menu.header__menu_profile"))
 
     def click_button_odnoklassniki(self):
         self.driver.find_element_by_css_selector("a.b-omniauth__item_icon_od").click()
