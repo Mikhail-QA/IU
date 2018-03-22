@@ -6,7 +6,7 @@ class URLAbonement(object):
         self.driver = driver
 
     def go_page_abonement(self):
-        self.driver.get("https://fast-staging.interneturok.ru/abonement")
+        self.driver.get("https://staging.interneturok.ru/abonement")
         time.sleep(1.5)
 
 
