@@ -49,6 +49,8 @@ class DataMail(object):
         wait.until(EC.element_to_be_clickable((By.CLASS_NAME, "js-toolbar-item-title-delete"))).click()
         self.driver.delete_all_cookies()
         self.driver.refresh()
+        self.driver.delete_all_cookies()
+        self.driver.get("https://mail.yandex.ru/")
         time.sleep(2)
 
     def login_in_accaunt_user_Paymnotyandex_delete_all_mail(self):
