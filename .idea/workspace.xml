@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23f5920-3412-41f1-877a-6ed0e390a425" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Cheks_PopUp_on_page_abonement/User_not_auth/test_1_Проверка_через_кнопку_Оплатить_абонемент.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Cheks_PopUp_on_page_abonement/User_without_ticket_is_logged_in/test_1_Проверка_через_кнопку_Оплатить_абонемент.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Other/OneRun/Test1/test_5.py" afterPath="$PROJECT_DIR$/Other/OneRun/Test1/test_5.py" />
-      <change beforePath="$PROJECT_DIR$/POM/user.py" afterPath="$PROJECT_DIR$/POM/user.py" />
-      <change beforePath="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py" afterPath="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py" />
+      <change beforePath="$PROJECT_DIR$/Web_services/Main_page/Сheck URL thst all the links to get a response from the server 200/Body_url/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Web_services/Main_page/Сheck URL thst all the links to get a response from the server 200/Body_url/test_check_search.py" afterPath="$PROJECT_DIR$/Web_services/Main_page/Сheck URL thst all the links to get a response from the server 200/Body_url/test_check_search.py" />
+      <change beforePath="$PROJECT_DIR$/Web_services/Main_page/Сheck URL thst all the links to get a response from the server 200/Footer_url/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Web_services/Main_page/Сheck URL thst all the links to get a response from the server 200/Headers_url/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Web_services/Main_page/Сheck URL thst all the links to get a response from the server 200/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Web_services/Main_page/Сheck URL thst all the links to get a response from the server 200/test_start_case.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Web_services/app/__init__.py" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Web_services/other/test_ope_test_responses.py" afterPath="$PROJECT_DIR$/Web_services/other/test_ope_test_responses.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +25,7 @@
     <favorites_list name="PycharmProjects" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test_попап_оставить_отзыв.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,8 +36,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ste</find>
-      <find>step</find>
       <find>steps</find>
       <find>Войти</find>
       <find>Мой проф</find>
@@ -73,6 +64,8 @@
       <find>local</find>
       <find>add_cookie</find>
       <find>value</find>
+      <find>rel=&quot;canonical</find>
+      <find>&gt;\n&lt;link href=&quot;https://interneturok.ru/&quot; rel=&quot;canonical&quot;&gt;</find>
     </findStrings>
     <replaceStrings>
       <replace>parsed_url_py</replace>
@@ -87,62 +80,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_checks_pop_up_lesson_paid.py" />
-        <option value="$PROJECT_DIR$/Other/OneRun/Test1/test_5.py" />
-        <option value="$PROJECT_DIR$/Web_services/Subject_page/Сheck that all elements of the grades page is displayed/test_проверка_отображения_номеров_класса_во_вкладке_Grades.py" />
-        <option value="$PROJECT_DIR$/POM/main_page.py" />
-        <option value="$PROJECT_DIR$/POM/admin_delete_users.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py" />
-        <option value="$PROJECT_DIR$/test_smoke.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_14_Задать_вопрос_в_уроке_платного_предмета.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_22_Проверить_видео_в_плеере_ИУ.py" />
         <option value="$PROJECT_DIR$/Smoke/test_23_После_авторизации_проверка_соответствия_почты_пользователя.py" />
         <option value="$PROJECT_DIR$/Smoke/test_24_После_регистрации_проверка_соответствия_почты_пользователя.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_25_Проверка_выхода_из_профиля.py" />
-        <option value="$PROJECT_DIR$/POM/elements_main_pages.py" />
-        <option value="$PROJECT_DIR$/POM/page_abonement.py" />
-        <option value="$PROJECT_DIR$/POM/url_lesson.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_006_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом.py" />
-        <option value="$PROJECT_DIR$/POM/data_mail.py" />
-        <option value="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_without_ticket_is_logged_in/test_1_Платный_урок_проверка_через_все_места.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_28_Проверка_перехода_по_ссылке_с_www.py" />
+        <option value="$PROJECT_DIR$/POM/paid_exercise.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_21_Проверить_видео_в_плеере_Youtube.py" />
+        <option value="$PROJECT_DIR$/POM/page_free_lesson.py" />
+        <option value="$PROJECT_DIR$/Web_services/Subject_page/URL.py" />
+        <option value="$PROJECT_DIR$/Web_services/Subject_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_не_авторизован_проверка_Body.py" />
+        <option value="$PROJECT_DIR$/Web_services/Lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_не_авторизован_проверка_Header.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/test_пользователь_не_авторизован_проверка_Body.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_не_авторизован_проверка_Body.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_авторизован_проверка_Header.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_не_авторизован_проверка_Header.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_не_авторизован_проверка_Body_вкладка_Тренажеры.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_не_авторизован_проверка_Body_вкладка_Тесты.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_не_авторизован_проверка_Body_вкладка_Видеоурок.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_проверка_наличия_элементов_в_Footer.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_the_grades_page_is_displayed/test_пользователь_не_авторизован_проверка_Body_вкладка_Вопросы_к_уроку.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page/test_пользователь_авторизован_проверка_Header.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page/test_пользователь_не_авторизован_проверка_Body_вкладка_Видеоурок.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page/test_пользователь_не_авторизован_проверка_Body_вкладка_Вопросы_к_уроку.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page/test_пользователь_не_авторизован_проверка_Body_вкладка_Тесты.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page/test_пользователь_не_авторизован_проверка_Body_вкладка_Тренажеры.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page/test_пользователь_не_авторизован_проверка_Header.py" />
+        <option value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page/test_проверка_наличия_элементов_в_Footer.py" />
+        <option value="$PROJECT_DIR$/test_check_elements_on_the_all_page.py" />
+        <option value="$PROJECT_DIR$/Other/OneRun/Smoke test/Regresision/social_networks/test_Registration_VK.py" />
+        <option value="$PROJECT_DIR$/POM/social_networks.py" />
         <option value="$PROJECT_DIR$/POM/popup_authorization_and_registration.py" />
+        <option value="$PROJECT_DIR$/POM/url_lesson.py" />
         <option value="$PROJECT_DIR$/POM/setUp.py" />
-        <option value="$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py" />
-        <option value="$PROJECT_DIR$/Cheks_PopUp_on_page_abonement/User_without_ticket_is_logged_in/test_1_Проверка_через_кнопку_Оплатить_абонемент.py" />
-        <option value="$PROJECT_DIR$/Cheks_PopUp_on_page_abonement/User_not_auth/test_1_Проверка_через_кнопку_Оплатить_абонемент.py" />
-        <option value="$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_without_ticket_is_logged_in/test_2_Платный_урок__проверка_через_кнопку_Оплатить_абонемент.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_пользователь_не_авторизован_проверка_Header.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_проверка_наличия_элемента_попап_Регистрация.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_проверка_наличия_элементов_в_Body.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_проверка_наличия_элементов_вкладка_Классы.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_проверка_наличия_элементов_вкладка_Классы_1_класс.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_проверка_наличия_элементов_вкладка_Предметы_Алгебра.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_проверка_наличия_элементов_попап_Авторизация.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_проверка_наличия_элементов_в_Footer.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы.py" />
+        <option value="$PROJECT_DIR$/POM/pageprofile.py" />
+        <option value="$PROJECT_DIR$/POM/page_abonement.py" />
+        <option value="$PROJECT_DIR$/POM/main_page.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_26_Проверка_title_keywords_description.py" />
+        <option value="$PROJECT_DIR$/Web_services/URL.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py" />
+        <option value="$PROJECT_DIR$/POM/admin_delete_users.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py" />
+        <option value="$PROJECT_DIR$/POM/page_paid_lesson.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_27_Проверка_rel_canonical.py" />
+        <option value="$PROJECT_DIR$/POM/data_mail.py" />
         <option value="$PROJECT_DIR$/Web_services/app/SetUp.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_попап_оставить_отзыв.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_попап_флешки.py" />
-        <option value="$PROJECT_DIR$/POM/user.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/test_Header.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_Header.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_пользователь_авторизован_проверка_Header.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_пользователь_не_авторизован_проверка_Header.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_флешки.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Elements/Footer.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Классы.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_в_Body.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Классы_1_класс.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Предметы_Алгебра.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элемента_попап_Регистрация.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_попап_Авторизация.py" />
-        <option value="$PROJECT_DIR$/test_check_element_to_main_page.py" />
-        <option value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py" />
+        <option value="$PROJECT_DIR$/Smoke/test_30_Авторизация_через_соцсеть_ВК.py" />
+        <option value="$PROJECT_DIR$/test_smoke.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1895" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-36" />
+    <option name="y" value="56" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -191,37 +185,18 @@
             <path>
               <item name="IU" type="b2602c69:ProjectViewProjectNode" />
               <item name="IU" type="462c0819:PsiDirectoryNode" />
-              <item name="Checks_PopUp_in_lesson_paid" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IU" type="462c0819:PsiDirectoryNode" />
-              <item name="Checks_PopUp_on_page_abonement" type="462c0819:PsiDirectoryNode" />
+              <item name="Smoke" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IU" type="b2602c69:ProjectViewProjectNode" />
               <item name="IU" type="462c0819:PsiDirectoryNode" />
               <item name="Web_services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IU" type="462c0819:PsiDirectoryNode" />
-              <item name="Web_services" type="462c0819:PsiDirectoryNode" />
-              <item name="Main_page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IU" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IU" type="462c0819:PsiDirectoryNode" />
-              <item name="Web_services" type="462c0819:PsiDirectoryNode" />
-              <item name="Main_page" type="462c0819:PsiDirectoryNode" />
-              <item name="Check_all_elements_the_home_page_is_displayed" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -233,28 +208,29 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Checks Pop-up in lesson paid/User not auth/test_1_Видеоурок_платный_нажать_на_кнопку_Плей.py" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Interneturok/sitemap_test.xml" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;null&#9;null&#10;https://staging-api.interneturok.ru/v1/articles/9&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="step&#9;null&#9;null&#10;https://staging-api.interneturok.ru/v1/articles/9&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Михаил\IU\Web_services" />
+      <recent name="C:\Users\Михаил\IU\Web_services\Paid_lesoon_page\Сheck_all_elements_on_the_lesson_page" />
+      <recent name="C:\Users\Михаил\IU\Web_services\Paid_lesoon_page\Сheck_all_elements_the_grades_page_is_displayed" />
+      <recent name="C:\Users\Михаил\IU\Web_services\Main_page\Check_all_elements_the_home_page_is_displayed" />
+      <recent name="C:\Users\Михаил\IU\Web_services\Main_page" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Михаил\IU" />
       <recent name="C:\Users\Михаил\IU\Checks Pop-up in lesson paid\User without ticket is logged in" />
       <recent name="C:\Users\Михаил\IU\Smoke" />
       <recent name="C:\Users\Михаил\PycharmProjects\Interneturok\web_services" />
       <recent name="C:\Users\Михаил\PycharmProjects\Interneturok\smoke_test" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Михаил\IU\Web_services\Main_page\Check_all_elements_the_home_page_is_displayed" />
-      <recent name="C:\Users\Михаил\IU\Web_services\Main_page" />
-      <recent name="C:\Users\Михаил\IU\Web_services\Main_page\Сheck that all elements of the home page is displayed1" />
-      <recent name="C:\Users\Михаил\IU\Checks_PopUp_in_lesson_paid" />
-      <recent name="C:\Users\Михаил\IU\Checks_PopUp_in_lesson_paid\User not auth" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -269,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in test_проверка_наличия_элементов_попап_Авторизация.py">
+  <component name="RunManager" selected="Python tests.py.test in Сheck_all_elements_on_the_home_page">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -390,96 +366,96 @@
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_проверка_наличия_элементов_в_Body.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in Сheck_all_elements_on_the_home_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Main_page/Сheck_all_elements_on_the_home_page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IU" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_в_Body.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Main_page/Сheck_all_elements_on_the_home_page&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Классы_1_класс.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in Сheck_all_elements_on_the_lesson_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IU" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Классы_1_класс.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Paid_lesoon_page/Сheck_all_elements_on_the_lesson_page&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Предметы_Алгебра.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in Сheck_all_elements_on_the_subject_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Subject_page/Сheck_all_elements_on_the_subject_page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IU" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Предметы_Алгебра.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Subject_page/Сheck_all_elements_on_the_subject_page&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Классы.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_30_Авторизация_через_соцсеть_ВК.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Smoke" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IU" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Классы.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Smoke/test_30_Авторизация_через_соцсеть_ВК.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in test_проверка_наличия_элементов_попап_Авторизация.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test in test_пользователь_авторизован_проверка_Header.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web_services/Main_page/Сheck_all_elements_on_the_home_page" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="IU" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_попап_Авторизация.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Web_services/Main_page/Сheck_all_elements_on_the_home_page/test_пользователь_авторизован_проверка_Header.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_в_Body.py" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_вкладка_Классы.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_вкладка_Классы_1_класс.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_вкладка_Предметы_Алгебра.py" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_попап_Авторизация.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Сheck_all_elements_on_the_home_page" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_пользователь_авторизован_проверка_Header.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in Сheck_all_elements_on_the_lesson_page" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_30_Авторизация_через_соцсеть_ВК.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.py.test in Сheck_all_elements_on_the_subject_page" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_попап_Авторизация.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_вкладка_Предметы_Алгебра.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_вкладка_Классы_1_класс.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_в_Body.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_проверка_наличия_элементов_вкладка_Классы.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in Сheck_all_elements_on_the_home_page" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in Сheck_all_elements_on_the_subject_page" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_30_Авторизация_через_соцсеть_ВК.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in Сheck_all_elements_on_the_lesson_page" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in test_пользователь_авторизован_проверка_Header.py" />
       </list>
     </recent_temporary>
   </component>
@@ -500,35 +476,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_в_Body_py - 2018.03.06 at 10h 16m 13s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_в_Body.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_30_Авторизация_через_соцсеть_ВК_py - 2018.03.22 at 11h 41m 44s.xml">
+      <configuration name="py.test in test_30_Авторизация_через_соцсеть_ВК.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы_py - 2018.03.06 at 09h 17m 27s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_пользователь_авторизован_проверка_Header_py - 2018.03.22 at 11h 21m 17s.xml">
+      <configuration name="py.test in test_пользователь_авторизован_проверка_Header.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы_py - 2018.03.06 at 09h 20m 40s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_пользователь_авторизован_проверка_Header_py - 2018.03.22 at 11h 22m 00s.xml">
+      <configuration name="py.test in test_пользователь_авторизован_проверка_Header.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы_py - 2018.03.06 at 09h 21m 44s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_пользователь_авторизован_проверка_Header_py - 2018.03.22 at 11h 24m 40s.xml">
+      <configuration name="py.test in test_пользователь_авторизован_проверка_Header.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_вкладка_Классы_1_класс_py - 2018.03.06 at 10h 28m 37s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Классы_1_класс.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_пользователь_не_авторизован_проверка_Header_py - 2018.03.22 at 11h 21m 52s.xml">
+      <configuration name="py.test in test_пользователь_не_авторизован_проверка_Header.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_вкладка_Классы_1_класс_py - 2018.03.06 at 10h 40m 51s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Классы_1_класс.py" configurationId="tests" />
+    <history-entry file="py_test_in_test_попап_оставить_отзыв_py - 2018.03.22 at 11h 21m 55s.xml">
+      <configuration name="py.test in test_попап_оставить_отзыв.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_вкладка_Классы_1_класс_py - 2018.03.06 at 11h 11m 23s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Классы_1_класс.py" configurationId="tests" />
+    <history-entry file="py_test_in_Сheck_all_elements_on_the_home_page - 2018.03.22 at 11h 28m 17s.xml">
+      <configuration name="py.test in Сheck_all_elements_on_the_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_вкладка_Классы_py - 2018.03.06 at 10h 06m 00s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Классы.py" configurationId="tests" />
+    <history-entry file="py_test_in_Сheck_all_elements_on_the_home_page - 2018.03.22 at 11h 53m 34s.xml">
+      <configuration name="py.test in Сheck_all_elements_on_the_home_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_вкладка_Предметы_Алгебра_py - 2018.03.06 at 13h 08m 43s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_вкладка_Предметы_Алгебра.py" configurationId="tests" />
+    <history-entry file="py_test_in_Сheck_all_elements_on_the_lesson_page - 2018.03.22 at 11h 37m 54s.xml">
+      <configuration name="py.test in Сheck_all_elements_on_the_lesson_page" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_test_проверка_наличия_элементов_попап_Авторизация_py - 2018.03.06 at 13h 24m 38s.xml">
-      <configuration name="py.test in test_проверка_наличия_элементов_попап_Авторизация.py" configurationId="tests" />
+    <history-entry file="py_test_in_Сheck_all_elements_on_the_subject_page - 2018.03.22 at 11h 48m 03s.xml">
+      <configuration name="py.test in Сheck_all_elements_on_the_subject_page" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -541,15 +517,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1895" y="0" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.358742" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
+      <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35820895" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.43550107" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24456522" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -563,6 +538,26 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.43550107" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3054348" sideWeight="0.56449896" order="10" side_tool="false" content_ui="tabs" x="11" y="489" width="1876" height="255" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36620468" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" x="810" y="63" width="529" height="922" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39782608" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -579,7 +574,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="23" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -588,357 +583,462 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
+    <entry file="file://$PROJECT_DIR$/POM/freetest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-362">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
+    <entry file="file://$PROJECT_DIR$/POM/elements_main_pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_26_Проверка_title_keywords_description.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_28_Проверка_перехода_по_ссылке_с_www.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_1_Платный_урок_проверка_через_все_места.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1828">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_2_Платный_урок_проверка_через_кнопку_Оплатить_абонемент.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" column="60" lean-forward="true" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+        <state relative-caret-position="-1560">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_not_auth/test_3_Платный_урок_проверка_через_кнопку_Войти.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-462">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_009_Авторизоваться_с_абонементом_проверить_в_платном_уроке_видеоурок.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/POM/paid_exercise.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/POM/setUp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="43" column="20" lean-forward="false" selection-start-line="43" selection-start-column="20" selection-end-line="43" selection-end-column="20" />
           <folding>
-            <element signature="e#0#11#0" expanded="false" />
+            <element signature="e#0#13#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/POM/page_free_lesson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_22_Проверяю_видео_в_плеере_ИУ.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_21_Проверяю_видео_в_плеере_Youtube.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_23_После_авторизации_проверка_соответствия_почты_пользователя.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_25_Проверка_выхода_из_профиля.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks_PopUp_on_page_abonement/User_without_ticket_is_logged_in/test_1_Проверка_через_кнопку_Оплатить_абонемент.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="31" column="64" lean-forward="true" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_without_ticket_is_logged_in/test_2_Платный_урок__проверка_через_кнопку_Оплатить_абонемент.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_without_ticket_is_logged_in/test_1_Платный_урок_проверка_через_все_места.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checks_PopUp_on_page_abonement/User_not_auth/test_1_Проверка_через_кнопку_Оплатить_абонемент.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/page_abonement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Checks_PopUp_on_page_abonement/User_without_ticket_is_logged_in/test_1_Проверка_через_кнопку_Оплатить_абонемент.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web_services/URL.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-report/4d755fe1-cc97-42b3-8d5f-2cf174afbce9-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_003_Зарегистрироваться_купить_абонемент_900_рублей_вкл_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_10_Авторизоваться_без_абонемента_проверить_в_платном_уроке_видеоурок.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_11_Оставить_комментарий_в_беспл_уроке.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_12_Оставить_комментарий_в_платном_уроке.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_13_Задать_вопрос_в_уроке_в_бесплатном_предмете.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_14_Задать_вопрос_в_уроке_платного_предмета.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_15_Пройти_тест_в_бесплатном_уроке.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/paid_exercise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_16_Пройти_тренажер_в_платном_уроке.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_18_Проверка_поиска.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_19_Оставить_отзыв.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_20_Отключить_автоплатеж.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="34" lean-forward="false" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_21_Проверить_видео_в_плеере_Youtube.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_22_Проверить_видео_в_плеере_ИУ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/POM/pageprofile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
-          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_008_Авторизоваться_с_абонементом_продлить_абонемент.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_23_После_авторизации_проверка_соответствия_почты_пользователя.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="28" column="53" lean-forward="true" selection-start-line="28" selection-start-column="53" selection-end-line="28" selection-end-column="53" />
+        <state relative-caret-position="520">
+          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/POM/popup_authorization_and_registration.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_24_После_регистрации_проверка_соответствия_почты_пользователя.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/social_networks.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" column="74" lean-forward="false" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="74" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POM/main_page.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_000_Удаление_юзеров_в_админке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        <state relative-caret-position="620">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python/Lib/unittest/case.py">
+    <entry file="file://$PROJECT_DIR$/POM/admin_delete_users.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="1193" column="0" lean-forward="false" selection-start-line="1193" selection-start-column="0" selection-end-line="1193" selection-end-column="0" />
+        <state relative-caret-position="492">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_006_Проверить_почтовое_уведомление_ученик_с_выкл_автоплатежом.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/setUp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_005_Проверить_почтовое_уведомление_ученик_с_вкл_автоплатежом.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_007_Авторизоваться_подтвердить_почту.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/url_lesson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POM/page_paid_lesson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="77" column="33" lean-forward="false" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/POM/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="223">
+          <caret line="35" column="55" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Subject_page/Сheck that all elements of the grades page is displayed/test_пользователь_авторизован_проверка_Header.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_17_Оставить_заметки_в_платном_уроке.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="40" column="23" lean-forward="true" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Smoke/test_002_Зарегистрироваться_купить_абонемент_100_рублей_вкл_автоплатеж.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_27_Проверка_rel_canonical.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="82" />
+        <state relative-caret-position="360">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Сheck that all elements of the home page is displayed1/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/__init__.py">
+    <entry file="file://$PROJECT_DIR$/POM/popup_authorization_and_registration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="223">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/test_start_case.py" />
-    <entry file="file://$PROJECT_DIR$/Web_services/app/SetUp.py">
+    <entry file="file://$PROJECT_DIR$/Smoke/test_001_Удаление_писем_в_почте_яндекс.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="340">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#13#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/POM/data_mail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        <state relative-caret-position="280">
+          <caret line="52" column="48" lean-forward="false" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POM/cycles.py">
+    <entry file="file://$PROJECT_DIR$/Web_services/SetUp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="41" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="60">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
+    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Сheck_all_elements_on_the_home_page/test_пользователь_не_авторизован_проверка_Header.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_checks_pop_up_lesson_paid.py">
+    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Сheck_all_elements_on_the_home_page/test_пользователь_авторизован_проверка_Header.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="520">
+          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="e#178#191#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smoke/test_30_Авторизация_через_соцсеть_ВК.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="0" lean-forward="true" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_smoke.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks_PopUp_in_lesson_paid/User_without_ticket_is_logged_in/test_1_Платный_урок_проверка_через_все_места.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="50" column="67" lean-forward="false" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Checks_PopUp_on_page_abonement/User_not_auth/test_1_Проверка_через_кнопку_Оплатить_абонемент.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="29" column="64" lean-forward="true" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Elements/Footer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="73" lean-forward="false" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
-          <folding>
-            <element signature="e#153#196#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_пользователь_авторизован_проверка_Header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_пользователь_не_авторизован_проверка_Header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Идеи_и_смыслы.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Классы.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_флешки.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Классы_1_класс.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_вкладка_Предметы_Алгебра.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_попап_Авторизация.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элемента_попап_Регистрация.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_в_Footer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_проверка_наличия_элементов_в_Body.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_check_element_to_main_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="73" lean-forward="true" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web_services/Main_page/Check_all_elements_the_home_page_is_displayed/test_попап_оставить_отзыв.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="68" column="71" lean-forward="false" selection-start-line="68" selection-start-column="71" selection-end-line="68" selection-end-column="71" />
           <folding />
         </state>
       </provider>
