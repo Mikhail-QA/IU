@@ -17,7 +17,7 @@ from POM.setUp import StartInterneturokClassMethod
 class CheckMetaTeg(StartInterneturokClassMethod):
     @allure.step("Проверка на Главной странице")
     def test_meta_teg_in_home_page(self):
-        URL = "https://fast-staging.interneturok.ru/"
+        URL = "https://staging.interneturok.ru/"
         driver = self.driver
         with allure.step("Сверить url со ссылкой на которой находится П"):
             assert driver.current_url == URL
@@ -34,7 +34,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
     @allure.step("Проверка на странице урока")
     def test_meta_teg_in_page_lesson(self):
         driver = self.driver
-        URL = "https://fast-staging.interneturok.ru/physics/8-klass/teplovye-yavleniya/teplovoe-dvizhenie-temperatura"
+        URL = "https://staging.interneturok.ru/physics/8-klass/teplovye-yavleniya/teplovoe-dvizhenie-temperatura"
         driver.get(URL)
         time.sleep(2)
         with allure.step("Сверить url со ссылкой на которой находится П"):
@@ -51,7 +51,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
 
     @allure.step("Проверка на странице Предмет-Класс ")
     def test_meta_teg_in_page_subject_grades(self):
-        URL = "https://fast-staging.interneturok.ru/literatura/8-klass"
+        URL = "https://staging.interneturok.ru/literatura/8-klass"
         driver = self.driver
         driver.get(URL)
         time.sleep(2)
@@ -69,7 +69,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
 
     @allure.step("Проверка на статичной странице")
     def test_meta_teg_in_static_page(self):
-        URL = "https://fast-staging.interneturok.ru/article/how-you-can-use-interneturok"
+        URL = "https://staging.interneturok.ru/article/how-you-can-use-interneturok"
         driver = self.driver
         driver.get(URL)
         time.sleep(2)
