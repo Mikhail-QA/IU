@@ -13,7 +13,7 @@ class CheckCanonical(StartInterneturokClassMethod):
     @allure.step("Проверка rel=canonical на Главной странице")
     def test_attribute_canonical_is_HTTPS(self):
         driver = self.driver
-        driver.get("https://fast-staging.interneturok.ru/")
+        driver.get("https://staging.interneturok.ru/")
         time.sleep(2)
         with allure.step("В rel=canonical отображается ссылка через протокол HTTPS"):
             self.assertEqual("https://fast-staging.interneturok.ru/",
