@@ -16,5 +16,5 @@ class CheckCanonical(StartInterneturokClassMethod):
         driver.get("https://staging.interneturok.ru/")
         time.sleep(2)
         with allure.step("В rel=canonical отображается ссылка через протокол HTTPS"):
-            self.assertEqual("https://fast-staging.interneturok.ru/",
+            self.assertEqual("https://staging.interneturok.ru/",
                              driver.find_element_by_xpath("//link[@rel='canonical']").get_attribute('href'))
