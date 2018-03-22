@@ -103,6 +103,11 @@ class ChecksAllElementsInSubjectPageTheBodyUserNotAuth(StartInterneturokClassMet
     def test_mini_icon_test_displayed(self):
         self.assertTrue(self.driver.find_element_by_class_name("icon-test"))
 
+    @allure.step(
+        "Урок Основные сведения о рациональных выражениях и их преобразованиях имеет пометку (Свободный доступ) ")
+    def test_label_free_displayed(self):
+        self.assertTrue(self.driver.find_element_by_css_selector("span.subject-theme__label_free"))
+
     @allure.step("Отображается список тем урока")
     def test_levyai_list_yrokov(self):
         self.assertTrue(self.driver.find_element_by_css_selector("ul.nav.menu__list"))
