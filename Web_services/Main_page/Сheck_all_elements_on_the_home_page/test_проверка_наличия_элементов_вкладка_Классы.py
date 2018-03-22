@@ -6,7 +6,7 @@ URL:https://interneturok.ru/grades"	На странице отображаютс
 import allure
 import time
 from selenium.webdriver.common.by import By
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 
 
 @allure.feature("Главная страница")

@@ -1,7 +1,7 @@
 import allure
 from selenium.webdriver.common.by import By
 from Web_services.URL import Paid_lesson_page
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 
 
 @allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")

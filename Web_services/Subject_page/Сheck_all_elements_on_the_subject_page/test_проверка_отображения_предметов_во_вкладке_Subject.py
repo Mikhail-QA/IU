@@ -6,7 +6,7 @@ URL: https://web-dev01.interneturok.ru/algebra/8-klass"
 import allure
 import time
 from Web_services.URL import SubjectPage
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 from selenium.webdriver import ActionChains
 
 

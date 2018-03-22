@@ -8,7 +8,7 @@ URL: https://web-dev01.interneturok.ru/algebra/8-klass"
 import allure
 from selenium.webdriver.common.by import By
 from Web_services.URL import SubjectPage
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 
 
 @allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")

@@ -6,7 +6,7 @@ URL: https://interneturok.ru/grades/1?_=1503573733002"	На странице о�
 import allure
 import time
 from selenium.webdriver.common.by import By
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 
 
 @allure.feature("Главная страница")

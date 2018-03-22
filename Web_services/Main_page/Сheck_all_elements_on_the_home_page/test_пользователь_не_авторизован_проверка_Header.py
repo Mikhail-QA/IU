@@ -5,7 +5,7 @@ URL: https://interneturok.ru/"	"На странице отображаются: 
 """
 import allure
 from selenium.webdriver.common.by import By
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 
 
 @allure.feature("Главная страница")

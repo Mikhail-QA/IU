@@ -1,6 +1,6 @@
 import allure
 from selenium.webdriver.common.by import By
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.user import AutopaymentMailRu
 from POM.main_page import MainPage

@@ -6,7 +6,7 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 import allure
 from selenium.webdriver.common.by import By
 from Web_services.URL import SubjectPage
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 
 
 @allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")

@@ -1,4 +1,4 @@
-from Web_services.app.SetUp import StartInterneturokClassMethod
+from Web_services.SetUp import StartInterneturokClassMethod
 from Web_services.Main_page.Elements.Footer import ChecksAllElementsThePageInFooter
 
 
