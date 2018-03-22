@@ -12,7 +12,7 @@ from POM.page_paid_subject_grades import PaidLessonAlgebra8
 
 @allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов в Body в учебнике (Алгебра 8 класс (Мордкович А.Г.)")
-class ChecksAllElementsInSubjectPageTheBodyUserNotAuth(StartInterneturokClassMethod):
+class ChecksAllElementsInSubjectPageTheBodyInOpenBook(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
     def test_000_open_page(self):
         StartInterneturokClassMethod = self.driver
