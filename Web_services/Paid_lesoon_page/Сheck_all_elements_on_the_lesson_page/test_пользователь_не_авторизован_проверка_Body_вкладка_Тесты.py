@@ -64,6 +64,11 @@ class ChecksAllElementsInLessonPageTheBodyTabTestUserNotAuth(StartInterneturokCl
     def test_button_note(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.lesson-note-widget"))
 
+    @allure.step("Во вкладке Тренажер отображается текст (Проверьте знания с помощью теста)")
+    def test_title_text_test(self):
+        self.assertEqual("Проверьте знания с помощью теста",
+                         self.driver.find_element_by_css_selector("p.practices-desc").text)
+
     @allure.step("Во вкладке Тест отображается заглушка (Тренажеры доступны по абонементу)")
     def test_video_blocker(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.video-blocker"))
