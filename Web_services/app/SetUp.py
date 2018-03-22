@@ -12,7 +12,7 @@ class StartInterneturokClassMethod(unittest.TestCase):
         cls.driver = webdriver.Chrome()
         cls.driver.implicitly_wait(40)
         cls.driver.maximize_window()
-        cls.driver.get("https://fast-staging.interneturok.ru/")
+        cls.driver.get("https://staging.interneturok.ru/")
         time.sleep(1)
         cls.verificationErrors = []
 
