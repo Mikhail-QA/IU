@@ -75,7 +75,7 @@ class Notes(object):
             "div.lesson-note-widget__mobile.lesson-note-widget__text.show > form > button").click()
 
     def go_to_profile(self):
-        self.driver.get("https://fast-staging.interneturok.ru/profile/notes")
+        self.driver.get("https://staging.interneturok.ru/profile/notes")
         time.sleep(2)
 
     def click_textarea(self):
