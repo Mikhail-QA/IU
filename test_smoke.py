@@ -33,6 +33,7 @@ from Smoke.test_25_Проверка_выхода_из_профиля import Chec
 from Smoke.test_26_Проверка_title_keywords_description import CheckMetaTeg
 from Smoke.test_27_Проверка_rel_canonical import CheckCanonical
 from Smoke.test_28_Проверка_перехода_по_ссылке_с_www import CheckDomain
+from Smoke.test_30_Авторизация_через_соцсеть_ВК import RegistrationAndAuthUserInSocialNetwork
 
 suite = unittest.TestSuite()
 
@@ -65,3 +66,4 @@ suite.addTest(unittest.makeSuite(CheckingOutProfile))
 suite.addTest(unittest.makeSuite(CheckMetaTeg))
 suite.addTest(unittest.makeSuite(CheckCanonical))
 suite.addTest(unittest.makeSuite(CheckDomain))
+suite.addTest(unittest.makeSuite(RegistrationAndAuthUserInSocialNetwork))
