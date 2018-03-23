@@ -56,7 +56,7 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока"):
-            url_get.go_algebra_8_grade_questions()
+            url_get.go_algebra_8_grade_test()
         with allure.step("Нажать на кнопку Заметки"):
             step_user.open_notes()
         with allure.step("Нажать на кнопку Сохранить"):
@@ -73,7 +73,7 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока"):
-            url_get.go_algebra_8_grade_questions()
+            url_get.go_algebra_8_grade_test()
         with allure.step("Нажать на кнопку Заметки"):
             step_user.open_notes()
         with allure.step("Кликнуть мышкой в поле ввода текста"):
