@@ -26,7 +26,7 @@ from POM.user import PaymNotYandexRu
 class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
     @allure.step("Нажать на кнопку Флешка")
     def test_001_open_popup_flash(self):
-        self.driver.find_element_by_css_selector("div.icon-flash").click()
+        self.driver.find_element_by_css_selector("i.icon-flash").click()
 
     @allure.step("В поп-апе Флешка отображается кнопка Крестик(закрыть) ")
     def test_002_look_button_close(self):

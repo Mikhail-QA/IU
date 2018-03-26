@@ -38,7 +38,7 @@ class ChecksAllElementsInSubjectPageTheHeadersUserNotAuth(StartInterneturokClass
 
     @allure.step("Кнопка Флешка отображается")
     def test_button_flash(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-flash"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "i.icon-flash"))
 
     @allure.step("Кнопка Войти отображается")
     def test_button_enter_is_displayed(self):
