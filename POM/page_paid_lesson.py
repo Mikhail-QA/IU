@@ -108,6 +108,12 @@ class LessonFooter(object):
     def click_button_favourites(self):
         self.driver.find_element_by_css_selector("div.icon.icon-lesson-add").click()
 
+    def click_button_info_on_lesson(self):
+        self.driver.find_element_by_css_selector("div.icon-lesson-info").click()
+
+    def click_button_share(self):
+        self.driver.find_element_by_xpath("//*[@id='share-link']").click()
+
 
 class Value(object):
     def __init__(self, driver):
