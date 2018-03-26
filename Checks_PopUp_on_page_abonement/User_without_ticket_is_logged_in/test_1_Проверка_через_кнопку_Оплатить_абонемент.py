@@ -32,9 +32,10 @@ class UserAuthClickButtonBuyTicketOnPageAbonement(StartInterneturokClassMethod):
             step_user.click_button_buy_ticket_in_header()
         with allure.step("Маленький поп-ап Отображается popup-payment__price"):
             assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
-        # with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
-    # assert len(self.driver.find_elements_by_css_selector("div.popup-payment__intro")) == 0
-    # self.assertTrue(u"Подробнее »", self.driver.find_element_by_css_selector("div.popup.popup-payment").text)
+        with allure.step(
+                "Часть большого поп-ап НЕ отображается popup__text_intro (Проверяю по наличию кнопки (Подробнее »))"):
+            assert len(
+                self.driver.find_elements_by_css_selector(".ember-modal-dialog > div > div:nth-child(2) > a")) == 0
 
     def test_click_button_buy_ticket_in_footer(self):
         driver = self.driver
@@ -47,3 +48,7 @@ class UserAuthClickButtonBuyTicketOnPageAbonement(StartInterneturokClassMethod):
             step_user.click_button_buy_ticket_in_footer()
         with allure.step("Маленький поп-ап Отображается popup-payment__price"):
             assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
+        with allure.step(
+                "Часть большого поп-ап НЕ отображается popup__text_intro (Проверяю по наличию кнопки (Подробнее »))"):
+            assert len(
+                self.driver.find_elements_by_css_selector(".ember-modal-dialog > div > div:nth-child(2) > a")) == 0
