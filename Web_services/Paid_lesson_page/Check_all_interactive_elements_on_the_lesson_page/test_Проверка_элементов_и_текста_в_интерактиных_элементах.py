@@ -8,7 +8,7 @@ from POM.page_paid_lesson import Notes, LessonFooter, PagePaidLessonComment
 
 @allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
 @allure.story("Проверка наличия элементов и текста в интерактивных элементах ")
-class ChecksAllElementsInLessonPageTheHeadersUserAuth(StartInterneturokClassMethod):
+class ChecksAllInteractiveElementsOnLessonPage(StartInterneturokClassMethod):
     @allure.step("Проверка текста и элементов в открытой Заметки")
     def test_000_check_note(self):
         StartInterneturokClassMethod = self.driver
