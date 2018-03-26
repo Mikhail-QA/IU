@@ -50,6 +50,7 @@ from Web_services.Paid_lesson_page.Сheck_all_elements_on_the_lesson_page.test_�
 from Web_services.Paid_lesson_page.Сheck_all_elements_on_the_lesson_page.test_проверка_наличия_элементов_в_Footer import \
     ChecksAllElementsInLessonPageThePageInFooter
 from Web_services.Subject_page.Сheck_all_elements_on_the_subject_page.test_проверка_элементов_Body_в_учебнике import ChecksAllElementsInSubjectPageTheBodyInOpenBook
+from Web_services.Paid_lesson_page.Check_all_interactive_elements_on_the_lesson_page.test_Проверка_элементов_и_текста_в_интерактиных_элементах import ChecksAllInteractiveElementsOnLessonPage
 
 # Проверка элементов и текста на главной страницы
 suite = unittest.TestSuite()
@@ -81,3 +82,4 @@ suite.addTest(unittest.makeSuite(ChecksAllElementsInLessonPageTheBodyTabQuestion
 suite.addTest(unittest.makeSuite(ChecksAllElementsInLessonPageTheBodyTabTestUserNotAuth))
 suite.addTest(unittest.makeSuite(ChecksAllElementsInLessonPageTheBodyTabTrainersUserNotAuth))
 suite.addTest(unittest.makeSuite(ChecksAllElementsInLessonPageThePageInFooter))
+suite.addTest(unittest.makeSuite(ChecksAllInteractiveElementsOnLessonPage))
