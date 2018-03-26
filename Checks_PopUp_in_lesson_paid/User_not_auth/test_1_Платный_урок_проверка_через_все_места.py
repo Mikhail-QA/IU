@@ -3,7 +3,7 @@ from POM.setUp import StartInterneturokClassMethod
 from POM.page_paid_lesson import PaidLesson
 from POM.url_lesson import URLPaidLesson
 from POM.page_paid_lesson import Notes
-from POM.page_paid_lesson import Favourites
+from POM.page_paid_lesson import LessonFooter
 from POM.page_paid_lesson import Value
 from POM.page_paid_lesson import PagePaidLessonComment
 from POM.page_paid_lesson import PagePaidLessonQuestion
@@ -71,7 +71,7 @@ class CheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
 
     def test_click_button_favourites(self):
         driver = self.driver
-        step_user = Favourites(driver)
+        step_user = LessonFooter(driver)
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока"):

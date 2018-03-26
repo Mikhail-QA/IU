@@ -1,7 +1,7 @@
 import allure
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.setUp import StartInterneturokClassMethod
-from POM.page_paid_lesson import PaidLesson, Notes, Favourites
+from POM.page_paid_lesson import PaidLesson, Notes, LessonFooter
 from POM.url_lesson import URLPaidLesson
 from POM.user import AutopaymentMailRu
 from POM.main_page import MainPage
@@ -86,7 +86,7 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
 
     def test_click_button_favourites(self):
         driver = self.driver
-        step_user = Favourites(driver)
+        step_user = LessonFooter(driver)
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока"):

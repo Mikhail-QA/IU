@@ -101,7 +101,7 @@ class PaidLesson(object):
         self.driver.find_element_by_css_selector("div.video-blocker__body > div > div:nth-child(1) > p > a").click()
 
 
-class Favourites(object):
+class LessonFooter(object):
     def __init__(self, driver):
         self.driver = driver
 
