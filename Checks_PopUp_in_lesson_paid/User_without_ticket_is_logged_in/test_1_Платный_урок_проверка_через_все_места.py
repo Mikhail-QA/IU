@@ -1,3 +1,4 @@
+import time
 import allure
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.setUp import StartInterneturokClassMethod
@@ -6,6 +7,7 @@ from POM.url_lesson import URLPaidLesson
 from POM.user import AutopaymentMailRu
 from POM.main_page import MainPage
 from POM.page_paid_lesson import PagePaidLessonQuestion
+from POM.pageprofile import PageProfile
 
 
 @allure.feature("Поп-апы для авторизованного пользователя без абонемента")
@@ -31,9 +33,9 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             get_url.go_algebra_8_grade_video()
         with allure.step("В превью видеоурока нажать на кнопку Плей"):
             step_user.click_button_play_video()
-        # self.driver.save_screenshot('C:\Cs\pag.png')
         with allure.step("Поп-ап Оплаты появился"):
             assert (self.driver.find_element_by_css_selector("div.popup.popup-payment"))
+
 
     def test_click_button_comment_in_tab_ask_question(self):
         driver = self.driver
@@ -99,4 +101,16 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             self.assertIn(u"По абонементу доступны:",
                           driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
 
+    def test_click_button_pay_ticket(self):
+        driver = self.driver
+        url_get = PageProfile(driver)
 
+        with allure.step("Перейти на страницу урока"):
+            url_get.go_to_my_profile()
+        with allure.step("В ЛК в виджете Абонемент нажать на кнопку (Оплатить абонемент)"):
+            url_get.click_button_buy_subscription()
+        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
+            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
+        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
+            self.assertIn(u"По абонементу доступны:",
+                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
