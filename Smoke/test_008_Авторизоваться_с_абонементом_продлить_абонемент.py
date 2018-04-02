@@ -27,10 +27,6 @@ class SignInAndExtendSubscription(StartInterneturok):
             profile_steps.go_to_my_profile()
         with allure.step("В ЛК, в виджете абонемент нажать на кнопку продлить абонемент"):
             profile_steps.click_extend_subscription()
-
-        with allure.step("В поп-апе оплаты включить автоплатеж"):  # Удалить после 11.03.18
-            profile_steps.popup_click_include_autopayment()  # Удалить после 11.03.18
-
         with allure.step("В поп-апе оплаты нажать на кнопку Оплатить"):
             profile_steps.popup_click_buy_subscription()
         with allure.step("На сайте ЯК ввести данные карты"):
