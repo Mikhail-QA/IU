@@ -22,18 +22,14 @@ class CreateAccountAndBuyTicket100YesAutoPayment(StartInterneturok):
         with allure.step("В поп-апе регистрации нажать Зарегистрироваться"):
             steps_popup.go_to_popup_registration()
         with allure.step("Ввожу email/password"):
-            steps_user.reg_enter_email()
-            steps_user.reg_enter_password()
+            steps_user.reg_enter_email("1adawd2123@mail.ru")
+            steps_user.reg_enter_password("123456")
         with allure.step("Нажать на кнопку Зарегистрироваться"):
             steps_popup.click_sign_up()
         with allure.step("Перейти в мой профиль"):
             steps_in_profile.go_to_my_profile()
         with allure.step("В ЛК, в виджете абонемент нажать на кнопку оплатить абонемент"):
             steps_in_profile.click_button_buy_subscription()
-
-        with allure.step("В поп-апе оплаты включить автоплатеж"): # Удалить после 11.03.18
-            steps_in_profile.popup_click_include_autopayment() # Удалить после 11.03.18
-
         with allure.step("В поп-апе оплаты нажать на кнопку Оплатить абонемент"):
             steps_in_profile.popup_click_buy_subscription()
         with allure.step("На сайте ЯК ввести данные карты"):
