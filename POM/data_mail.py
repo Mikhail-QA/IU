@@ -41,7 +41,8 @@ class DataMail(object):
 
     def login_in_accaunt_user_Vratchglavyandex_delete_all_mail(self):
         wait = WebDriverWait(self.driver, 30)
-        self.driver.find_element_by_css_selector("a.new-hr-auth-Form_Button-enter").click()
+        self.driver.find_element_by_css_selector(
+            "#index-page-container > div > div.HeadBanner.with-her > div > div > div.HeadBanner-ButtonsWrapper > a.button2.button2_size_mail-big.button2_theme_mail-white.button2_type_link.HeadBanner-Button.HeadBanner-Button-Enter.with-shadow").click()
         self.driver.find_element_by_name("login").send_keys("vratch.glav@yandex.ru")
         self.driver.find_element_by_name("passwd").send_keys("Testng1991")
         self.driver.find_element_by_css_selector("button.passport-Button").click()
@@ -55,8 +56,9 @@ class DataMail(object):
 
     def login_in_accaunt_user_Paymnotyandex_delete_all_mail(self):
         wait = WebDriverWait(self.driver, 30)
-        self.driver.find_element_by_css_selector("a.new-hr-auth-Form_Button-enter").click()
-        self.driver.find_element_by_css_selector("span.passport-Domik-Link").click()
+        self.driver.find_element_by_css_selector(
+            "#index-page-container > div > div.HeadBanner.with-her > div > div > div.HeadBanner-ButtonsWrapper > a.button2.button2_size_mail-big.button2_theme_mail-white.button2_type_link.HeadBanner-Button.HeadBanner-Button-Enter.with-shadow").click()
+        # self.driver.find_element_by_css_selector("span.passport-Domik-Link").click()
         self.driver.find_element_by_name("login").send_keys("paym.not@yandex.ru")
         self.driver.find_element_by_name("passwd").send_keys("Testng1991")
         self.driver.find_element_by_css_selector("button.passport-Button").click()
