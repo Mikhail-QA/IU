@@ -22,7 +22,7 @@ from POM.user import PaymNotYandexRu
 
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в виджете Флешка")
-# @pytest.mark.skip(reason="Убрали Флешку из проекта")
+@pytest.mark.skip(reason="Убрали Флешку из проекта")
 class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
     @allure.step("Нажать на кнопку Флешка")
     def test_001_open_popup_flash(self):
