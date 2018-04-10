@@ -10,6 +10,7 @@ URL: https://interneturok.ru/"	На странице отображаются: h
 URL:
 """
 
+import pytest
 import time
 import allure
 from selenium.webdriver.common.by import By
