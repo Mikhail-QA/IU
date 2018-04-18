@@ -10,7 +10,7 @@ class StartInterneturok(unittest.TestCase):
         self.driver.implicitly_wait(40)
         self.driver.maximize_window()
         self.driver.get("https://staging.interneturok.ru")
-        time.sleep(2)
+        time.sleep(3)
         self.verificationErrors = []
 
 
@@ -61,7 +61,7 @@ class StartInterneturokClassMethod(unittest.TestCase):
         cls.driver.implicitly_wait(40)
         cls.driver.maximize_window()
         cls.driver.get("https://staging.interneturok.ru/")
-        time.sleep(2)
+        time.sleep(3)
         cls.verificationErrors = []
 
     def is_element_present(self, how, what):
