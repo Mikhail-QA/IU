@@ -5,7 +5,7 @@ class URLPaidLesson(object):
     def __init__(self, driver):
         self.driver = driver
 
-    def go_algebra_8_grade_video(self):
+    def go_chemistry_8_grade_video(self):
         self.driver.get(
             "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov")
         time.sleep(2)
