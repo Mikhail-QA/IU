@@ -8,7 +8,7 @@ from POM.pageprofile import PageProfile
 
 
 @allure.feature("Покупка абонемента")
-@allure.story("Регистрируюсь, покупаю абонемент за 100 рублей с выкл автоплатежом")
+@allure.story("Регистрация, покупка абонемента за 100 рублей с выкл автоплатежом")
 class CreateAccountAndBuyTicket100NoAutoPayment(StartInterneturok):
     def test_buy_ticket_per_100_rubles(self):
         driver = self.driver
