@@ -18,7 +18,7 @@ class SignInAndExtendSubscription(StartInterneturok):
         profile_steps = PageProfile(driver)
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
-        with allure.step("Ввожу email/password"):
+        with allure.step("Ввожу email=paym.not@yandex.ru/password=123456"):
             user_steps.enter_email()
             user_steps.enter_password()
         with allure.step("Нажать на кнопку Авторизоваться"):
