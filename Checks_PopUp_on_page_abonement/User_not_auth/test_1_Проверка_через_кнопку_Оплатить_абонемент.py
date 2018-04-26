@@ -5,7 +5,7 @@ from POM.page_abonement import URLAbonement
 
 
 @allure.feature("Поп-апы для не авторизованного пользователя")
-@allure.story("Проверяю на странице абонемент появления поп-апов при клике на кнопку Оплатить абонемент")
+@allure.story("Проверить на странице абонемент появления поп-апов при клике на кнопку Оплатить абонемент")
 class ClickButtonBuyTicketOnPageAbonement(StartInterneturokClassMethod):
 
     def test_click_button_buy_ticket_in_header(self):
