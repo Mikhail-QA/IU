@@ -46,6 +46,7 @@ class PageProfile(object):
 
     def go_to_my_profile(self):
         self.driver.get("https://staging.interneturok.ru/profile")
+        time.sleep(1)
 
     def go_to_my_profile_edit(self):
         self.driver.get("https://staging.interneturok.ru/profile/edit")
