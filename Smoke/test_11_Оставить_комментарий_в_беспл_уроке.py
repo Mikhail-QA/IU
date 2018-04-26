@@ -20,12 +20,12 @@ class SendCommentInFreeLesson(StartInterneturok):
         get_url = URLFreeLesson(driver)
         with allure.step("Нажать на кнопку Войти"):
             steps_page.go_to_sgnIn()
-        with allure.step("Ввожу email/password"):
+        with allure.step("Ввожу email=autopayment@mail.ru/password=123456"):
             user_steps.enter_email()
             user_steps.enter_password()
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
-        with allure.step("Перейти на урок"):
+        with allure.step("Перейти на урок =Обзор эволюционных представлений"):
             get_url.go_biology_11_grade_comment()
         with allure.step("На странице урока нажать на кнопку Комментарии"):
             user.click_button_comments()
