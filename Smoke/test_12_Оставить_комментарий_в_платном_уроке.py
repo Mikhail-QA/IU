@@ -20,12 +20,12 @@ class SendCommentInPayLesson(StartInterneturok):
         get_url = URLPaidLesson(driver)
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
-        with allure.step("Ввожу email/password"):
+        with allure.step("Ввожу email=paym.not@yandex.ru/password=123456"):
             user_steps.enter_email()
             user_steps.enter_password()
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
-        with allure.step("Перейти на урок"):
+        with allure.step("Перейти на урок =Урок 17. Вопрос 3. Выполняйте проверку в уравнениях и неравенствах."):
             get_url.go_algebra_11_grade_comment()
         with allure.step("На странице урока нажать на кнопку Комментарии"):
             user.click_link_comments()
