@@ -20,12 +20,12 @@ class CheckNoSubscriptionVideoInPayLesson(StartInterneturok):
         get_url = URLPaidLesson(driver)
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
-        with allure.step("Ввожу email/password"):
+        with allure.step("Ввожу email=autopayment@mail.ru/password=123456"):
             user_steps.enter_email()
             user_steps.enter_password()
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
-        with allure.step("Перейти на урок"):
+        with allure.step("Перейти на урок= Химические элементы. Символы химических элементов"):
             get_url.go_chemistry_8_grade_video()
         with allure.step("Проверить присутствие заглушки видеоурока"):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.video-blocker"))
