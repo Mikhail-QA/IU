@@ -10,7 +10,7 @@ from POM.page_paid_lesson import PagePaidLessonQuestion
 
 
 @allure.feature("Поп-апы для не авторизованного пользователя")
-@allure.story("Не авторизованным П проверяю в платном уроке появления поп-апов во всех местах кроме заглушки")
+@allure.story("Не авторизованным П проверить в платном уроке появления поп-апов во всех местах кроме заглушки")
 class CheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
 
     def test_click_button_play_in_stub_video(self):
