@@ -22,8 +22,8 @@ class CreateAccountAndBuyTicket100YesAutoPayment(StartInterneturok):
         with allure.step("В поп-апе регистрации нажать Зарегистрироваться"):
             steps_popup.go_to_popup_registration()
         with allure.step("Ввожу email/password"):
-            steps_user.reg_enter_email()
-            steps_user.reg_enter_password()
+            steps_user.reg_enter_email(user_name="vratch.glav@yandex.ru")
+            steps_user.reg_enter_password(password="123456")
         with allure.step("Нажать на кнопку Зарегистрироваться"):
             steps_popup.click_sign_up()
         with allure.step("Перейти в мой профиль"):

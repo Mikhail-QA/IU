@@ -45,10 +45,10 @@ class VratchGlavYandexRu(object):
     def __init__(self, driver):
         self.driver = driver
 
-    def reg_enter_email(self, user_name="vratch.glav@yandex.ru"):
+    def reg_enter_email(self, user_name):
         self.driver.find_element_by_xpath("//div/label[1]/input").send_keys(user_name)
 
-    def reg_enter_password(self, password="123456"):
+    def reg_enter_password(self, password):
         self.driver.find_element_by_xpath("//div/label[2]/input").send_keys(password)
 
     def enter_email(self, user_name="vratch.glav@yandex.ru"):
