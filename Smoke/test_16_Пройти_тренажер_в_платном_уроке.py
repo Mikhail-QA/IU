@@ -20,13 +20,13 @@ class PassSimulatorInPayLesson(StartInterneturok):
         get_url = URLPaidLesson(driver)
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
-        with allure.step("Ввожу email/password"):
+        with allure.step("Ввожу email=paym.not@yandex.ru/password=123456"):
             user_steps.enter_email()
             user_steps.enter_password()
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
-        with allure.step("Перейти на урок"):
-            get_url.go_algebra_8_grade_trainers()
+        with allure.step("Перейти на урок =Плотность"):
+            get_url.go_physics_7_grade_trainers()
         with allure.step("Нажать на кнопку Пройти"):
             steps_exercise.go_exercise()
         with allure.step("Начать отвечать на ответы в Тренажере"):
