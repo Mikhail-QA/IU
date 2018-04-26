@@ -6,13 +6,13 @@ from POM.url_lesson import URLFreeLesson
 
 
 @allure.feature("Плеер Ютуб")
-@allure.story("Проверяю воспроизведения видео в плеере YouTube")
+@allure.story("Проверить воспроизведения видео в плеере YouTube")
 class PlayVideoYouTube(StartInterneturok):
     def test_video_plays_youtube(self):
         driver = self.driver
         steps_video = PageFreeLessonCheckVideo(driver)
         ger_url = URLFreeLesson(driver)
-        with allure.step("Перейти на урок"):
+        with allure.step("Перейти на урок =Когда нам трудно выбирать: парадокс Кондорсе"):
             ger_url.go_lesson_in_YouTube_player()
         with allure.step("Нажать на область превью"):
             steps_video.click_play_video_YouTube()
