@@ -32,7 +32,7 @@ class CheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока во вкалдку Вопросы к уроку"):
-            url_get.go_algebra_8_grade_questions()
+            url_get.go_chemistry_8_grade_questions()
         with allure.step("Нажать на кнопку Комментировать"):
             step_user.click_button_comment()
         with allure.step("Поп-ап Регистрации появился"):
@@ -75,7 +75,7 @@ class CheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока"):
-            url_get.go_algebra_8_grade_questions()
+            url_get.go_chemistry_8_grade_questions()
         with allure.step("В подвале сайта нажать на кнопку В Избранное"):
             step_user.click_button_favourites()
         with allure.step("Поп-ап Авторизации появился"):
@@ -88,7 +88,7 @@ class CheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока"):
-            url_get.go_algebra_8_grade_questions()
+            url_get.go_chemistry_8_grade_questions()
         with allure.step("В подвале сайта нажать на кнопку Оценить урок"):
             step_user.click_button_value_lesson()
         with allure.step("Поп-ап Авторизации появился"):
@@ -101,7 +101,7 @@ class CheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока"):
-            url_get.go_algebra_8_grade_questions()
+            url_get.go_chemistry_8_grade_questions()
         with allure.step("Нажать на кнопку Комментарии"):
             step_user.click_link_comments()
         with allure.step("Нажать на кнопку Отправить"):

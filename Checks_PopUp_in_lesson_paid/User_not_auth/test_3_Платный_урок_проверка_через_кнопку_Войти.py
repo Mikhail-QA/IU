@@ -52,7 +52,7 @@ class ClickButtonSignInPayLesson(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока во вкалдку Тесты"):
-            url_get.go_algebra_8_grade_questions()
+            url_get.go_chemistry_8_grade_questions()
         with allure.step("В заглушке нажать на кнопку Войти"):
             step_user.click_button_sign_in_stubs()
         with allure.step("Поп-ап Авторизации появился"):
