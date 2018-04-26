@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 
 
 @allure.feature("Почтовые уведомления")
-@allure.story("Авторизоваться подтверить почту в мылке и проверить исчезновение нотификации у пользователя")
+@allure.story("Авторизоваться подтверить почту в мыле и проверить исчезновение нотификации у пользователя")
 class LoginAndConfirmTheMail(StartYandexMail):
     def test_confirm_the_mail(self):
         driver = self.driver
@@ -26,7 +26,7 @@ class LoginAndConfirmTheMail(StartYandexMail):
             steps_main.go_to_internetUrok()
         with allure.step("Нажать на кнопку Войти"):
             steps_main.go_to_sgnIn()
-        with allure.step("Ввожу email/password"):
+        with allure.step("Ввожу email=paym.not@yandex.ru/password=123456"):
             steps_user.enter_email()
             steps_user.enter_password()
         with allure.step("Нажать на кнопку Авторизоваться"):
