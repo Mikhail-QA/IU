@@ -26,7 +26,7 @@ class WriteNoteInPayLesson(StartInterneturok):
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
         with allure.step("Перейти на урок"):
-            get_url.go_algebra_8_grade_video()
+            get_url.go_chemistry_8_grade_video()
         with allure.step("На странице урока нажать на виджет Заметка"):
             notes_steps.open_notes()
         with allure.step("В поле ввода ввести текст Hello"):

@@ -26,7 +26,7 @@ class CheckNoSubscriptionVideoInPayLesson(StartInterneturok):
         with allure.step("Нажать на кнопку Авторизоваться"):
             popup_steps.click_button_login()
         with allure.step("Перейти на урок"):
-            get_url.go_algebra_8_grade_video()
+            get_url.go_chemistry_8_grade_video()
         with allure.step("Проверить присутствие заглушки видеоурока"):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.video-blocker"))
 

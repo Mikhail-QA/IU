@@ -19,7 +19,7 @@ class CheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
         get_url = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока во вкалдку Видеоурок"):
-            get_url.go_algebra_8_grade_video()
+            get_url.go_chemistry_8_grade_video()
         with allure.step("Нажать на кнопку Плей"):
             step_user.click_button_play_video()
         with allure.step("Поп-ап Регистрации Появился"):

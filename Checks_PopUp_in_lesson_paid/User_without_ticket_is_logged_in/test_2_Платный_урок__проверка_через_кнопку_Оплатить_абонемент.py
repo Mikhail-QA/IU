@@ -27,7 +27,7 @@ class UserAuthClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
         with allure.step("В поп-апе авторизации Нажать на кнопку Войти"):
             click_enter.click_button_login()
         with allure.step("Перейти на страницу урока во вкалдку Видеоурок"):
-            url_get.go_algebra_8_grade_video()
+            url_get.go_chemistry_8_grade_video()
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_stubs()
         with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
