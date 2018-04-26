@@ -8,7 +8,7 @@ from POM.setUp import StartInterneturok
 
 
 @allure.feature("Покупка абонемента")
-@allure.story("Регистрируюсь, покупаю абонемент за 900 рублей с вкл автоплатежом")
+@allure.story("Регистрация, покупка абонемента за 900 рублей с вкл автоплатежом")
 class CreateAccountAndBuyTicket900YesAutoPayment(StartInterneturok):
     def test_buy_ticket_per_900_rubles(self):
         driver = self.driver
@@ -21,7 +21,7 @@ class CreateAccountAndBuyTicket900YesAutoPayment(StartInterneturok):
             steps_main.go_to_sgnIn()
         with allure.step("В поп-апе регистрации нажать Зарегистрироваться"):
             steps_popup.go_to_popup_registration()
-        with allure.step("Ввожу email/password"):
+        with allure.step("Ввожу email=payment.not@mail.ru/password=123456"):
             steps_user.reg_enter_email()
             steps_user.reg_enter_password()
         with allure.step("Нажать на кнопку Зарегистрироваться"):
