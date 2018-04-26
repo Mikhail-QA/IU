@@ -27,7 +27,7 @@ class ClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока во вкалдку Тренажёры"):
-            url_get.go_algebra_8_grade_trainers()
+            url_get.go_physics_7_grade_trainers()
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_stubs()
         with allure.step("Поп-ап Регистрации появился"):

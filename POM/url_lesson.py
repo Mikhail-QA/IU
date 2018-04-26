@@ -10,7 +10,7 @@ class URLPaidLesson(object):
             "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov")
         time.sleep(2)
 
-    def go_algebra_8_grade_trainers(self):
+    def go_physics_7_grade_trainers(self):
         self.driver.get(
             "https://staging.interneturok.ru/physics/7-klass/vzaimodejstvie-tel/plotnost/trainers")
         time.sleep(2)
