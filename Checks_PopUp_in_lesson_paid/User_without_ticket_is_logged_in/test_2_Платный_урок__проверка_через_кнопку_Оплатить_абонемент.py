@@ -8,7 +8,7 @@ from POM.user import AutopaymentMailRu
 
 
 @allure.feature("Поп-апы для авторизованного пользователя без абонемента")
-@allure.story("Авторизованный П проверяю в платном уроке появления поп-апов при клике на кнопку Оплатить абонемент")
+@allure.story("Авторизованный П проверить в платном уроке появления поп-апов при клике на кнопку Оплатить абонемент")
 class UserAuthClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
 
     def test_000_click_button_buy_ticket_in_stub_video(self):

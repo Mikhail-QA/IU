@@ -5,7 +5,7 @@ from POM.url_lesson import URLPaidLesson
 
 
 @allure.feature("Поп-апы для не авторизованного пользователя")
-@allure.story("Не авторизованным П проверяю в платном уроке появления поп-апов при клике на кнопку Оплатить абонемент")
+@allure.story("Не авторизованным П проверить в платном уроке появления поп-апов при клике на кнопку Оплатить абонемент")
 class ClickButtonBuyTicketInPayLesson(StartInterneturokClassMethod):
 
     def test_click_button_buy_ticket_in_stub_video(self):
