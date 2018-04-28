@@ -41,7 +41,7 @@ class URLFreeLesson(object):
 
     def go_biology_11_grade_comment(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/evolyucionnoe-uchenieobzor-evolyutsionnyh-predstavleniy/3619")
+            "https://staging.interneturok.ru/urok/evolyucionnoe-uchenieobzor-evolyutsionnyh-predstavleniy/3619/testcases")
         # "https://staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy")
         time.sleep(2)
 
