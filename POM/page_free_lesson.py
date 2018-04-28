@@ -32,6 +32,7 @@ class PageFreeLessonQuestion(object):
 
     def ask_question(self):
         self.driver.find_element_by_name("text").send_keys("Привет Yonga")
+        time.sleep(1)
 
     def post_question(self):
         self.driver.find_element_by_css_selector("button.comment__button").click()
