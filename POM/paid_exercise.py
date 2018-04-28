@@ -95,4 +95,4 @@ class Exercise(object):
 
     def click_button_finish(self):
         self.driver.find_element_by_css_selector("body > div.arcticmodal-container > table > tbody > tr > td > div > div > div.b-popup__footer.b-practice__actions > div > a").click()
-        time.sleep(1)
+        time.sleep(1.5)
