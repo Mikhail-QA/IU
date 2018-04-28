@@ -47,7 +47,7 @@ class URLFreeLesson(object):
 
     def go_biology_11_grade_questions(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/evolyucionnoe-uchenierazvitie-evolyutsionnyh-vzglyadov-v-dodarvinovskiy-period/4889")
+            "https://staging.interneturok.ru/urok/evolyucionnoe-uchenierazvitie-evolyutsionnyh-vzglyadov-v-dodarvinovskiy-period/4889/questions")
         # "https://staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/razvitie-evolyutsionnyh-vzglyadov-v-dodarvinovskiy-period/questions")
         time.sleep(2)
 
