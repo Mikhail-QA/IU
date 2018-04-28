@@ -17,7 +17,7 @@ class PageFreeLessonComment(object):
 
     def post_comment(self):
         self.driver.find_element_by_css_selector("button.comment__button").click()
-        time.sleep(2)
+        time.sleep(3)
 
     def delete_comment(self):
         self.driver.find_element_by_xpath("//div/div[2]/div/span[3]").click()
