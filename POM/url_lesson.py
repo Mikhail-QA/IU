@@ -24,7 +24,7 @@ class URLPaidLesson(object):
 
     def go_chemistry_8_grade_questions(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/bpervonachalnye-himicheskie-predstavleniyabhimicheskie-elementy-simvoly-himicheskih-elementov/12712")
+            "https://staging.interneturok.ru/urok/bpervonachalnye-himicheskie-predstavleniyabhimicheskie-elementy-simvoly-himicheskih-elementov/12712/questions")
         # "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/questions")
         time.sleep(2)
 
