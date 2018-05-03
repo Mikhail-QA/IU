@@ -69,7 +69,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
 
     @allure.step("Проверка на статичной странице")
     def test_meta_teg_in_static_page(self):
-        URL = "https://staging.interneturok.ru/article/how-you-can-use-interneturok"
+        URL = "https://staging.interneturok.ru/statya/how-you-can-use-interneturok"
         driver = self.driver
         driver.get(URL)
         time.sleep(2)
