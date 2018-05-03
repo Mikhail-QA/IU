@@ -13,13 +13,13 @@ class URLPaidLesson(object):
 
     def go_physics_7_grade_trainers(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/vzaimodejstvie-telplotnost/442/trainers?block=null")
+            "https://staging.interneturok.ru/urok/vzaimodejstvie-telplotnost/442/trainers")
         # "https://staging.interneturok.ru/physics/7-klass/vzaimodejstvie-tel/plotnost/trainers")
         time.sleep(2)
 
     def go_algebra_8_grade_test(self):
         self.driver.get(
-            "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/testcases")
+            "https://staging.interneturok.ru/urok/algebraicheskie-drobi-arifmeticheskie-operacii-nad-algebraicheskimi-drobyamiosnovnye-ponyatiya/75/testcases")
         time.sleep(2)
 
     def go_chemistry_8_grade_questions(self):
@@ -53,7 +53,7 @@ class URLFreeLesson(object):
 
     def go_biology_7_grade_test(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/zhivotnye-ploskie-chervilentochnye-chervi/324/testcases?block=null")
+            "https://staging.interneturok.ru/urok/zhivotnye-ploskie-chervilentochnye-chervi/324/testcases")
         # "https://staging.interneturok.ru/biology/7-klass/zhivotnye-ploskie-chervi/lentochnye-chervi/testcases")
         time.sleep(2)
 
