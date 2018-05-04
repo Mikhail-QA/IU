@@ -9,7 +9,7 @@ from POM.user import VratchGlavYandexRu
 
 
 @allure.feature("Отключить автоплатёж")
-@allure.story("Пользовательм оставить отзыв и убедиться приходу отзыва на почту Менеджера ИУ")
+@allure.story("Авторизоваться П с вкл автоплатежом и отключить автопродление в ЛК")
 class DisableAutoPayment(StartInterneturok):
     def test_user_off_auto_payment(self):
         driver = self.driver
