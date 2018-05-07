@@ -19,20 +19,20 @@ class Paid_lesson_page(object):
 
     def go_lesson_page(self):
         self.driver.get(
-            "https://staging.interneturok.ru/algebra/7-klass/glava-5-razlozhenie-mnogochlenov-na-mnozhiteli/algebraicheskie-drobi-sokraschenie-algebraicheskih-drobey")
+            "https://staging.interneturok.ru/urok/bpovtorenie-kursa-algebry-10-klassabtrigonometricheskie-funktsii-y-sin-t-y-cos-t/271")
         time.sleep(1)
 
     def go_lesson_page_tab_trainers(self):
         self.driver.get(
-            "https://staging.interneturok.ru/algebra/7-klass/glava-5-razlozhenie-mnogochlenov-na-mnozhiteli/algebraicheskie-drobi-sokraschenie-algebraicheskih-drobey/trainers")
+            "https://staging.interneturok.ru/urok/bpovtorenie-kursa-algebry-10-klassabtrigonometricheskie-funktsii-y-sin-t-y-cos-t/271/trainers")
         time.sleep(1)
 
     def go_lesson_page_tab_test(self):
         self.driver.get(
-            "https://staging.interneturok.ru/algebra/7-klass/glava-5-razlozhenie-mnogochlenov-na-mnozhiteli/algebraicheskie-drobi-sokraschenie-algebraicheskih-drobey/testcases")
+            "https://staging.interneturok.ru/urok/bpovtorenie-kursa-algebry-10-klassabtrigonometricheskie-funktsii-y-sin-t-y-cos-t/271/testcases")
         time.sleep(1)
 
     def go_lesson_page_tab_question(self):
         self.driver.get(
-            "https://staging.interneturok.ru/algebra/7-klass/glava-5-razlozhenie-mnogochlenov-na-mnozhiteli/algebraicheskie-drobi-sokraschenie-algebraicheskih-drobey/questions")
+            "https://staging.interneturok.ru/urok/bpovtorenie-kursa-algebry-10-klassabtrigonometricheskie-funktsii-y-sin-t-y-cos-t/271/questions")
         time.sleep(1)
