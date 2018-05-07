@@ -4,7 +4,7 @@ from Web_services.URL import PaidLessonPage
 from Web_services.SetUp import StartInterneturokClassMethod
 
 
-@allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
+@allure.feature("Страница урока Тригонометрические функции y = sin t, y = cos t (Алгебра 11 класс)")
 @allure.story("Проверка наличия элементов в Body во вкладке Видеоурок для не авторизованного пользователя")
 class ChecksAllElementsInLessonPageTheBodyTabVideoUserNotAuth(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
@@ -15,7 +15,8 @@ class ChecksAllElementsInLessonPageTheBodyTabVideoUserNotAuth(StartInterneturokC
 
     @allure.step("На странице урока отображается название урока (Основные понятия)")
     def test_lesson_title(self):
-        self.assertEqual("Основные понятия", self.driver.find_element_by_css_selector("h1.lesson-title").text)
+        self.assertEqual("Тригонометрические функции y = sin t, y = cos t",
+                         self.driver.find_element_by_css_selector("h1.lesson-title").text)
 
     @allure.step("На странице урока отображается кнопка перейти на предыдущий урок (Кнопка влево)")
     def test_lesson_arrow_left(self):
@@ -95,7 +96,7 @@ class ChecksAllElementsInLessonPageTheBodyTabVideoUserNotAuth(StartInterneturokC
 
     @allure.step("В конспекте присутствуют ссылки с таймлайнами (Определение и примеры алгебраических дробей)")
     def test_displayed_lesson_subtitle(self):
-        self.assertEqual("Определение и примеры алгебраических дробей",
+        self.assertEqual("1. Определение функции",
                          self.driver.find_element_by_xpath("//h2[1]/a").text)
 
     @allure.step(
@@ -115,7 +116,7 @@ class ChecksAllElementsInLessonPageTheBodyTabVideoUserNotAuth(StartInterneturokC
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (47))")
     def test_displayed_lesson_footer_button_comment(self):
-        self.assertEqual("Комментарии (47)",
+        self.assertEqual("Комментарии (9)",
                          self.driver.find_element_by_id("comments-link").text)
         with allure.step("В кнопке Комментарии (47) присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-comments"))
@@ -186,3 +187,8 @@ class ChecksAllElementsInLessonPageTheBodyTabVideoUserNotAuth(StartInterneturokC
     @allure.step("В уроке в конце конспекта отображается блок оценки урока (Одноклассники)")
     def test_displayed_lesson_footer_button_social_od(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.social__ok"))
+
+    @allure.step("Проверка наличия кнопки (Подготовка к ЕГЭ) в 11 классе Алгебра")
+    def test_displayed_button_preparation_the_EGE(self):
+        self.assertEqual(u"Подготовка к ЕГЭ", self.driver.find_element_by_css_selector(
+            ".ember-view > div > ul > li.lesson-controls__wrap.lc-ege > a").text)
