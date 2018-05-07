@@ -13,9 +13,10 @@ class ChecksAllElementsInLessonPageTheBodyTabTrainersUserNotAuth(StartInternetur
         go_page = PaidLessonPage(StartInterneturokClassMethod)
         go_page.go_lesson_page_tab_trainers()
 
-    @allure.step("На странице урока отображается название урока (Основные понятия)")
+    @allure.step("На странице урока отображается название урока (Тригонометрические функции y = sin t, y = cos t)")
     def test_lesson_title(self):
-        self.assertEqual("Основные понятия", self.driver.find_element_by_css_selector("h1.lesson-title").text)
+        self.assertEqual("Тригонометрические функции y = sin t, y = cos t",
+                         self.driver.find_element_by_css_selector("h1.lesson-title").text)
 
     @allure.step("На странице урока отображается кнопка перейти на предыдущий урок (Кнопка влево)")
     def test_lesson_arrow_left(self):
@@ -103,31 +104,31 @@ class ChecksAllElementsInLessonPageTheBodyTabTrainersUserNotAuth(StartInternetur
             self.assertEqual("Пройти", self.driver.find_element_by_css_selector(
                 ".practices-list  > li:nth-child(1) > div.col-action > span > button").text)
 
-    @allure.step("Во вкладке Тренажеры отображается (Тренажёр 2)")
-    def test_button_trainers_two(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, ".practices-list > li:nth-child(2)"))
-        with allure.step("В блоке тренажеров урока отображается текст (Тренажер 2)"):
-            self.assertEqual("Тренажёр 2", self.driver.find_element_by_css_selector(
-                ".practices-list > li:nth-child(2) .practices-list__item-name").text)
-        with allure.step("В блоке тренажеров урока отображается текст (Не пройден)"):
-            self.assertEqual("Не пройден", self.driver.find_element_by_css_selector(
-                ".practices-list > li:nth-child(2) .b-table-practices__result").text)
-        with allure.step("В блоке тренажеров урока отображается кнопка (Пройти)"):
-            self.assertEqual("Пройти", self.driver.find_element_by_css_selector(
-                ".practices-list  > li:nth-child(2) > div.col-action > span > button").text)
-
-    @allure.step("Во вкладке Тренажеры отображается (Тренажёр 3)")
-    def test_button_trainers_three(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, ".practices-list > li:nth-child(3)"))
-        with allure.step("В блоке тренажеров урока отображается текст (Тренажер 3)"):
-            self.assertEqual("Тренажёр 3", self.driver.find_element_by_css_selector(
-                ".practices-list > li:nth-child(3) .practices-list__item-name").text)
-        with allure.step("В блоке тренажеров урока отображается текст (Не пройден)"):
-            self.assertEqual("Не пройден", self.driver.find_element_by_css_selector(
-                ".practices-list > li:nth-child(3) .b-table-practices__result").text)
-        with allure.step("В блоке тренажеров урока отображается кнопка (Пройти)"):
-            self.assertEqual("Пройти", self.driver.find_element_by_css_selector(
-                ".practices-list  > li:nth-child(3) > div.col-action > span > button").text)
+    # @allure.step("Во вкладке Тренажеры отображается (Тренажёр 2)")
+    # def test_button_trainers_two(self):
+    #     self.assertTrue(self.is_element_present(By.CSS_SELECTOR, ".practices-list > li:nth-child(2)"))
+    #     with allure.step("В блоке тренажеров урока отображается текст (Тренажер 2)"):
+    #         self.assertEqual("Тренажёр 2", self.driver.find_element_by_css_selector(
+    #             ".practices-list > li:nth-child(2) .practices-list__item-name").text)
+    #     with allure.step("В блоке тренажеров урока отображается текст (Не пройден)"):
+    #         self.assertEqual("Не пройден", self.driver.find_element_by_css_selector(
+    #             ".practices-list > li:nth-child(2) .b-table-practices__result").text)
+    #     with allure.step("В блоке тренажеров урока отображается кнопка (Пройти)"):
+    #         self.assertEqual("Пройти", self.driver.find_element_by_css_selector(
+    #             ".practices-list  > li:nth-child(2) > div.col-action > span > button").text)
+    #
+    # @allure.step("Во вкладке Тренажеры отображается (Тренажёр 3)")
+    # def test_button_trainers_three(self):
+    #     self.assertTrue(self.is_element_present(By.CSS_SELECTOR, ".practices-list > li:nth-child(3)"))
+    #     with allure.step("В блоке тренажеров урока отображается текст (Тренажер 3)"):
+    #         self.assertEqual("Тренажёр 3", self.driver.find_element_by_css_selector(
+    #             ".practices-list > li:nth-child(3) .practices-list__item-name").text)
+    #     with allure.step("В блоке тренажеров урока отображается текст (Не пройден)"):
+    #         self.assertEqual("Не пройден", self.driver.find_element_by_css_selector(
+    #             ".practices-list > li:nth-child(3) .b-table-practices__result").text)
+    #     with allure.step("В блоке тренажеров урока отображается кнопка (Пройти)"):
+    #         self.assertEqual("Пройти", self.driver.find_element_by_css_selector(
+    #             ".practices-list  > li:nth-child(3) > div.col-action > span > button").text)
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Информация об уроке)")
     def test_displayed_lesson_footer_button_info(self):
@@ -136,11 +137,11 @@ class ChecksAllElementsInLessonPageTheBodyTabTrainersUserNotAuth(StartInternetur
         with allure.step("В кнопке Информация об уроке присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-info"))
 
-    @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (47))")
+    @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (9))")
     def test_displayed_lesson_footer_button_comment(self):
-        self.assertEqual("Комментарии (47)",
+        self.assertEqual("Комментарии (9)",
                          self.driver.find_element_by_id("comments-link").text)
-        with allure.step("В кнопке Комментарии (47) присутствует иконка "):
+        with allure.step("В кнопке Комментарии (9) присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-comments"))
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Поделиться)")
