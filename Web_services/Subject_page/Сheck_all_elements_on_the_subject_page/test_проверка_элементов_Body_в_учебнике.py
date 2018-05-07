@@ -10,8 +10,8 @@ from Web_services.URL import SubjectPage
 from POM.page_paid_subject_grades import PaidLessonAlgebra8
 
 
-@allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
-@allure.story("Проверка наличия элементов в Body в учебнике (Алгебра 8 класс (Мордкович А.Г.)")
+@allure.feature("Страница Предмет-Класс (Алгебра 11 класс)")
+@allure.story("Проверка наличия элементов в Body в учебнике (Алгебра 11 класс (Мордкович А.Г.)")
 class ChecksAllElementsInSubjectPageTheBodyInOpenBook(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
     def test_000_open_page(self):
@@ -41,18 +41,18 @@ class ChecksAllElementsInSubjectPageTheBodyInOpenBook(StartInterneturokClassMeth
     def test_switcher_link_right(self):
         self.assertTrue(self.driver.find_element_by_css_selector("a.subject-nav_next"))
 
-    @allure.step("Над учебниками отображается текст (Алгебра 8 класс (Мордкович А.Г.))")
+    @allure.step("Над учебниками отображается текст (Алгебра 11 класс (Мордкович А.Г.))")
     def test_text_name_books(self):
-        self.assertEqual(u"Алгебра 8 класс (Мордкович А.Г.)",
+        self.assertEqual(u"Алгебра 11 класс (Мордкович А.Г.)",
                          self.driver.find_element_by_css_selector("span.subject-book__title").text)
 
-    @allure.step("На странице отображается книга (Алгебра 8 класс (Мордкович А.Г.))")
+    @allure.step("На странице отображается книга (Алгебра 11 класс (Мордкович А.Г.))")
     def test_books_item_one(self):
         self.assertTrue(
             self.driver.find_element_by_css_selector(
                 ".subject-book__body-inner:nth-child(1) .subject-book:nth-child(1)"))
 
-    @allure.step("На странице отображается книга (Алгебра 8 класс (Макарычев Ю.Н.))")
+    @allure.step("На странице отображается книга (Алгебра 11 класс (Колмогоров А.Н.))")
     def test_books_item_two(self):
         self.assertTrue(
             self.driver.find_element_by_css_selector(
