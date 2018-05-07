@@ -13,9 +13,10 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
         go_page = PaidLessonPage(StartInterneturokClassMethod)
         go_page.go_lesson_page_tab_question()
 
-    @allure.step("На странице урока отображается название урока (Основные понятия)")
+    @allure.step("На странице урока отображается название урока (Тригонометрические функции y = sin t, y = cos t)")
     def test_lesson_title(self):
-        self.assertEqual("Основные понятия", self.driver.find_element_by_css_selector("h1.lesson-title").text)
+        self.assertEqual("Тригонометрические функции y = sin t, y = cos t",
+                         self.driver.find_element_by_css_selector("h1.lesson-title").text)
 
     @allure.step("На странице урока отображается кнопка перейти на предыдущий урок (Кнопка влево)")
     def test_lesson_arrow_left(self):
@@ -95,8 +96,8 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
                     "img.comment__user-image").get_attribute("src"))
         with allure.step("Во списке вопросов у П под аватаркой отображается роль (Ученик)"):
             self.assertEqual("Ученик", self.driver.find_element_by_css_selector("div.comment__col").text)
-        with allure.step("Во вопросе отображается имя П (Пользователь 766062)"):
-            self.assertEqual("Пользователь 766062",
+        with allure.step("Во вопросе отображается имя П (ทดสอบนะจ๊ะ)"):
+            self.assertEqual("ทดสอบนะจ๊ะ",
                              self.driver.find_element_by_css_selector("span.comment__username").text)
         with allure.step(
                 "Во вопросе отображается текст вопроса (Потчему в примере 11 после сокращения Y оставшееся 2 - от 7 не +?)"):
@@ -124,11 +125,11 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
         with allure.step("В кнопке Информация об уроке присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-info"))
 
-    @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (47))")
+    @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (9))")
     def test_displayed_lesson_footer_button_comment(self):
-        self.assertEqual("Комментарии (47)",
+        self.assertEqual("Комментарии (9)",
                          self.driver.find_element_by_id("comments-link").text)
-        with allure.step("В кнопке Комментарии (47) присутствует иконка "):
+        with allure.step("В кнопке Комментарии (9) присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-comments"))
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Поделиться)")
