@@ -11,7 +11,7 @@ from Web_services.URL import SubjectPage
 from Web_services.SetUp import StartInterneturokClassMethod
 
 
-@allure.feature("Страница Предмет-Класс (Алгебра 8 класс)")
+@allure.feature("Страница Предмет-Класс (Алгебра 11 класс)")
 @allure.story("Проверка наличия элементов в Header для не авторизованного пользователя")
 class ChecksAllElementsInSubjectPageTheHeadersUserNotAuth(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
