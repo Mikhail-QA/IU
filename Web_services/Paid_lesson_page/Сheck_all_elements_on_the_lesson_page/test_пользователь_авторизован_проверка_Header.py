@@ -7,7 +7,7 @@ from POM.main_page import MainPage
 from Web_services.URL import PaidLessonPage
 
 
-@allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
+@allure.feature("Страница урока Основные понятия (Алгебра 11 класс)")
 @allure.story("Проверка наличия элементов в Header для авторизованного пользователя")
 class ChecksAllElementsInLessonPageTheHeadersUserAuth(StartInterneturokClassMethod):
     @allure.step("Авторизоваться пользователем")
