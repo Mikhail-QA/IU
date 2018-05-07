@@ -37,7 +37,7 @@ class ChecksAllInteractiveElementsOnLessonPage(StartInterneturokClassMethod):
         with allure.step("Отображается открытый блоке (Информация об уроке)"):
             self.assertTrue(self.is_element_present(By.ID, "info"))
         with allure.step("В блоке (Информация об уроке) отображается текст (Год съемки: 2010)"):
-            self.assertEqual("Год съемки: 2010\nУчитель:  Тарасов Валентин Алексеевич",
+            self.assertEqual("Год съемки: 2011\nУчитель:  Тарасов Валентин Алексеевич",
                              self.driver.find_element_by_id("info").text)
         with allure.step("В открытом блоке отображается кнопка закрыть (Крестик)"):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "#info > a"))
