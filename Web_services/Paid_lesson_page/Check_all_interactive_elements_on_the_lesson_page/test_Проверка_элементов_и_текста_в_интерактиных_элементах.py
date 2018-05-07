@@ -2,7 +2,7 @@ import time
 import allure
 from selenium.webdriver.common.by import By
 from Web_services.SetUp import StartInterneturokClassMethod
-from Web_services.URL import Paid_lesson_page
+from Web_services.URL import PaidLessonPage
 from POM.page_paid_lesson import Notes, LessonFooter, PagePaidLessonComment
 
 
@@ -12,7 +12,7 @@ class ChecksAllInteractiveElementsOnLessonPage(StartInterneturokClassMethod):
     @allure.step("Проверка текста и элементов в открытой Заметки")
     def test_000_check_note(self):
         StartInterneturokClassMethod = self.driver
-        get_page_lesson = Paid_lesson_page(StartInterneturokClassMethod)
+        get_page_lesson = PaidLessonPage(StartInterneturokClassMethod)
         open_notes = Notes(StartInterneturokClassMethod)
 
         get_page_lesson.go_lesson_page_tab_trainers()

@@ -1,6 +1,6 @@
 import allure
 from selenium.webdriver.common.by import By
-from Web_services.URL import Paid_lesson_page
+from Web_services.URL import PaidLessonPage
 from Web_services.SetUp import StartInterneturokClassMethod
 
 
@@ -10,7 +10,7 @@ class ChecksAllElementsInLessonPageTheBodyTabTrainersUserNotAuth(StartInternetur
     @allure.step("Перейти на страницу Алгебра 8 класс")
     def test_000_open_page(self):
         StartInterneturokClassMethod = self.driver
-        go_page = Paid_lesson_page(StartInterneturokClassMethod)
+        go_page = PaidLessonPage(StartInterneturokClassMethod)
         go_page.go_lesson_page_tab_trainers()
 
     @allure.step("На странице урока отображается название урока (Основные понятия)")

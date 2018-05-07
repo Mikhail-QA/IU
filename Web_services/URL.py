@@ -13,7 +13,7 @@ class SubjectPage(object):
         self.driver.get("https://staging.interneturok.ru/literatura/8-klass")
 
 
-class Paid_lesson_page(object):
+class PaidLessonPage(object):
     def __init__(self, driver):
         self.driver = driver
 

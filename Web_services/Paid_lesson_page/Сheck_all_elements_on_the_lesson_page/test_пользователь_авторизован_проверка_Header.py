@@ -4,7 +4,7 @@ from Web_services.SetUp import StartInterneturokClassMethod
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.user import AutopaymentMailRu
 from POM.main_page import MainPage
-from Web_services.URL import Paid_lesson_page
+from Web_services.URL import PaidLessonPage
 
 
 @allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
@@ -16,7 +16,7 @@ class ChecksAllElementsInLessonPageTheHeadersUserAuth(StartInterneturokClassMeth
         steps_main = MainPage(StartInterneturokClassMethod)
         steps_user = AutopaymentMailRu(StartInterneturokClassMethod)
         steps_popup = PopupSignIn(StartInterneturokClassMethod)
-        go_page = Paid_lesson_page(StartInterneturokClassMethod)
+        go_page = PaidLessonPage(StartInterneturokClassMethod)
         steps_main.go_to_sgnIn()
         steps_user.enter_email()
         steps_user.enter_password()
