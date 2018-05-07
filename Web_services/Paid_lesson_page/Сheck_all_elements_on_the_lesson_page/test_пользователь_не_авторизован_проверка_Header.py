@@ -19,7 +19,7 @@ class ChecksAllElementsInLessonPageTheHeadersUserNotAuth(StartInterneturokClassM
 
     @allure.step("Кнопка возврата на страницу Предмет/Класс отображается (Алгебра,8)")
     def test_button_back_page_subject(self):
-        self.assertEqual("Алгебра,8", self.driver.find_element_by_css_selector("a.header__back").text)
+        self.assertEqual("Алгебра,11", self.driver.find_element_by_css_selector("a.header__back").text)
 
     @allure.step("Кнопка Предметы отображается")
     def test_button_subjects_displayed(self):
