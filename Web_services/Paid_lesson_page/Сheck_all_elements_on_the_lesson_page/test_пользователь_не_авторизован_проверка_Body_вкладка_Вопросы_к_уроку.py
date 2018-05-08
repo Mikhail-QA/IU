@@ -101,10 +101,11 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
                              self.driver.find_element_by_css_selector("span.comment__username").text)
         with allure.step(
                 "Во вопросе отображается текст вопроса (Потчему в примере 11 после сокращения Y оставшееся 2 - от 7 не +?)"):
-            self.assertEqual("Потчему в примере 11 после сокращения Y оставшееся 2 - от 7 не +?",
-                             self.driver.find_element_by_css_selector("p.comment__text").text)
+            self.assertEqual(
+                "помогите пожалуйста! я много смотрела видиоуроки, но их нет в статистике!! как можно их дабавить туда!",
+                self.driver.find_element_by_css_selector("p.comment__text").text)
         with allure.step("Во вопросе отображается дата опубликования вопроса (21.09.2017)"):
-            self.assertEqual("21.09.2017", self.driver.find_element_by_css_selector("span.comment__date").text)
+            self.assertEqual("07.05.2018", self.driver.find_element_by_css_selector("span.comment__date").text)
         with allure.step("Во вопросе отображается кнопка (Комментировать)"):
             self.assertEqual("Комментировать", self.driver.find_element_by_css_selector("span.comment__action").text)
 
