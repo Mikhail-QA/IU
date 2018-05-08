@@ -4,7 +4,7 @@ from Web_services.URL import PaidLessonPage
 from Web_services.SetUp import StartInterneturokClassMethod
 
 
-@allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
+@allure.feature("Страница урока Основные понятия (Алгебра 11 класс)")
 @allure.story("Проверка наличия элементов в Body во вкладке Вопросы к уроку для не авторизованного пользователя")
 class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
@@ -91,7 +91,7 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.questions-wrapper"))
         with allure.step("Во вкладке Вопросы к уроку отображается вопрос П в нём присутствует (аватарка П)"):
             self.assertEqual(
-                "https://staging-admin.interneturok.ru/assets/noavatar/pupil_big-5aa88a6733bcbd07444075b1bf99f12e1d4d38213cd7cc3a592f64954e0c000c.png",
+                "https://static-interneturok.cdnvideo.ru/avatar/big_9127a396759437995c897fd8abe816cf.png",
                 self.driver.find_element_by_css_selector(
                     "img.comment__user-image").get_attribute("src"))
         with allure.step("Во списке вопросов у П под аватаркой отображается роль (Ученик)"):
