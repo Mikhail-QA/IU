@@ -6,11 +6,11 @@ class SubjectPage(object):
         self.driver = driver
 
     def go_algebra_8_grade(self):
-        self.driver.get("https://staging.interneturok.ru/predmet/algebra/klass/8/8")
+        self.driver.get("https://staging.interneturok.ru/algebra/8-klass")
         time.sleep(1)
 
     def go_literature_8_grade(self):
-        self.driver.get("https://staging.interneturok.ru/predmet/literatura/klass/8/96")
+        self.driver.get("https://staging.interneturok.ru/literatura/8-klass")
 
 
 class PaidLessonPage(object):
@@ -19,20 +19,21 @@ class PaidLessonPage(object):
 
     def go_lesson_page(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/bpovtorenie-kursa-algebry-10-klassabtrigonometricheskie-funktsii-y-sin-t-y-cos-t/271")
+            "https://staging.interneturok.ru/algebra/10-klass/trigonometricheskie-funkcii/periodichnost-funktsiy-y-sin-t-y-cos-t")
         time.sleep(1)
 
     def go_lesson_page_tab_trainers(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/bpovtorenie-kursa-algebry-10-klassabtrigonometricheskie-funktsii-y-sin-t-y-cos-t/271/trainers")
+            "https://staging.interneturok.ru/algebra/10-klass/trigonometricheskie-funkcii/periodichnost-funktsiy-y-sin-t-y-cos-t/trainers")
         time.sleep(1)
 
     def go_lesson_page_tab_test(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/bpovtorenie-kursa-algebry-10-klassabtrigonometricheskie-funktsii-y-sin-t-y-cos-t/271/testcases")
+            "https://staging.interneturok.ru/algebra/10-klass/trigonometricheskie-funkcii/periodichnost-funktsiy-y-sin-t-y-cos-t/testcases")
         time.sleep(1)
 
     def go_lesson_page_tab_question(self):
         self.driver.get(
-            "https://staging.interneturok.ru/urok/bpovtorenie-kursa-algebry-10-klassabtrigonometricheskie-funktsii-y-sin-t-y-cos-t/271/questions")
+            "https://staging.interneturok.ru/algebra/10-klass/trigonometricheskie-funkcii/periodichnost-funktsiy-y-sin-t-y-cos-t/questions"
+            "")
         time.sleep(1)
