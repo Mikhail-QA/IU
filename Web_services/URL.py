@@ -19,20 +19,20 @@ class PaidLessonPage(object):
 
     def go_lesson_page(self):
         self.driver.get(
-            "https://staging.interneturok.ru/lesson/algebra/10-klass/trigonometricheskie-funkcii/periodichnost-funktsiy-y-sin-t-y-cos-t")
+            "https://staging.interneturok.ru/lesson/algebra/11-klass/bpovtorenie-kursa-algebry-10-klassab/trigonometricheskie-funktsii-y-sin-t-y-cos-t")
         time.sleep(1)
 
     def go_lesson_page_tab_trainers(self):
         self.driver.get(
-            "https://staging.interneturok.ru/lesson/algebra/10-klass/trigonometricheskie-funkcii/periodichnost-funktsiy-y-sin-t-y-cos-t/trainers")
+            "https://staging.interneturok.ru/lesson/algebra/11-klass/bpovtorenie-kursa-algebry-10-klassab/trigonometricheskie-funktsii-y-sin-t-y-cos-t/trainers")
         time.sleep(1)
 
     def go_lesson_page_tab_test(self):
         self.driver.get(
-            "https://staging.interneturok.ru/lesson/algebra/10-klass/trigonometricheskie-funkcii/periodichnost-funktsiy-y-sin-t-y-cos-t/testcases")
+            "https://staging.interneturok.ru/lesson/algebra/11-klass/bpovtorenie-kursa-algebry-10-klassab/trigonometricheskie-funktsii-y-sin-t-y-cos-t/testcases")
         time.sleep(1)
 
     def go_lesson_page_tab_question(self):
         self.driver.get(
-            "https://staging.interneturok.ru/lesson/algebra/10-klass/trigonometricheskie-funkcii/periodichnost-funktsiy-y-sin-t-y-cos-t/questions")
+            "https://staging.interneturok.ru/lesson/algebra/11-klass/bpovtorenie-kursa-algebry-10-klassab/trigonometricheskie-funktsii-y-sin-t-y-cos-t/questions")
         time.sleep(1)
