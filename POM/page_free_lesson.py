@@ -48,7 +48,7 @@ class PageFreeLessonCheckVideo(object):
         self.driver = driver
 
     def click_play_video_iu(self):
-        self.driver.find_element_by_id("mediaplayer").click()
+        self.driver.find_element_by_id("vlp-videobox-1").click()
         time.sleep(2)
 
     def watching_that_video_iu_was_reproduced(self):
