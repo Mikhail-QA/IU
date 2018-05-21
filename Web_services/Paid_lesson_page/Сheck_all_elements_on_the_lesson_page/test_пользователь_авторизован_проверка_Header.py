@@ -27,7 +27,7 @@ class ChecksAllElementsInLessonPageTheHeadersUserAuth(StartInterneturokClassMeth
     def test_logo_is_displayed(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo.header__logo"))
 
-    @allure.step("Кнопка возврата на страницу Предмет/Класс отображается (Алгебра,8)")
+    @allure.step("Кнопка возврата на страницу Предмет/Класс отображается (Алгебра,11)")
     def test_button_back_page_subject(self):
         self.assertEqual("Алгебра,11", self.driver.find_element_by_css_selector("a.header__back").text)
 
