@@ -7,31 +7,26 @@ class URLPaidLesson(object):
 
     def go_chemistry_8_grade_video(self):
         self.driver.get(
-            # "https://staging.interneturok.ru/urok/bpervonachalnye-himicheskie-predstavleniyabhimicheskie-elementy-simvoly-himicheskih-elementov/12712")
-            "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov")
+            "https://staging.interneturok.ru/lesson/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov")
         time.sleep(2)
 
     def go_physics_7_grade_trainers(self):
-        self.driver.get(
-            # "https://staging.interneturok.ru/urok/vzaimodejstvie-telplotnost/442/trainers")
-            "https://staging.interneturok.ru/physics/7-klass/vzaimodejstvie-tel/plotnost/trainers")
+        self.driver.get("https://staging.interneturok.ru/lesson/physics/7-klass/vzaimodejstvie-tel/plotnost/trainers")
         time.sleep(2)
 
     def go_algebra_8_grade_test(self):
         self.driver.get(
-            "https://staging.interneturok.ru/algebra/8-klass/algebraicheskie-drobi-arifmeticheskie-operacii-nad-algebraicheskimi-drobyami/osnovnye-ponyatiya/testcases")
+            "https://staging.interneturok.ru/lesson/algebra/8-klass/algebraicheskie-drobi-arifmeticheskie-operacii-nad-algebraicheskimi-drobyami/osnovnye-ponyatiya/testcases")
         time.sleep(2)
 
     def go_chemistry_8_grade_questions(self):
         self.driver.get(
-            # "https://staging.interneturok.ru/urok/bpervonachalnye-himicheskie-predstavleniyabhimicheskie-elementy-simvoly-himicheskih-elementov/12712/questions")
-            "https://staging.interneturok.ru/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/questions")
+            "https://staging.interneturok.ru/lesson/chemistry/8-klass/bpervonachalnye-himicheskie-predstavleniyab/himicheskie-elementy-simvoly-himicheskih-elementov/questions")
         time.sleep(2)
 
     def go_algebra_11_grade_comment(self):
         self.driver.get(
-            # "https://staging.interneturok.ru/urok/bzadachi-iz-egeburok-17-povtorenie-razbor-razlichnyh-zadach-iz-ege-proshlyh-let-po-proydennym-temam-teoriya/15739")
-            "https://staging.interneturok.ru/algebra/11-klass/bzadachi-iz-egeb/urok-17-vopros-3-vypolnyayte-proverku-v-uravneniyah-i-neravenstvah")
+            "https://staging.interneturok.ru/lesson/algebra/11-klass/bzadachi-iz-egeb/urok-17-vopros-3-vypolnyayte-proverku-v-uravneniyah-i-neravenstvah/questions")
         time.sleep(2)
 
 
@@ -41,30 +36,25 @@ class URLFreeLesson(object):
 
     def go_biology_11_grade_comment(self):
         self.driver.get(
-            # "https://staging.interneturok.ru/urok/evolyucionnoe-uchenieobzor-evolyutsionnyh-predstavleniy/3619/testcases")
-            "https://staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy")
+            "https://staging.interneturok.ru/lesson/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy/testcases")
         time.sleep(2)
 
     def go_biology_11_grade_questions(self):
         self.driver.get(
-            # "https://staging.interneturok.ru/urok/evolyucionnoe-uchenierazvitie-evolyutsionnyh-vzglyadov-v-dodarvinovskiy-period/4889/questions")
-            "https://staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/razvitie-evolyutsionnyh-vzglyadov-v-dodarvinovskiy-period/questions")
+            "https://staging.interneturok.ru/lesson/biology/11-klass/evolyucionnoe-uchenie/razvitie-evolyutsionnyh-vzglyadov-v-dodarvinovskiy-period/questions")
         time.sleep(2)
 
     def go_biology_7_grade_test(self):
         self.driver.get(
-            # "https://staging.interneturok.ru/urok/zhivotnye-ploskie-chervilentochnye-chervi/324/testcases")
-            "https://staging.interneturok.ru/biology/7-klass/zhivotnye-ploskie-chervi/lentochnye-chervi/testcases")
+            "https://staging.interneturok.ru/lesson/biology/7-klass/zhivotnye-ploskie-chervi/ploskie-chervi/testcases")
         time.sleep(2)
 
     def go_lesson_in_YouTube_player(self):
         self.driver.get(
-            # "https://staging.interneturok.ru/urok/spisok-urokovkogda-nam-trudno-vybirat-paradoks-kondorse/16960")
-            "https://staging.interneturok.ru/idei-i-smysly/osnovy-ratsionalnogo-povedeniya/spisok-urokov/kogda-nam-trudno-vybirat-paradoks-kondorse")
+            "https://staging.interneturok.ru/lesson/obzh/6-klass/ekstremalnaya-situatsiya-v-prirode-i-pervoocherednye-deystviya-cheloveka-popavshego-v-neyo/opasnye-i-ekstremalnye-situatsii-chto-k-nim-privodit")
         time.sleep(2)
 
     def go_biology_11_grade_video(self):
         self.driver.get(
-            # "https://staging.interneturok.ru/urok/evolyucionnoe-uchenieobzor-evolyutsionnyh-predstavleniy/3619")
-            "https://staging.interneturok.ru/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy")
+            "https://staging.interneturok.ru/lesson/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy?block=player")
         time.sleep(2)
