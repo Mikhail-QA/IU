@@ -34,7 +34,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
     @allure.step("Проверка на странице урока")
     def test_meta_teg_in_page_lesson(self):
         driver = self.driver
-        URL = "https://staging.interneturok.ru/physics/8-klass/teplovye-yavleniya/teplovoe-dvizhenie-temperatura"
+        URL = "https://staging.interneturok.ru/lesson/physics/8-klass/teplovye-yavleniya/teplovoe-dvizhenie-temperatura"
         driver.get(URL)
         time.sleep(2)
         with allure.step("Сверить url со ссылкой на которой находится П"):
@@ -51,7 +51,7 @@ class CheckMetaTeg(StartInterneturokClassMethod):
 
     @allure.step("Проверка на странице Предмет-Класс ")
     def test_meta_teg_in_page_subject_grades(self):
-        URL = "https://staging.interneturok.ru/literatura/8-klass"
+        URL = "https://staging.interneturok.ru/subject/literatura/class/8"
         driver = self.driver
         driver.get(URL)
         time.sleep(2)
