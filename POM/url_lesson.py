@@ -56,5 +56,5 @@ class URLFreeLesson(object):
 
     def go_biology_11_grade_video(self):
         self.driver.get(
-            "https://staging.interneturok.ru/lesson/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy?block=player")
-        time.sleep(2)
+            "https://staging.interneturok.ru/lesson/biology/11-klass/evolyucionnoe-uchenie/obzor-evolyutsionnyh-predstavleniy")
+        time.sleep(1)
