@@ -1,4 +1,3 @@
-import time
 import unittest
 import allure
 from POM.page_free_lesson import PageFreeLessonCheckVideo
@@ -17,7 +16,6 @@ class PlayVideoIu(StartInterneturok):
             get_url.go_biology_11_grade_video()
         with allure.step("Нажать на кнопку Плей"):
             steps_video.click_play_video_iu()
-        time.sleep(6)
         with allure.step("После вкл видео в плеере появилась кнопка Pause"):
             self.assertEquals(u"Pause", self.driver.find_element_by_xpath("//div[6]/div[3]/div/span").text)
         with allure.step("Элемент плеера поменял статус на vjs-playing"):
