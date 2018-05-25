@@ -1,0 +1,21 @@
+URL ДЛЯ АВТОТЕСТОВ
+
+Тест 009 замена
+Тест 10 замена
+Тест 11 замена
+Тест 12 замена
+Тест 13 замена
+Тест 14 замена
+Тест 15 замена
+Тест 16 замена
+Тест 17 замена
+Тест 21 замена
+Тест 22 замена
+Тест 26 замена
+def test_meta_teg_in_page_lesson(self): Замена
+def test_meta_teg_in_page_subject_grades(self): Замена
+def test_meta_teg_in_static_page(self): Замена
+
+И в файле url_lesson в директории POM
+
+Поменять URL В репозитории Web_services файл URL.py В нём поменять все URL
