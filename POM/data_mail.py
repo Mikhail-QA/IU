@@ -56,7 +56,9 @@ class DataMail(object):
     def login_in_accaunt_user_Paymnotyandex_delete_all_mail(self):
         wait = WebDriverWait(self.driver, 30)
         self.driver.find_element_by_link_text("Войти").click()
-        self.driver.find_element_by_css_selector("span.passport-Domik-Link").click()
+        time.sleep(2)
+        self.driver.find_element_by_css_selector(
+            "#root > div > div.passport-Page-Content > div.passport-Domik > div > div > div > div > div > span > a").click()
         self.driver.find_element_by_name("login").send_keys("paym.not@yandex.ru")
         self.driver.find_element_by_name("passwd").send_keys("Testng1991")
         self.driver.find_element_by_css_selector("button.passport-Button").click()
