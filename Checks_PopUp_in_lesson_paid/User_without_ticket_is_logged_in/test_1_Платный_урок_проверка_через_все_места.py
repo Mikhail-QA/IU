@@ -1,4 +1,3 @@
-import time
 import allure
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.setUp import StartInterneturokClassMethod
@@ -35,7 +34,6 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             step_user.click_button_play_video()
         with allure.step("Поп-ап Оплаты появился"):
             assert (self.driver.find_element_by_css_selector("div.popup.popup-payment"))
-
 
     def test_click_button_comment_in_tab_ask_question(self):
         driver = self.driver
@@ -92,7 +90,7 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
         url_get = URLPaidLesson(driver)
 
         with allure.step("Перейти на страницу урока"):
-            url_get.go_chemistry_8_grade_questions()
+            url_get.go_physics_7_grade_trainers()
         with allure.step("В подвале сайта нажать на кнопку В Избранное"):
             step_user.click_button_favourites()
         with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
