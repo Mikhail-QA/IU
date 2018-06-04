@@ -43,7 +43,7 @@ class ChecksAllElementsInSubjectPageTheHeadersUserAuth(StartInterneturokClassMet
 
     @allure.step("Элемент Поиск отображается")
     def test_field_search(self):
-        self.assertTrue(self.is_element_present(By.NAME, "query"))
+        self.assertTrue(self.is_element_present(By.NAME, "q"))
 
     @allure.step("Кнопка Флешка отображается")
     def test_flash_displayed(self):
