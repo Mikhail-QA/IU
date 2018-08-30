@@ -42,7 +42,7 @@ class MainPage(object):
         time.sleep(1)
 
     def click_button_exit_in_tab_my_profile(self):
-        self.driver.find_element_by_xpath("//div[2]/div[2]/div/div/ul/li[4]").click()
+        self.driver.find_element_by_xpath("//div[1]/div[2]/div/div/ul/li[4]").click()
 
 
 class PopupFeedback(object):
