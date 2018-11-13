@@ -52,4 +52,4 @@ class RemovingUsersInAdminPanel(StartInterneturokAdminClassMethod):
         steps_delete = AdminDeleteUser(driver)
 
         with allure.step("Удаляю пользователя zheltyy.fio@mail.ru"):
-            steps_delete.user_5(pupil_4="zheltyy.fio@mail.ru")
+            steps_delete.user_5(pupil_5="zheltyy.fio@mail.ru")
