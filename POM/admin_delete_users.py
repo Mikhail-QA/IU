@@ -59,9 +59,9 @@ class AdminDeleteUser(object):
         self.driver.switch_to.alert.accept()
         time.sleep(6)
 
-    def user_5(self, pupil_4):
+    def user_5(self, pupil_5):
         self.driver.find_element_by_id("search_name").clear()
-        self.driver.find_element_by_id("search_name").send_keys(pupil_4)
+        self.driver.find_element_by_id("search_name").send_keys(pupil_5)
         self.driver.find_element_by_css_selector("input.btn").click()
         time.sleep(1)
         self.driver.find_element_by_css_selector("div.btn-group").click()
