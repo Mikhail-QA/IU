@@ -108,3 +108,4 @@ Other/OneRun/Test1/.pytest_cache/v/cache/lastfailed
 # folder logs
 .idea/
 __pycache__/
+*.xml
