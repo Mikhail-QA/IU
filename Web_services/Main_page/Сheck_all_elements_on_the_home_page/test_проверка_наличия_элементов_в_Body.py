@@ -108,9 +108,6 @@ class ChecksAllElementsThePageInBody(StartInterneturokClassMethod):
     def test_button_displayed_reading(self):
         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Чтение"))
 
-    # @allure.step("На главной страницы отображается кнопка (Идеи и смыслы)")
-    # def test_notification_displayed_ideas_and_meanings(self):
-    #     self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Идеи и смыслы"))
     @allure.step("На главной страницы отображается кнопка (Школьная литература. Читаем вместе)")
     def test_button_displayed_idea_1(self):
         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Школьная литература. Читаем вместе"))
@@ -118,10 +115,8 @@ class ChecksAllElementsThePageInBody(StartInterneturokClassMethod):
     @allure.step("На главной страницы отображается кнопка (Математика за 20 уроков)")
     def test_button_displayed_idea_2(self):
         self.assertEqual(u"Математика за 20 уроков",
-                         self.driver.find_element_by_xpath("//*[@class='idea-link-wrapper']//a[2]/span[1]").text)
-        with allure.step("Под текстом Математика за 20 уроков отображается подпись (Общие идеи)"):
-            self.assertEqual(u"Общие идеи",
-                             self.driver.find_element_by_xpath("//*[@class='idea-link-wrapper']//a[2]/span[2]").text)
+                         self.driver.find_element_by_css_selector(
+                             ".subjects__menu:nth-child(2) .subjects__col:nth-child(1) a:nth-child(2)").text)
 
     @allure.step("На главной страницы отображается кнопка (Основные понятия истории)")
     def test_button_displayed_idea_3(self):
@@ -130,54 +125,52 @@ class ChecksAllElementsThePageInBody(StartInterneturokClassMethod):
     @allure.step("На главной страницы отображается кнопка (Основы рационального поведения)")
     def test_button_displayed_idea_4(self):
         self.assertEqual(u"Основы рационального поведения",
-                         self.driver.find_element_by_xpath("//*[@class='idea-link-wrapper']//a[4]/span[1]").text)
-        with allure.step("Под текстом Основы рационального поведения отображается подпись (Инструменты размышления)"):
-            self.assertEqual(u"Инструменты размышления",
-                             self.driver.find_element_by_xpath("//*[@class='idea-link-wrapper']//a[4]/span[2]").text)
+                         self.driver.find_element_by_css_selector(
+                             ".subjects__menu:nth-child(2) .subjects__col:nth-child(3) a:nth-child(1)").text)
 
-    @allure.step("На главной страницы отображается кнопка (Полезные интервью)")
+    @allure.step("На главной страницы отображается кнопка (Обществознание. Разбираемся вместе)")
     def test_button_displayed_idea_5(self):
-        self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Полезные интервью"))
+        self.assertEqual(u"Обществознание. Разбираемся вместе",
+                         self.driver.find_element_by_css_selector(
+                             ".subjects__menu:nth-child(2) .subjects__col:nth-child(2) a:nth-child(1)").text)
 
     @allure.step("На главной страницы отображается кнопка (Дискуссии и обсуждения)")
     def test_button_displayed_idea_6(self):
         self.assertEqual(u"Дискуссии и обсуждения",
-                         self.driver.find_element_by_xpath("//*[@class='idea-link-wrapper']//a[6]/span[1]").text)
-        with allure.step("Под текстом Дискуссии и обсужденияотображается подпись (Литература, ...)"):
-            self.assertEqual(u"Литература, ...",
-                             self.driver.find_element_by_xpath("//*[@class='idea-link-wrapper']//a[6]/span[2]").text)
+                         self.driver.find_element_by_css_selector(
+                             ".subjects__menu:nth-child(2) .subjects__col:nth-child(3) a:nth-child(2)").text)
 
-    @allure.step("На страницы отображается блок (Ученые — детям)")
-    def test_text_displayed_scientists_and_children(self):
-        self.assertEqual(u"Ученые — детям",
-                         self.driver.find_element_by_css_selector("h3.home-footer__title").text)
-
-        with allure.step("В блоке (Ученые — детям) раздел называется (Дополнительные видеоуроки:)"):
-            self.assertEqual(u"Дополнительные видеоуроки:",
-                             self.driver.find_element_by_xpath("//span[@class='home-footer__subtitle']").text)
-        with allure.step("В блоке (Ученые — детям) отображается ссылка (Астрономия)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Астрономия"))
-        with allure.step("В блоке (Ученые — детям) отображается ссылка (Физика)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Физика"))
-        with allure.step("В блоке (Ученые — детям) отображается ссылка (Математика)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Математика"))
-
-    @allure.step("На страницы отображается блок (Родителям и учителям)")
-    def test_text_displayed_parents_and_teachers(self):
-        self.assertEqual(u"Родителям и учителям",
-                         self.driver.find_element_by_xpath("//div[2]/div/div[2]/div/h3").text)
-        with allure.step("В блоке (Родителям и учителям) раздел называется (Полезные видеолекции:)"):
-            self.assertEqual(u"Полезные видеолекции:",
-                             self.driver.find_element_by_css_selector(
-                                 ".home-footer__item:nth-child(2) .home-footer__subtitle").text)
-        with allure.step("В блоке (Родителям и учителям) отображается ссылка (Детская психология)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Детская психология"))
-        with allure.step("В блоке (Родителям и учителям) отображается ссылка (Здоровье ребенка)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Здоровье ребенка"))
-        with allure.step("В блоке (Родителям и учителям) отображается ссылка (Советы специалистов)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Советы специалистов"))
-        with allure.step("В блоке (Родителям и учителям) отображается ссылка (Психология на Univertv.ru)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Психология на Univertv.ru"))
+    # @allure.step("На страницы отображается блок (Ученые — детям)")
+    # def test_text_displayed_scientists_and_children(self):
+    #     self.assertEqual(u"Ученые — детям",
+    #                      self.driver.find_element_by_css_selector("h3.home-footer__title").text)
+    #
+    #     with allure.step("В блоке (Ученые — детям) раздел называется (Дополнительные видеоуроки:)"):
+    #         self.assertEqual(u"Дополнительные видеоуроки:",
+    #                          self.driver.find_element_by_xpath("//span[@class='home-footer__subtitle']").text)
+    #     with allure.step("В блоке (Ученые — детям) отображается ссылка (Астрономия)"):
+    #         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Астрономия"))
+    #     with allure.step("В блоке (Ученые — детям) отображается ссылка (Физика)"):
+    #         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Физика"))
+    #     with allure.step("В блоке (Ученые — детям) отображается ссылка (Математика)"):
+    #         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Математика"))
+    #
+    # @allure.step("На страницы отображается блок (Родителям и учителям)")
+    # def test_text_displayed_parents_and_teachers(self):
+    #     self.assertEqual(u"Родителям и учителям",
+    #                      self.driver.find_element_by_xpath("//div[2]/div/div[2]/div/h3").text)
+    #     with allure.step("В блоке (Родителям и учителям) раздел называется (Полезные видеолекции:)"):
+    #         self.assertEqual(u"Полезные видеолекции:",
+    #                          self.driver.find_element_by_css_selector(
+    #                              ".home-footer__item:nth-child(2) .home-footer__subtitle").text)
+    #     with allure.step("В блоке (Родителям и учителям) отображается ссылка (Детская психология)"):
+    #         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Детская психология"))
+    #     with allure.step("В блоке (Родителям и учителям) отображается ссылка (Здоровье ребенка)"):
+    #         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Здоровье ребенка"))
+    #     with allure.step("В блоке (Родителям и учителям) отображается ссылка (Советы специалистов)"):
+    #         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Советы специалистов"))
+    #     with allure.step("В блоке (Родителям и учителям) отображается ссылка (Психология на Univertv.ru)"):
+    #         self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Психология на Univertv.ru"))
 
     @allure.step("На главной страницы отображается кнопка Оставить отзыв")
     def test_button_review_displayed(self):
