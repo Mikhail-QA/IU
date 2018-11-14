@@ -12,7 +12,7 @@ from Web_services.SetUp import StartInterneturokClassMethod
 
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в разделе Идеи и смыслы")
-@pytest.mark.skip(reason="Убрали Флешку из проекта")
+@pytest.mark.skip(reason="Убрали Блок Идем и Смыслы")
 class CheckIdea(StartInterneturokClassMethod):
 
     @allure.step("Перейти на страницу Идеи и смыслы")
