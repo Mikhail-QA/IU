@@ -1,5 +1,8 @@
 import allure
 import unittest
+
+import time
+
 from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupRegistration
@@ -37,6 +40,7 @@ class CreateAccountAndBuyTicket100NoAutoPayment(StartInterneturok):
             steps_in_profile.enter_data_card()
         with allure.step("Вернулся в Мой профиль"):
             steps_in_profile.go_to_my_profile()
+            time.sleep(30)
         with allure.step("Обновить страницу"):
             self.driver.refresh()
         with allure.step("В виджете отображается купленный абонемент без автоплатежа с тарифом 31 день"):

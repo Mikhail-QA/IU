@@ -1,5 +1,8 @@
 import allure
 import unittest
+
+import time
+
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupRegistration
 from POM.user import VratchGlavYandexRu
@@ -36,6 +39,7 @@ class CreateAccountAndBuyTicket100YesAutoPayment(StartInterneturok):
             steps_in_profile.enter_data_card()
         with allure.step("Вернулся в Мой профиль"):
             steps_in_profile.go_to_my_profile()
+            time.sleep(30)
         with allure.step("Обновить страницу"):
             self.driver.refresh()
         with allure.step("В виджете отображается купленный абонемент с вкл автопродлением и тарифом 31 день"):
