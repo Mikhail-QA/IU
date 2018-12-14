@@ -6,7 +6,7 @@ from Web_services.URL import PaidLessonPage
 from POM.page_paid_lesson import Notes, LessonFooter, PagePaidLessonComment
 
 
-@allure.feature("Страница урока Основные понятия (Алгебра 8 класс)")
+@allure.feature("Страница урока Тригонометрические функции y = sin t, y = cos t (Алгебра 11 класс)")
 @allure.story("Проверка наличия элементов и текста в интерактивных элементах ")
 class ChecksAllInteractiveElementsOnLessonPage(StartInterneturokClassMethod):
     @allure.step("Проверка текста и элементов в открытой Заметки")
@@ -74,7 +74,7 @@ class ChecksAllInteractiveElementsOnLessonPage(StartInterneturokClassMethod):
         time.sleep(1)
         open_tab_share.click_button_share()
         time.sleep(1)
-        with allure.step("Отображается открытый блок (Комментарии)"):
+        with allure.step("Отображается открытый блок (Поделиться)"):
             self.assertTrue(self.is_element_present(By.ID, "share"))
         with allure.step("В открытом блоке отображается кнопка закрыть (Крестик)"):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "#share > a"))

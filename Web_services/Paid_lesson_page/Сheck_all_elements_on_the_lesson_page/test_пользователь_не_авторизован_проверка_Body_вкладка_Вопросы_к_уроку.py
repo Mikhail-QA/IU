@@ -4,10 +4,10 @@ from Web_services.URL import PaidLessonPage
 from Web_services.SetUp import StartInterneturokClassMethod
 
 
-@allure.feature("Страница урока Основные понятия (Алгебра 11 класс)")
+@allure.feature("Страница урока Тригонометрические функции y = sin t, y = cos t (Алгебра 11 класс)")
 @allure.story("Проверка наличия элементов в Body во вкладке Вопросы к уроку для не авторизованного пользователя")
 class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInterneturokClassMethod):
-    @allure.step("Перейти на страницу Алгебра 8 класс")
+    @allure.step("Перейти на страницу Алгебра 11 класс")
     def test_000_open_page(self):
         StartInterneturokClassMethod = self.driver
         go_page = PaidLessonPage(StartInterneturokClassMethod)

@@ -27,7 +27,7 @@ class ChecksAllElementsThePageInFooter(StartInterneturokClassMethod):
             self.assertEqual(u"Отзывы", self.driver.find_element_by_xpath("//nav/div/div[2]/h4[1]").text)
         with allure.step("В блоке Отзывы отображается ссылка (Отзывы пользователей)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Отзывы пользователей"))
-        with allure.step("В блоке Отзывы отображается ссылка (Упоминания в СМИ )"):
+        with allure.step("В блоке Отзывы отображается ссылка (Упоминания в СМИ)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Упоминания в СМИ"))
 
     def test_block_cooperation_displayed(self):
