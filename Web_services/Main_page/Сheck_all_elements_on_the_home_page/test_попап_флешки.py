@@ -122,13 +122,13 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
         user_step.enter_email()
         user_step.enter_password()
         steps_signIn.click_button_login()
-        time.sleep(10)
         driver.refresh()
+        time.sleep(10)
 
     @allure.step("Нажать на кнопку Флешка")
     def test_16_open_popup_flash(self):
         self.driver.find_element_by_css_selector("i.icon-flash").click()
-        time.sleep(4)
+        time.sleep(1)
 
     @allure.step("В поп-апе Флешка отображается кнопка Крестик(закрыть) ")
     def test_17_look_button_close(self):
