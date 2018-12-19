@@ -23,7 +23,7 @@ from POM.user import PaymNotYandexRu
 
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в виджете Флешка")
-@pytest.mark.skip(reason="Убрали Флешку из проекта")
+# @pytest.mark.skip(reason="Убрали Флешку из проекта")
 class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
     @allure.step("Нажать на кнопку Флешка")
     def test_001_open_popup_flash(self):
@@ -39,10 +39,10 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
                          self.driver.find_element_by_css_selector("h3.title").text)
 
     @allure.step(
-        "Отображается текст (Вы сможете загрузить уроки на свою флешку и заниматься без Интернета Подробнее об флешке)")
+        "Отображается текст (Вы сможете загрузить уроки на свою флешку и заниматься без Интернета Подробнее о флешке)")
     def test_004_text2(self):
         self.assertEqual(
-            u"""Вы можете загрузить уроки на свою флешку\nи заниматься без Интернета.\nПодробнее о Флешке""",
+            u"""Вы можете загрузить уроки на свою флешку\nи заниматься без Интернета.\nПодробнее о флешке""",
             self.driver.find_element_by_css_selector(".__flash-info__b79b8 > div:nth-child(3) > div.text").text)
 
     @allure.step(
@@ -93,7 +93,7 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
         "Отображается текст (Вы можете загрузить уроки на свою флешку и заниматься без Интернета. Подробнее об флешке)")
     def test_12_text2(self):
         self.assertEqual(
-            u"""Вы можете загрузить уроки на свою флешку\nи заниматься без Интернета.\nПодробнее о Флешке""",
+            u"""Вы можете загрузить уроки на свою флешку\nи заниматься без Интернета.\nПодробнее о флешке""",
             self.driver.find_element_by_css_selector(".__flash-info__b79b8 > div:nth-child(3) > div.text").text)
 
     @allure.step(
@@ -122,6 +122,8 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
         user_step.enter_email()
         user_step.enter_password()
         steps_signIn.click_button_login()
+        time.sleep(10)
+        driver.refresh()
 
     @allure.step("Нажать на кнопку Флешка")
     def test_16_open_popup_flash(self):
@@ -145,7 +147,7 @@ class ChecksAllElementsInPopupFlash(StartInterneturokClassMethod):
         "Отображается текст (Ваш список загрузки На флешке нет уроков. Добавляйте уроки со страниц InternetUrok.ru и занимайтесь без интернета Подробнее о флешке)")
     def test_20_text2(self):
         self.assertEqual(
-            u"Ваш список загрузки\nНа флешке нет уроков. Добавляйте уроки со страниц InternetUrok.ru и занимайтесь без Интернета\nПодробнее о Флешке",
+            u"Ваш список загрузки\nНа флешке нет уроков. Добавляйте уроки со страниц InternetUrok.ru и занимайтесь без Интернета\nПодробнее о флешке",
             self.driver.find_element_by_css_selector("div.__flash-download-lessons__576bd").text)
 
     @allure.step("Отображается текст (Подробнее о флешке)")
