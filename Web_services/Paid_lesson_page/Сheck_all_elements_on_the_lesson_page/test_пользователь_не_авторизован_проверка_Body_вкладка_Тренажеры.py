@@ -137,11 +137,11 @@ class ChecksAllElementsInLessonPageTheBodyTabTrainersUserNotAuth(StartInternetur
         with allure.step("В кнопке Информация об уроке присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-info"))
 
-    @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (10))")
+    @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (11))")
     def test_displayed_lesson_footer_button_comment(self):
-        self.assertEqual("Комментарии (7)",
+        self.assertEqual("Комментарии (11)",
                          self.driver.find_element_by_id("comments-link").text)
-        with allure.step("В кнопке Комментарии (7) присутствует иконка "):
+        with allure.step("В кнопке Комментарии (11) присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-comments"))
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Поделиться)")
