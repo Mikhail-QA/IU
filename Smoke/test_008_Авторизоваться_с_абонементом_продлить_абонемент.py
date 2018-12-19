@@ -1,5 +1,8 @@
 import allure
 import unittest
+
+import time
+
 from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
@@ -33,6 +36,7 @@ class SignInAndExtendSubscription(StartInterneturok):
             profile_steps.enter_data_card()
         with allure.step("Вернуться в ЛК"):
             profile_steps.go_to_my_profile()
+            time.sleep(30)
         with allure.step("Обновить страницу"):
             self.driver.refresh()
         with allure.step("После продления абонемента в виджете отображается дата 62 дня"):
