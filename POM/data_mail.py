@@ -77,8 +77,9 @@ class DataMail(object):
 
     def login_in_accaunt_user_testinterneturok_check_mail(self):
         self.driver.find_element_by_name("login").send_keys("test@interneturok.ru")
+        self.driver.find_element_by_css_selector("button.passp-form-button").click()
         self.driver.find_element_by_name("passwd").send_keys("xvmb-nfrb-q0sp")
-        self.driver.find_element_by_css_selector("button.passport-Button").click()
+        self.driver.find_element_by_css_selector("button.passp-form-button").click()
         time.sleep(3)
         self.driver.get("https://mail.yandex.ru/?uid=1130000006443638&login=test#inbox")
 
