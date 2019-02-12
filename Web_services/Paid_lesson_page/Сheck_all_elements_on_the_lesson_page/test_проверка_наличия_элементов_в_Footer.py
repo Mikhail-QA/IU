@@ -29,8 +29,8 @@ class ChecksAllElementsInLessonPageThePageInFooter(StartInterneturokClassMethod)
             self.assertEqual(u"Отзывы", self.driver.find_element_by_xpath("//nav/div/div[2]/h4[1]").text)
         with allure.step("В блоке Отзывы отображается ссылка (Отзывы пользователей)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Отзывы пользователей"))
-        with allure.step("В блоке Отзывы отображается ссылка (СМИ о нас)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"СМИ о нас"))
+        with allure.step("В блоке Отзывы отображается ссылка (Упоминания в СМИ)"):
+            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Упоминания в СМИ"))
 
     def test_block_cooperation_displayed(self):
         with allure.step("Отображается название блока (Сотрудничество)"):
@@ -95,7 +95,7 @@ class ChecksAllElementsInLessonPageThePageInFooter(StartInterneturokClassMethod)
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-yt"))
 
     def test_text_interda_displayed_the_screen(self):
-        with allure.step("В подвале сайта отображается текст (© 2010-2018 000 «Интерда»)"):
+        with allure.step("В подвале сайта отображается текст (© 2010-2019 000 «Интерда»)"):
             self.assertEqual(u"© 2010-2018 000 «Интерда»",
                              self.driver.find_element_by_css_selector("p.footer__copyrights-text").text)
         with allure.step("В подвале сайта отображается текст (Условия пользования сайтом)"):
