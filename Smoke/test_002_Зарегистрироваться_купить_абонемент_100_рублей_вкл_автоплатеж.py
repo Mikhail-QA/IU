@@ -42,6 +42,7 @@ class CreateAccountAndBuyTicket100YesAutoPayment(StartInterneturok):
             time.sleep(30)
         with allure.step("Обновить страницу"):
             self.driver.refresh()
+            assert (self.driver.find_element_by_css_selector(".profile-abonement__row:nth-child(1)"))
         with allure.step("В виджете отображается купленный абонемент с вкл автопродлением и тарифом 31 день"):
             self.assertIn("Осталось:\n31 день\nАвтопродление:\n\nВкл.\nПодробнее об абонементе Продлить абонемент",
                           driver.find_element_by_class_name("profile-abonement__body").text)

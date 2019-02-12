@@ -39,6 +39,7 @@ class SignInAndExtendSubscription(StartInterneturok):
             time.sleep(30)
         with allure.step("Обновить страницу"):
             self.driver.refresh()
+            assert (self.driver.find_element_by_css_selector(".profile-abonement__row:nth-child(1)"))
         with allure.step("После продления абонемента в виджете отображается дата 62 дня"):
             self.assertIn("Осталось:\n62 дня\nАвтопродление:\n\nВкл.\nПодробнее об абонементе Продлить абонемент",
                           driver.find_element_by_class_name("profile-abonement__body").text)
