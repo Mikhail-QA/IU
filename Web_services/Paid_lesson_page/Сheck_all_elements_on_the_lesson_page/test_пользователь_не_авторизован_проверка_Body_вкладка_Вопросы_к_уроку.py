@@ -96,8 +96,8 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
                     "img.comment__user-image").get_attribute("src"))
         with allure.step("Во списке вопросов у П под аватаркой отображается роль (Ученик)"):
             self.assertEqual("Ученик", self.driver.find_element_by_css_selector("div.comment__col").text)
-        with allure.step("Во вопросе отображается имя П (ทดสอบนะจ๊ะ)"):
-            self.assertEqual("ทดสอบนะจ๊ะ",
+        with allure.step("Во вопросе отображается имя П (Гриф)"):
+            self.assertEqual("Гриф",
                              self.driver.find_element_by_css_selector("span.comment__username").text)
         with allure.step(
                 "Во вопросе отображается текст вопроса (Потчему в примере 11 после сокращения Y оставшееся 2 - от 7 не +?)"):
