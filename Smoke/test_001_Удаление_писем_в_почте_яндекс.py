@@ -1,9 +1,11 @@
 import allure
 import unittest
+import pytest
 from POM.data_mail import DataMail
 from POM.setUp import StartYandexMail
 
 
+@pytest.mark.flaky(reruns=3, reruns_delay=2)
 @allure.feature("Почтовые уведомления")
 @allure.story("Удаляю письма в почте пользоватлей")
 class DeleteMailsInYandex(StartYandexMail):
