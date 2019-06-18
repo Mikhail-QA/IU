@@ -1,5 +1,6 @@
 import allure
 import unittest
+import pytest
 from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 from POM.user import PaymNotYandexRu
@@ -8,6 +9,7 @@ from POM.freetest import FreeTest
 from POM.url_lesson import URLFreeLesson
 
 
+@pytest.mark.flaky(reruns=1, reruns_delay=1)
 @allure.feature("Тест")
 @allure.story("Пройти Тест пользователем без абонементом в бесплатном уроке")
 class PassTestInFreeLesson(StartInterneturok):

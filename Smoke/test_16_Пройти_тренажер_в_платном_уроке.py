@@ -1,5 +1,6 @@
 import allure
 import unittest
+import pytest
 from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
@@ -8,6 +9,7 @@ from POM.paid_exercise import Exercise
 from POM.url_lesson import URLPaidLesson
 
 
+@pytest.mark.flaky(reruns=1, reruns_delay=1)
 @allure.feature("Тренажер")
 @allure.story("Пройти Тренажер пользователем с абонементом в платном уроке")
 class PassSimulatorInPayLesson(StartInterneturok):
