@@ -3,6 +3,7 @@
 URL: https://interneturok.ru/"
 """
 import allure
+import time
 from selenium.webdriver.common.by import By
 from Web_services.SetUp import StartInterneturokClassMethod
 
@@ -10,6 +11,10 @@ from Web_services.SetUp import StartInterneturokClassMethod
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов и текста на главной страницы в элементе main.content.static")
 class ChecksAllElementsThePageInBody(StartInterneturokClassMethod):
+    def test_000_click_button_logo(self):
+        self.driver.find_element_by_css_selector('a.logo.header__logo.logo_full.active.ember-view').click()
+        time.sleep(2)
+
     @allure.step("В заголовке отображается текст (Уроки школьной программы)")
     def test_text_home_title_displayed(self):
         self.assertEqual(u"Уроки школьной программы",

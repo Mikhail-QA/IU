@@ -12,10 +12,14 @@ from Web_services.SetUp import StartInterneturokClassMethod
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в разделе Предмет (Алгебра)")
 class CheckAllElementsTheSubject(StartInterneturokClassMethod):
+    def test_000_click_button_logo(self):
+        self.driver.find_element_by_css_selector('a.logo.header__logo.logo_full.active.ember-view').click()
+        time.sleep(2)
+
     @allure.step("Нажать на Предмет Алгебра")
-    def test_000_click_button_Algebra(self):
+    def test_001_click_button_Algebra(self):
         self.driver.find_element_by_xpath("//div/div/div[1]/ul/li[1]/a").click()
-        time.sleep(0.5)
+        time.sleep(1)
 
     @allure.step("Элемент Логотип отображается")
     def test_logo_is_displayed(self):

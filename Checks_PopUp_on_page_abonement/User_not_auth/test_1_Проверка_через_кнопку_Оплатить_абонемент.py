@@ -1,4 +1,5 @@
 import allure
+import time
 from POM.setUp import StartInterneturokClassMethod
 from POM.page_abonement import PageAbonement
 from POM.page_abonement import URLAbonement
