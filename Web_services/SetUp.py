@@ -12,8 +12,8 @@ class StartInterneturokClassMethod(unittest.TestCase):
         cls.driver = webdriver.Chrome()
         cls.driver.implicitly_wait(40)
         cls.driver.maximize_window()
-        cls.driver.get("https://staging.interneturok.ru/")
-        time.sleep(1)
+        cls.driver.get("https://staging.interneturok.ru/class")
+        time.sleep(5)
         cls.verificationErrors = []
 
     def is_element_present(self, how, what):
