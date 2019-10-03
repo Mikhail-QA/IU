@@ -1,4 +1,7 @@
 import time
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as ec
 
 
 class PageProfile(object):
@@ -31,6 +34,7 @@ class PageProfile(object):
 
     def click_in_popup1_off_autopayment(self):
         self.driver.find_element_by_id("autopay_off").click()
+        time.sleep(1)
 
     def click_in_popup2_off_autopayment(self):
         self.driver.find_element_by_class_name("button_blue").click()
@@ -46,8 +50,10 @@ class PageProfile(object):
 
     def go_to_my_profile(self):
         self.driver.get("https://staging.interneturok.ru/profile")
-        time.sleep(3)
+        WebDriverWait(self.driver, 10).until(
+            ec.element_to_be_clickable((By.CSS_SELECTOR, 'span.profile-abonement__title')))
 
     def go_to_my_profile_edit(self):
         self.driver.get("https://staging.interneturok.ru/profile/edit")
-        time.sleep(2)
+        WebDriverWait(self.driver, 10).until(
+            ec.element_to_be_clickable((By.CSS_SELECTOR, 'span.profile-abonement__title')))
