@@ -76,7 +76,7 @@ class Notes(object):
 
     def go_to_profile(self):
         self.driver.get("https://staging.interneturok.ru/profile/notes")
-        time.sleep(2)
+        time.sleep(5)
 
     def click_textarea(self):
         self.driver.find_element_by_css_selector("textarea.ember-text-area.ember-view").click()

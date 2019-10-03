@@ -24,7 +24,7 @@ class FreeTest(object):
 
         self.driver.find_element_by_css_selector("div.b-input-radio__name").click()
         self.driver.find_element_by_link_text(u"Ответить").click()
-        time.sleep(0.5)
+        time.sleep(1)
 
         self.driver.find_element_by_css_selector("div.b-input-radio__name").click()
         self.driver.find_element_by_link_text(u"Ответить").click()

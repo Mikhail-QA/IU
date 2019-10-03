@@ -25,7 +25,7 @@ class MainPage(object):
             "#payment-blocks > div > div > div > a.info__item-button.b-button.b-button_color_green").click()
 
     def go_to_internetUrok(self):
-        self.driver.get("https://staging.interneturok.ru")
+        self.driver.get("https://staging.interneturok.ru/class")
         time.sleep(2)
 
     def enter_data(self, data="ty"):
