@@ -1,13 +1,11 @@
 import allure
 import unittest
-
-import time
-
 from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupRegistration
 from POM.user import PaymNotYandexRu
 from POM.pageprofile import PageProfile
+from POM.refresh import RefreshPage
 
 
 @allure.feature("Покупка абонемента")
@@ -19,6 +17,8 @@ class CreateAccountAndBuyTicket100NoAutoPayment(StartInterneturok):
         steps_popup = PopupRegistration(driver)
         steps_user = PaymNotYandexRu(driver)
         steps_in_profile = PageProfile(driver)
+        refresh_page = RefreshPage(driver)
+
         with allure.step("Нажать на кнопку Войти"):
             steps_main_page.go_to_sgnIn()
         with allure.step("В поп-апе регистрации нажать Зарегистрироваться"):
@@ -40,13 +40,12 @@ class CreateAccountAndBuyTicket100NoAutoPayment(StartInterneturok):
             steps_in_profile.enter_data_card()
         with allure.step("Вернулся в Мой профиль"):
             steps_in_profile.go_to_my_profile()
-            time.sleep(30)
         with allure.step("Обновить страницу"):
-            self.driver.refresh()
+            refresh_page.refresh()
             assert (self.driver.find_element_by_css_selector(".profile-abonement__row:nth-child(1)"))
         with allure.step("В виджете отображается купленный абонемент без автоплатежа с тарифом 31 день"):
             self.assertIn("Осталось:\n31 день\nАвтопродление:\nВыкл.\nПодробнее об абонементе Продлить абонемент",
-                          driver.find_element_by_class_name("profile-abonement__body").text)
+                          driver.find_element_by_css_selector("div.profile-abonement__body").text)
 
     def tearDown(self):
         self.driver.quit()

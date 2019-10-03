@@ -1,12 +1,11 @@
 import allure
-import time
 import unittest
 from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.pageprofile import PageProfile
 from POM.user import VratchGlavYandexRu
-
+from POM.refresh import RefreshPage
 
 @allure.feature("Отключить автоплатёж")
 @allure.story("Авторизоваться П с вкл автоплатежом и отключить автопродление в ЛК")
@@ -17,6 +16,8 @@ class DisableAutoPayment(StartInterneturok):
         popup_steps = PopupSignIn(driver)
         user_steps = VratchGlavYandexRu(driver)
         profile_steps = PageProfile(driver)
+        refresh_page = RefreshPage(driver)
+
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
         with allure.step("Ввожу email=vratch.glav@yandex.ru/password=123456"):
@@ -33,7 +34,7 @@ class DisableAutoPayment(StartInterneturok):
         with allure.step("В появившемся поп-апе нажать на кнопку Отключить автопродление"):
             profile_steps.click_in_popup2_off_autopayment()
         with allure.step("Обновить страницу"):
-            self.driver.refresh()
+            refresh_page.refresh()
         with allure.step("В ЛК, в виджете абонемента статус автоплатежа поменялся на ВЫКЛ"):
             self.assertEquals(u"Выкл.", self.driver.find_element_by_css_selector("a.link_dotted").text)
 

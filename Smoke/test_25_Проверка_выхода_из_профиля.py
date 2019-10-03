@@ -1,3 +1,4 @@
+import time
 import unittest
 import allure
 from POM.main_page import MainPage
@@ -29,6 +30,7 @@ class CheckingOutProfile(StartInterneturok):
             self.assertEqual(u"Войти", driver.find_element_by_css_selector("span.button_login").text)
         with allure.step("Обновить страницу"):
             self.driver.refresh()
+            time.sleep(5)
         with allure.step("Для не авторизованного пользователя отображается кнопка Войти"):
             self.assertEqual(u"Войти", driver.find_element_by_css_selector("span.button_login").text)
 

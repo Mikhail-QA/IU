@@ -1,13 +1,11 @@
 import allure
 import unittest
-
-import time
-
 from POM.setUp import StartInterneturok
 from POM.main_page import MainPage
 from POM.popup_authorization_and_registration import PopupSignIn
 from POM.pageprofile import PageProfile
 from POM.user import PaymNotYandexRu
+from POM.refresh import RefreshPage
 
 
 @allure.feature("Продлить абонемент")
@@ -19,6 +17,8 @@ class SignInAndExtendSubscription(StartInterneturok):
         popup_steps = PopupSignIn(driver)
         user_steps = PaymNotYandexRu(driver)
         profile_steps = PageProfile(driver)
+        refresh_page = RefreshPage(driver)
+
         with allure.step("Нажать на кнопку Войти"):
             main_steps.go_to_sgnIn()
         with allure.step("Ввожу email=paym.not@yandex.ru/password=123456"):
@@ -36,13 +36,12 @@ class SignInAndExtendSubscription(StartInterneturok):
             profile_steps.enter_data_card()
         with allure.step("Вернуться в ЛК"):
             profile_steps.go_to_my_profile()
-            time.sleep(30)
         with allure.step("Обновить страницу"):
-            self.driver.refresh()
+            refresh_page.refresh()
             assert (self.driver.find_element_by_css_selector(".profile-abonement__row:nth-child(1)"))
         with allure.step("После продления абонемента в виджете отображается дата 62 дня"):
             self.assertIn("Осталось:\n62 дня\nАвтопродление:\n\nВкл.\nПодробнее об абонементе Продлить абонемент",
-                          driver.find_element_by_class_name("profile-abonement__body").text)
+                          driver.find_element_by_css_selector("div.profile-abonement__body").text)
 
     def tearDown(self):
         self.driver.quit()
