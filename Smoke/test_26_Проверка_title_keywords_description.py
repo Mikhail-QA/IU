@@ -9,27 +9,24 @@
 
 import allure
 import time
-from POM.setUp import StartInterneturokClassMethod
+from POM.setUp import StartInterneturokLendingClassMethod
 
 
 @allure.feature("Проверка title, description, keywords на разных страницах")
 @allure.story("Перейти по страницам и сравнить title, description, keywords")
-class CheckMetaTeg(StartInterneturokClassMethod):
+class CheckMetaTeg(StartInterneturokLendingClassMethod):
     @allure.step("Проверка на Главной странице")
     def test_meta_teg_in_home_page(self):
-        URL = "https://staging.interneturok.ru/"
         driver = self.driver
-        with allure.step("Сверить url со ссылкой на которой находится П"):
-            assert driver.current_url == URL
         with allure.step("Проверить соответсвия (title)"):
-            assert driver.title == "Видеоуроки школьной программы, конспекты, тесты, тренажеры"
+            assert driver.title == "Библиотека видеоуроков по школьной программе InternetUrok.ru"
         with allure.step("Проверка соответствия (description)"):
-            self.assertEqual(u"Видеоуроки школьной программы, конспекты, тесты, тренажеры",
+            self.assertEqual(u"Видеоуроки школьной программы, конспекты, тренажеры, тесты. Все основные предметы и классы",
                              driver.find_element_by_name("description").get_attribute('content'))
-        with allure.step("Проверка соответствия (Keywords)"):
+        with allure.step("Проверка соответствия (description)"):
             self.assertEqual(
-                u"видео уроки, видеоуроки, смотреть видео, дистанционное образование, конспекты уроков, электронный учебник, школа-экстернат, помощь в учёбе, удалённая школа",
-                driver.find_element_by_name("keywords").get_attribute('content'))
+                u"Видеоуроки школьной программы, конспекты, тренажеры, тесты. Все основные предметы и классы",
+                driver.find_element_by_name("description").get_attribute('content'))
 
     @allure.step("Проверка на странице урока")
     def test_meta_teg_in_page_lesson(self):
