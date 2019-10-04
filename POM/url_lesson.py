@@ -46,7 +46,7 @@ class URLFreeLesson(object):
 
     def go_biology_7_grade_test(self):
         self.driver.get(
-            "https://staging.interneturok.ru/lesson/biology/7-klass/zhivotnye-ploskie-chervi/ploskie-chervi/testcases")
+            "https://staging.interneturok.ru/lesson/biology/7-klass/zhivotnye-ploskie-chervi/lentochnye-chervi/testcases")
         time.sleep(2)
 
     def go_lesson_in_YouTube_player(self):
