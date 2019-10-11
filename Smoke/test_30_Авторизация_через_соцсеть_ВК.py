@@ -29,8 +29,8 @@ class RegistrationAndAuthUserInSocialNetwork(StartInterneturokClassMethod):
             self.driver.switch_to_window(driver.window_handles[-1])
         with allure.step("В окне Регистрации dev-passport отображается заголовок с текстом (Регистрация)"):
             self.assertEqual(u"Регистрация", driver.find_element_by_css_selector("h3").text)
-        with allure.step("В окне Регистрации dev-passport отображается имя П (Желтый Друсь)"):
-            self.assertEqual("Желтый Друсь", driver.find_element_by_css_selector("p.b-oauth-user__name").text)
+        with allure.step("В окне Регистрации dev-passport отображается имя П (Zhelty Drus)"):
+            self.assertEqual("Zhelty Drus", driver.find_element_by_css_selector("p.b-oauth-user__name").text)
         with allure.step("В окне Регистрации dev-passport отображается E-mail П (zheltyy.fio@mail.ru)"):
             self.assertEqual("zheltyy.fio@mail.ru", driver.find_element_by_css_selector("p.b-oauth-user__email").text)
         with allure.step("В окне Регистрации dev-passport отображается текст П (zheltyy.fio@mail.ru)"):
