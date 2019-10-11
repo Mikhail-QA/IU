@@ -82,8 +82,8 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
         with allure.step("В заглушка отображается ссылка (Войти)"):
             self.assertEqual("Войти",
                              self.driver.find_element_by_xpath("//div[2]/div/div[1]/p/a").text)
-        with allure.step("В заглушка отображается кнопка (Оплатить абонемент от 75 руб. в месяц)"):
-            self.assertEqual("Оплатить абонемент\nот 75 руб. в месяц",
+        with allure.step("В заглушка отображается кнопка (Оплатить абонемент от 150 руб. в месяц)"):
+            self.assertEqual("Оплатить абонемент\nот 150 руб. в месяц",
                              self.driver.find_element_by_css_selector("a.abonement__buy").text)
 
     @allure.step("Во вкладке Вопросы к уроку отображается список вопросков от П (div.questions-wrapper)")
@@ -102,8 +102,8 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
         with allure.step(
                 "В вопросе отображается текст вопроса (test)"):
             self.assertEqual("test", self.driver.find_element_by_css_selector("p.comment__text").text)
-        with allure.step("Во вопросе отображается дата опубликования вопроса (14.12.18)"):
-            self.assertEqual("14.12.18", self.driver.find_element_by_css_selector("span.comment__date").text)
+        with allure.step("Во вопросе отображается дата опубликования вопроса (14.12.2018)"):
+            self.assertEqual("14.12.2018", self.driver.find_element_by_css_selector("span.comment__date").text)
         with allure.step("Во вопросе отображается кнопка (Комментировать)"):
             self.assertEqual("Комментировать", self.driver.find_element_by_css_selector("span.comment__action").text)
 

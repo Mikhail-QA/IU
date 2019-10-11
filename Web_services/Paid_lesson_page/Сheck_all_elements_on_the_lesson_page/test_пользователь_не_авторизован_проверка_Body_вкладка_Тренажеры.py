@@ -87,8 +87,8 @@ class ChecksAllElementsInLessonPageTheBodyTabTrainersUserNotAuth(StartInternetur
         with allure.step("В заглушка отображается ссылка (Войти)"):
             self.assertEqual("Войти",
                              self.driver.find_element_by_xpath("//div[2]/div/div[1]/p/a").text)
-        with allure.step("В заглушка отображается кнопка (Оплатить абонемент от 75 руб. в месяц)"):
-            self.assertEqual("Оплатить абонемент\nот 75 руб. в месяц",
+        with allure.step("В заглушка отображается кнопка (Оплатить абонемент от 150 руб. в месяц)"):
+            self.assertEqual("Оплатить абонемент\nот 150 руб. в месяц",
                              self.driver.find_element_by_css_selector("a.abonement__buy").text)
 
     @allure.step("Во вкладке Тренажеры отображается (Тренажёр 1)")
