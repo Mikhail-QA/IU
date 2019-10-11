@@ -48,7 +48,8 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
         with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
             self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
+                          driver.find_element_by_css_selector(
+                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
 
     def test_click_button_save_in_note(self):
         driver = self.driver
@@ -65,7 +66,8 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
         with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
             self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
+                          driver.find_element_by_css_selector(
+                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
 
     def test_click_input_field_in_note(self):
         driver = self.driver
@@ -82,7 +84,8 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
         with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
             self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
+                          driver.find_element_by_css_selector(
+                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
 
     def test_click_button_favourites(self):
         driver = self.driver
@@ -97,7 +100,8 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
         with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
             self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
+                          driver.find_element_by_css_selector(
+                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
 
     def test_click_button_pay_ticket(self):
         driver = self.driver
@@ -111,4 +115,5 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
         with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
             self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_xpath("//div/div[2]/h3[1]").text)
+                          driver.find_element_by_css_selector(
+                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
