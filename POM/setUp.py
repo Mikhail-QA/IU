@@ -37,7 +37,7 @@ class StartInterneturokAdminClassMethod(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Edge()
+        cls.driver = webdriver.Chrome()
         cls.driver.implicitly_wait(40)
         cls.driver.maximize_window()
         cls.driver.get("https://staging-admin.interneturok.ru/accounts/sign_in")
