@@ -51,9 +51,9 @@ class PageProfile(object):
     def go_to_my_profile(self):
         self.driver.get("https://staging.interneturok.ru/profile")
         WebDriverWait(self.driver, 10).until(
-            ec.element_to_be_clickable((By.CSS_SELECTOR, 'span.profile-abonement__title')))
+            ec.visibility_of_element_located((By.CSS_SELECTOR, 'span.profile-abonement__title')))
 
     def go_to_my_profile_edit(self):
         self.driver.get("https://staging.interneturok.ru/profile/edit")
         WebDriverWait(self.driver, 10).until(
-            ec.element_to_be_clickable((By.CSS_SELECTOR, 'span.profile-abonement__title')))
+            ec.visibility_of_element_located((By.CSS_SELECTOR, 'span.profile-abonement__title')))
