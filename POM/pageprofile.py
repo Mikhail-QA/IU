@@ -43,7 +43,7 @@ class PageProfile(object):
     def enter_data_card(self):
         self.driver.find_element_by_id("cardNumber").send_keys("4444444444444448")
         self.driver.find_element_by_name("skr_month").send_keys("12")
-        self.driver.find_element_by_name("skr_year").send_keys("19")
+        self.driver.find_element_by_name("skr_year").send_keys("20")
         self.driver.find_element_by_name("skr_cardCvc").send_keys("000")
         self.driver.find_element_by_class_name("payment-contract__pay-button").click()
         time.sleep(1.5)
