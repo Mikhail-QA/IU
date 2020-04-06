@@ -95,8 +95,8 @@ class ChecksAllElementsInLessonPageThePageInFooter(StartInterneturokClassMethod)
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-yt"))
 
     def test_text_interda_displayed_the_screen(self):
-        with allure.step("В подвале сайта отображается текст (© 2010-2019 000 «Интерда»)"):
-            self.assertEqual(u"© 2010-2019 000 «Интерда»",
+        with allure.step("В подвале сайта отображается текст (© 2010-2020 000 «Интерда»)"):
+            self.assertEqual(u"© 2010-2020 000 «Интерда»",
                              self.driver.find_element_by_css_selector("p.footer__copyrights-text").text)
         with allure.step("В подвале сайта отображается текст (Условия пользования сайтом)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Условия пользования сайтом"))
