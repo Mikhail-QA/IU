@@ -1,5 +1,6 @@
 import requests
 
+
 def test_success():
     url_login = "https://web-dev01.interneturok.ru/users/sign_in"
     url_main = "https://web-dev01.interneturok.ru"
@@ -31,21 +32,13 @@ def test_success():
         print('ERROR: %s' % e)
     assert r3.status_code == 200
 
-
-
-
-
-
-
-
-
-        # print('北京位於華北平原的西北边缘' in r2.text)
-        # print(r2.text)
-        # print(r2)
-        # r3.status_code == requests.codes.ok
-        # r3.raise_for_status()
-        # print(r2.url)
-        # print(r2.status_code)
-        # print(r3.url)
-        # print(r3.status_code)
-        # print(r3.text)
+    print('北京位於華北平原的西北边缘' in r2.text)
+    print(r2.text)
+    # print(r2)
+    # r3.status_code == requests.codes.ok
+    # r3.raise_for_status()
+    # print(r2.url)
+    # print(r2.status_code)
+    # print(r3.url)
+    # print(r3.status_code)
+    # print(r3.text)

@@ -43,9 +43,9 @@ class ChecksAllElementsInLessonPageTheHeadersUserAuth(StartInterneturokClassMeth
     def test_field_search(self):
         self.assertTrue(self.is_element_present(By.NAME, "q"))
 
-    @allure.step("Кнопка Флешка отображается")
-    def test_flash_displayed(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "i.icon-flash"))
+    # @allure.step("Кнопка Флешка отображается")
+    # def test_flash_displayed(self):
+    #     self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "i.icon-flash"))
 
     @allure.step("Кнопка Мой профиль отображается")
     def test_button_signIn_is_displayed(self):
