@@ -178,7 +178,7 @@ class ChecksAllElementsInLessonPageTheBodyTabVideoUserNotAuth(StartInterneturokC
     @allure.step(
         "В уроке в конце конспекта отображается ссылка Хлебные крошки (Главная > Алгебра, 11 класс > Тригонометрические функции y = sin t, y = cos t)")
     def test_displayed_link_main(self):
-        self.assertEqual("Главная > Алгебра, 11 класс >\nТригонометрические функции y = sin t, y = cos t",
+        self.assertEqual("Библиотека InternetUrok.ru Алгебра, 11 класс Тригонометрические функции y = sin t, y = cos t",
                          self.driver.find_element_by_css_selector("ol.breadcrumbs.overflow-h").text)
 
     @allure.step("В уроке в конце конспекта отображается блок оценки урока (Вконтакте:)")
