@@ -90,7 +90,7 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
     def test_question_wrapper(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.questions-wrapper"))
         with allure.step("Во вкладке Вопросы к уроку отображается вопрос П в нём присутствует (аватарка П)"):
-            self.assertEqual(
+            self.assertNotEqual(
                 "https://static-interneturok.cdnvideo.ru/avatar/big_7c2c08d0993532733460edf6995e6ba1.jpg",
                 self.driver.find_element_by_css_selector(
                     "img.comment__user-image").get_attribute("src"))
