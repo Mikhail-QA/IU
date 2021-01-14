@@ -11,7 +11,7 @@ from POM.page_paid_subject_grades import PaidLessonAlgebra8
 
 
 @allure.feature("Страница Предмет-Класс в открытом учебнике (Алгебра 8 класс)")
-@allure.story("Проверка наличия элементов в Body в учебнике (Алгебра 8 класс (Мордкович А.Г.)")
+@allure.story("Проверка наличия элементов в Body в учебнике Алгебра 8 класс (Мордкович А.Г.) Издательство Мнемозина")
 class ChecksAllElementsInSubjectPageTheBodyInOpenBook(StartInterneturokClassMethod):
     @allure.step("Перейти на страницу Алгебра 8 класс")
     def test_000_open_page(self):
@@ -43,7 +43,7 @@ class ChecksAllElementsInSubjectPageTheBodyInOpenBook(StartInterneturokClassMeth
 
     @allure.step("Над учебниками отображается текст (Алгебра 8 класс (Мордкович А.Г.))")
     def test_text_name_books(self):
-        self.assertEqual(u"Алгебра 8 класс (Мордкович А.Г.)",
+        self.assertEqual(u"Алгебра 8 класс (Мордкович А.Г.) Издательство Мнемозина",
                          self.driver.find_element_by_css_selector("span.subject-book__title").text)
 
     @allure.step("На странице отображается книга (Алгебра 8 класс (Мордкович А.Г.))")

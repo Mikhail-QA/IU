@@ -11,8 +11,9 @@ from Web_services.SetUp import StartInterneturokClassMethod
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов и текста на главной страницы в элементе main.content.static")
 class ChecksAllElementsThePageInBody(StartInterneturokClassMethod):
-    def test_000_click_button_logo(self):
-        self.driver.find_element_by_css_selector('a.logo.header__logo.logo_full.active.ember-view').click()
+    def test_000_go_old_main_page(self):
+        self.driver.get('https://staging.interneturok.ru/subject/algebra')
+        self.driver.find_element_by_css_selector('span.subjects__grades-nav-back-text').click()
         time.sleep(2)
 
     @allure.step("В заголовке отображается текст (Уроки школьной программы)")

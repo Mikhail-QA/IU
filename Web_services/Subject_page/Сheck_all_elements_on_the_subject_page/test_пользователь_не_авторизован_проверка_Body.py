@@ -67,11 +67,11 @@ class ChecksAllElementsInSubjectPageTheBodyUserNotAuth(StartInterneturokClassMet
 
     @allure.step("На странице отображается книга (Алгебра 8 класс (Мордкович А.Г.))")
     def test_books_item_one(self):
-        self.assertTrue(self.driver.find_element_by_xpath("//div[1]/div[2]/div/div/a[1]"))
+        self.assertTrue(self.driver.find_element_by_css_selector("main a.subject-book:nth-child(1)"))
 
     @allure.step("На странице отображается книга (Алгебра 8 класс (Макарычев Ю.Н.))")
     def test_books_item_two(self):
-        self.assertTrue(self.driver.find_element_by_xpath("//div[1]/div[2]/div/div/a[2]"))
+        self.assertTrue(self.driver.find_element_by_css_selector("main a.subject-book:nth-child(2)"))
 
     @allure.step(
         "Первый блок уроков имеет заголовок (Алгебраические дроби. Арифметические операции над алгебраическими дробями) ")

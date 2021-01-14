@@ -13,11 +13,7 @@ from Web_services.SetUp import StartInterneturokClassMethod
 class ChecksAllElementsTheHeadersUserNotAuth(StartInterneturokClassMethod):
     @allure.step("Элемент Логотип отображается")
     def test_logo_is_displayed(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo_full.active"))
-
-    # @allure.step("Элемент Флешка отображается")
-    # def test_flash_is_displayed(self):
-    #     self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "i.icon-flash"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo.header__logo"))
 
     @allure.step("Кнопка Войти отображается")
     def test_signIn_is_displayed(self):

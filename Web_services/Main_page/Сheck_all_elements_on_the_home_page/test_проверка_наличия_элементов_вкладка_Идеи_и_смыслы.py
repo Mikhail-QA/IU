@@ -22,7 +22,7 @@ class CheckIdea(StartInterneturokClassMethod):
 
     @allure.step("Элемент Логотип отображается")
     def test_logo_is_displayed(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo_full.active"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo.header__logo"))
 
     @allure.step("Элемент Флешка отображается")
     def test_flash_is_displayed(self):

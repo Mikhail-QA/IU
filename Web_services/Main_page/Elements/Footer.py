@@ -37,10 +37,6 @@ class ChecksAllElementsThePageInFooter(StartInterneturokClassMethod):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Участие в проекте"))
         with allure.step("В блоке Сотрудничество отображается ссылка Методический кабинет"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Методический кабинет"))
-        with allure.step("В блоке Сотрудничество отображается ссылка Партнеры"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Партнеры"))
-        with allure.step("В блоке Сотрудничество отображается ссылка Благодарности"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Благодарности"))
 
     def test_block_about_the_project_displayed(self):
         with allure.step("Отображается название блока (О проекте)"):
@@ -53,51 +49,51 @@ class ChecksAllElementsThePageInFooter(StartInterneturokClassMethod):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Мы и государство"))
         with allure.step("В блоке О проекте отображается ссылка (Часто задаваемые вопросы)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Часто задаваемые вопросы"))
-        with allure.step("В блоке О проекте отображается ссылка (Абонемент / поддержка сайта)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Абонемент / поддержка сайта"))
+        with allure.step("В блоке О проекте отображается ссылка (Абонемент)"):
+            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Абонемент"))
         with allure.step("В блоке О проекте отображается ссылка (Контактная информация)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Контактная информация"))
 
     def test_text_apps_for_your_tablet_displayed_the_screen(self):
         with allure.step("В подвале сайта отображается текст (Приложения для планшета:)"):
             self.assertEqual(u"Приложения для планшета:",
-                             self.driver.find_element_by_css_selector("div.footer__copyrights-app").text)
+                             self.driver.find_element_by_css_selector("div.cp-text-app").text)
 
     def test_icon_android_displayed(self):
         with allure.step("В подвале сайта в Приложения для планшета отображается иконка (Android)"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-android"))
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.cp-icon-android"))
 
     def test_icon_apple_displayed(self):
         with allure.step("В подвале сайта в Приложения для планшета отображается иконка (iOS)"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-ios"))
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.cp-icon-ios"))
 
     def test_text_we_in_social_networks(self):
         with allure.step("В подвале сайта отображается текст (Мы в соцсетях:)"):
             self.assertEqual(u"Мы в соцсетях:",
-                             self.driver.find_element_by_css_selector("div.footer__copyrights-social").text)
+                             self.driver.find_element_by_css_selector("div.cp-text").text)
 
     def test_icon_vk_displayed(self):
         with allure.step("В подвале сайта в Мы в соцсетях отображается иконка (ВК)"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-vk"))
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.cp-icon-vk"))
 
     def test_icon_facebook_displayed(self):
         with allure.step("В подвале сайта в Мы в соцсетях отображается иконка (Facebook)"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-fb"))
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.cp-icon-fb"))
 
     def test_icon_od_displayed(self):
         with allure.step("В подвале сайта в Мы в соцсетях отображается иконка (Одноклассники)"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-ok"))
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.cp-icon-ok"))
 
     def test_icon_youtube_displayed(self):
         with allure.step("В подвале сайта в Мы в соцсетях отображается иконка (YouTube)"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-yt"))
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.cp-icon-yt"))
 
     def test_text_interda_displayed_the_screen(self):
-        with allure.step("В подвале сайта отображается текст (© 2010-2020 000 «Интерда»)"):
-            self.assertEqual(u"© 2010-2020 000 «Интерда»",
-                             self.driver.find_element_by_css_selector("p.footer__copyrights-text").text)
-        with allure.step("В подвале сайта отображается текст (Условия пользования сайтом)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Условия пользования сайтом"))
-        with allure.step("В подвале сайта отображается текст (Политика конфиденциальности)"):
-            self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Политика конфиденциальности"))
-            # self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-sitemap"))
+        with allure.step(
+                "В подвале сайта отображается текст (© 2010-2021 000 «Интерда»\nУсловия пользования сайтом\nПолитика конфиденциальности)"):
+            self.assertEqual(u'© 2010-2021 000 «Интерда»\nУсловия пользования сайтом\nПолитика конфиденциальности',
+                             self.driver.find_element_by_css_selector("div.cp-copyrights").text)
+
+    def test_icon_sk_displayed(self):
+        with allure.step('В подвале сайта отображается иконка SK участник'):
+            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.cp-icon-sk"))

@@ -21,7 +21,7 @@ class ChecksAllInteractiveElementsOnLessonPage(StartInterneturokClassMethod):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.lesson-note-wrapper"))
         with allure.step("В полле вода текста отображается сообщение (Сохраняйте любой текст из...)"):
             self.assertEqual(
-                "Сохраняйте любой текст из конспекта или записывайте собственные мысли и выводы прямо здесь.",
+                "Сохраняйте любой текст из конспекта или записывайте собственные мысли и выводы прямо здесь.\n(доступно по абонементу)",
                 self.driver.find_element_by_css_selector("textarea.lesson-note-widget__mobile-input").get_attribute(
                     "placeholder"))
         with allure.step("В заметки отображается кнопка Сохранить"):
@@ -71,9 +71,9 @@ class ChecksAllInteractiveElementsOnLessonPage(StartInterneturokClassMethod):
         StartInterneturokClassMethod = self.driver
         open_tab_share = LessonFooter(StartInterneturokClassMethod)
 
-        time.sleep(1)
+        time.sleep(1.5)
         open_tab_share.click_button_share()
-        time.sleep(1)
+        time.sleep(1.5)
         with allure.step("Отображается открытый блок (Поделиться)"):
             self.assertTrue(self.is_element_present(By.ID, "share"))
         with allure.step("В открытом блоке отображается кнопка закрыть (Крестик)"):

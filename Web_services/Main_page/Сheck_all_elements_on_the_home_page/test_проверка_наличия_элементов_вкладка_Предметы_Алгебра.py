@@ -12,8 +12,9 @@ from Web_services.SetUp import StartInterneturokClassMethod
 @allure.feature("Главная страница")
 @allure.story("Проверка наличия элементов в разделе Предмет (Алгебра)")
 class CheckAllElementsTheSubject(StartInterneturokClassMethod):
-    def test_000_click_button_logo(self):
-        self.driver.find_element_by_css_selector('a.logo.header__logo.logo_full.active.ember-view').click()
+    def test_000_go_old_main_page(self):
+        self.driver.get('https://staging.interneturok.ru/subject/algebra')
+        self.driver.find_element_by_css_selector('span.subjects__grades-nav-back-text').click()
         time.sleep(2)
 
     @allure.step("Нажать на Предмет Алгебра")
@@ -23,11 +24,7 @@ class CheckAllElementsTheSubject(StartInterneturokClassMethod):
 
     @allure.step("Элемент Логотип отображается")
     def test_logo_is_displayed(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo_full.active"))
-
-    # @allure.step("Элемент Флешка отображается")
-    # def test_flash_is_displayed(self):
-    #     self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "i.icon-flash"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo.header__logo"))
 
     @allure.step("Кнопка Войти отображается")
     def test_signIn_is_displayed(self):

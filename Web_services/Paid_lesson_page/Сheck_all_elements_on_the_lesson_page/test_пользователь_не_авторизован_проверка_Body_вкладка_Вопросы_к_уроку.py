@@ -96,14 +96,14 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
                     "img.comment__user-image").get_attribute("src"))
         with allure.step("Во списке вопросов у П под аватаркой отображается роль (Ученик)"):
             self.assertEqual("Ученик", self.driver.find_element_by_css_selector("div.comment__col").text)
-        with allure.step("Во вопросе отображается имя П (Гриф)"):
-            self.assertEqual("Гриф",
+        with allure.step("В вопросе отображается имя П (Гриф)"):
+            self.assertEqual("Гриф1",
                              self.driver.find_element_by_css_selector("span.comment__username").text)
         with allure.step(
                 "В вопросе отображается текст вопроса (test)"):
-            self.assertEqual("test", self.driver.find_element_by_css_selector("p.comment__text").text)
-        with allure.step("Во вопросе отображается дата опубликования вопроса (14.12.2018)"):
-            self.assertEqual("14.12.2018", self.driver.find_element_by_css_selector("span.comment__date").text)
+            self.assertEqual("TEST", self.driver.find_element_by_css_selector("p.comment__text").text)
+        with allure.step("Во вопросе отображается дата опубликования вопроса (14.01.2021)"):
+            self.assertEqual("14.01.2021", self.driver.find_element_by_css_selector("span.comment__date").text)
         with allure.step("Во вопросе отображается кнопка (Комментировать)"):
             self.assertEqual("Комментировать", self.driver.find_element_by_css_selector("span.comment__action").text)
 
@@ -126,9 +126,9 @@ class ChecksAllElementsInLessonPageTheBodyTabQuestionsUserNotAuth(StartInternetu
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (11))")
     def test_displayed_lesson_footer_button_comment(self):
-        self.assertEqual("Комментарии (11)",
+        self.assertEqual("Комментарии (8)",
                          self.driver.find_element_by_id("comments-link").text)
-        with allure.step("В кнопке Комментарии (11) присутствует иконка "):
+        with allure.step("В кнопке Комментарии (8) присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-comments"))
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Поделиться)")
