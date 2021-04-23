@@ -22,79 +22,95 @@ class CheckAllElementInSubject(StartInterneturokClassMethod):
     @allure.step("Навести мышку на кнопку Предметы")
     def test_001_hover_mouse_button_grades(self):
         time.sleep(2)
-        element_to_hover_over = self.driver.find_element_by_xpath("//header/div[1]/div[2]")
-        hover = ActionChains(self.driver).move_to_element(element_to_hover_over)
-        hover.perform()
+        self.driver.find_element_by_css_selector("div.header-menu-subjects").click()
         time.sleep(2)
 
     @allure.step("В списке отображается предмет (Алгебра)")
     def test_algebra_subject(self):
-        self.assertIn(u"Алгебра", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Алгебра", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(1)").text)
 
     @allure.step("В списке отображается предмет (Геометрия)")
     def test_geometrya_subject(self):
-        self.assertIn(u"Геометрия", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Геометрия", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(2)").text)
 
     @allure.step("В списке отображается предмет (Математика)")
     def test_matematika_subject(self):
-        self.assertIn(u"Математика", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Математика", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(3)").text)
 
     @allure.step("В списке отображается предмет (Информатика)")
     def test_informatika_subject(self):
-        self.assertIn(u"Информатика", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Информатика", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(4)").text)
 
     @allure.step("В списке отображается предмет (Обществознание)")
     def test_objestvo_subject(self):
-        self.assertIn(u"Обществознание", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Обществознание", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(5)").text)
 
     @allure.step("В списке отображается предмет (ОБЖ)")
     def test_OBJ_subject(self):
-        self.assertIn(u"ОБЖ", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"ОБЖ", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(6)").text)
 
     @allure.step("В списке отображается предмет (Физика)")
     def test_fizika_subject(self):
-        self.assertIn(u"Физика", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Физика", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(7)").text)
 
     @allure.step("В списке отображается предмет (Химия)")
     def test_himiya_subject(self):
-        self.assertIn(u"Химия", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Химия", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(8)").text)
 
     @allure.step("В списке отображается предмет (Биология)")
     def test_biologi_subject(self):
-        self.assertIn(u"Биология", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Биология", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(9)").text)
 
     @allure.step("В списке отображается предмет (География)")
     def test_geografiya_subject(self):
-        self.assertIn(u"География", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"География", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(10)").text)
 
     @allure.step("В списке отображается предмет (Природоведение)")
     def test_prirodavedenie_subject(self):
-        self.assertIn(u"Природоведение", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Природоведение", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(11)").text)
 
     @allure.step("В списке отображается предмет (Окружающий мир)")
     def test_okryjauchiymir_subject(self):
-        self.assertIn(u"Окружающий мир", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Окружающий мир", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(12)").text)
 
     @allure.step("В списке отображается предмет (Русский язык)")
     def test_russian_language_subject(self):
-        self.assertIn(u"Русский язык", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Русский язык", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(13)").text)
 
     @allure.step("В списке отображается предмет (Литература)")
     def test_literatura_subject(self):
-        self.assertIn(u"Литература", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Литература", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(14)").text)
 
     @allure.step("В списке отображается предмет (История России)")
     def test_istoriya_russia_subject(self):
-        self.assertIn(u"История России", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"История России", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(15)").text)
 
     @allure.step("В списке отображается предмет (Всеобщая история)")
     def test_vseobchayaistoriya_subject(self):
-        self.assertIn(u"Всеобщая история", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Всеобщая история", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(16)").text)
 
     @allure.step("В списке отображается предмет (Английский язык)")
     def test_english_language_subject(self):
-        self.assertIn(u"Английский язык", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Английский язык", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(17)").text)
 
     @allure.step("В списке отображается предмет (Чтение)")
     def test_chtenie_subject(self):
-        self.assertIn(u"Чтение", self.driver.find_element_by_xpath("//header/div[1]/div[2]").text)
+        self.assertIn(u"Чтение", self.driver.find_element_by_css_selector(
+            "ul.header__menu-list li.header__menu-list-item:nth-child(18)").text)

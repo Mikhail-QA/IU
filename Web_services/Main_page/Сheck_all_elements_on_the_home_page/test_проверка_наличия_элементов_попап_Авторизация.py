@@ -32,31 +32,9 @@ class CheckPopupAuth(StartInterneturokClassMethod):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.switcher__button"))
         with allure.step("В элементе popup-switcher отображается текст (Регистрация)"):
             self.assertEqual(u"Регистрация", self.driver.find_element_by_link_text(u"Регистрация").text)
-        with allure.step("В элементе popup-subtitle отображается текст (Быстрый вход)"):
-            self.assertEqual(u"Быстрый вход",
-                             self.driver.find_element_by_css_selector("span.popup-subtitle").text)
-
-    @allure.step("Проверить наличия иконок соцсетей")
-    def test_social_button_displayed(self):
-        with allure.step("Отображается иконока ВК"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social.icon-social_vk"))
-        with allure.step("Отображается иконока Одноклассники"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social.icon-social_od"))
-        with allure.step("Отображается иконока Mail.ru"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social.icon-social_mm"))
-        with allure.step("Отображается иконока Facebook"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social.icon-social_fb"))
-        with allure.step("Отображается иконока Google"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social.icon-social_google"))
-        with allure.step("Отображается иконока Twitter"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social.icon-social_tw"))
-        with allure.step("Отображается иконока Yandex.ru"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social.icon-social_ya"))
 
     @allure.step("Проверить наличие текста и элементов в popup-separator, popup-form__body")
     def test_Body_text_and_elements_displayed(self):
-        with allure.step("В элементе popup-separator__title отображается текст (или)"):
-            self.assertEqual(u"или", self.driver.find_element_by_css_selector("div.popup-separator__title").text)
         with allure.step("В элементе label.popup-label отображается текст (E-mail)"):
             self.assertEqual("E-mail", self.driver.find_element_by_css_selector("label.popup-label").text)
         with allure.step("Отображается поле ввода E-mail"):

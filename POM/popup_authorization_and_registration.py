@@ -40,9 +40,9 @@ class PopupSignIn(object):
         self.driver.find_element_by_css_selector("a.b-omniauth__item.b-omniauth__item_icon_yd").click()
 
     def click_button_login(self):
-        self.driver.find_element_by_css_selector("button.button_blue").click()
+        self.driver.find_element_by_css_selector("button.popup-button.button").click()
         time.sleep(4)
-        assert (self.driver.find_elements_by_css_selector("div.header__menu.header__menu_profile"))
+        assert (self.driver.find_elements_by_css_selector("div.header-userinfo.ember-view"))
         time.sleep(1)
         # self.assertEqual(u"Мой профиль", self.driver.find_element_by_css_selector("div.header__menu_profile").text)
 

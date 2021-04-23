@@ -14,13 +14,7 @@ from Web_services.SetUp import StartInterneturokClassMethod
 class CheckAllElementsTheSubject(StartInterneturokClassMethod):
     def test_000_go_old_main_page(self):
         self.driver.get('https://staging.interneturok.ru/subject/algebra')
-        self.driver.find_element_by_css_selector('span.subjects__grades-nav-back-text').click()
         time.sleep(2)
-
-    @allure.step("Нажать на Предмет Алгебра")
-    def test_001_click_button_Algebra(self):
-        self.driver.find_element_by_xpath("//div/div/div[1]/ul/li[1]/a").click()
-        time.sleep(1)
 
     @allure.step("Элемент Логотип отображается")
     def test_logo_is_displayed(self):
@@ -45,7 +39,7 @@ class CheckAllElementsTheSubject(StartInterneturokClassMethod):
 
     @allure.step("Отображается кнопка (Классы)")
     def test_button_grades(self):
-        self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Классы"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.switcher__wrap.row a:nth-child(2)"))
 
     @allure.step("На главной страницы отображается полле ввода Поиск")
     def test_field_search(self):
@@ -57,11 +51,11 @@ class CheckAllElementsTheSubject(StartInterneturokClassMethod):
 
     @allure.step("На страницы отображается кнопка (Все предметы)")
     def test_button_back_main_page(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.subjects__grades-nav-back"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "span.subjects__grades-nav-back-text"))
 
     @allure.step("На странице отображается кнопка листать Влево")
     def test_button_in_left_displayed(self):
-        self.assertTrue(self.is_element_present(By.LINK_TEXT, "<"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.subjects__grades-nav-button:nth-child(2)"))
 
     @allure.step("На страницы отображается Title предмета (Алгебра)")
     def test_text_displayed(self):
@@ -69,7 +63,7 @@ class CheckAllElementsTheSubject(StartInterneturokClassMethod):
 
     @allure.step("На странице отображается кнопка листать Вправо")
     def test_button_in_right_displayed(self):
-        self.assertTrue(self.is_element_present(By.LINK_TEXT, ">"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.subjects__grades-nav-button:nth-child(4)"))
 
     @allure.step("На страницы отображается кнопка (7 класс)")
     def test_button_7_algebra(self):

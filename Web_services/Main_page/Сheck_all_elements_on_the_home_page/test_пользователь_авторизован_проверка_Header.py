@@ -33,4 +33,12 @@ class ChecksAllElementsTheHeadersUserAuth(StartInterneturokClassMethod):
 
     @allure.step("Кнопка Мой профиль отображается")
     def test_signIn_is_displayed(self):
-        self.assertEqual(u"Мой профиль", self.driver.find_element_by_css_selector("div.header__menu_profile").text)
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, 'div.header-userinfo'))
+
+    @allure.step("Кнопка меню-бургер отображается")
+    def test_signIn_is_displayed(self):
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, 'div.header-userlinks'))
+
+    @allure.step("Стрелка выпадающего списка продуктов отображается")
+    def test_signIn_is_displayed(self):
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, 'div.header-projects'))

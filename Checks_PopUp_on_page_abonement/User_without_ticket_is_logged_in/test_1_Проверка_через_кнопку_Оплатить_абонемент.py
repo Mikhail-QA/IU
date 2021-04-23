@@ -26,29 +26,27 @@ class UserAuthClickButtonBuyTicketOnPageAbonement(StartInterneturokClassMethod):
             data_user.enter_password()
         with allure.step("В поп-апе авторизации Нажать на кнопку Войти"):
             click_enter.click_button_login()
-        with allure.step("Перейти на страницу Абонемент"):
-            url_get.go_page_abonement()
-        with allure.step("В первой кнопке нажать Оплатить абонемент"):
+        with allure.step("Перейти на страницу урока Абонемент"):
+            url_get.go_page_class()
+        with allure.step("Нажать на ссылку Оплатить абонемент"):
+            url_get.click_link_abonement()
+        with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_header()
-        with allure.step("Маленький поп-ап Отображается popup-payment__price"):
-            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
-        with allure.step(
-                "Часть большого поп-ап НЕ отображается popup__text_intro (Проверяю по наличию кнопки (Подробнее »))"):
-            assert len(
-                self.driver.find_elements_by_css_selector(".ember-modal-dialog > div > div:nth-child(2) > a")) == 0
+        with allure.step("П редиректнуло на страницу оплаты"):
+            self.driver.switch_to_window(driver.window_handles[1])
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'
 
     def test_click_button_buy_ticket_in_footer(self):
         driver = self.driver
         step_user = PageAbonement(driver)
         url_get = URLAbonement(driver)
 
-        with allure.step("Перейти на страницу Абонемент"):
-            url_get.go_page_abonement()
+        with allure.step("Перейти на страницу урока Абонемент"):
+            url_get.go_page_class()
+        with allure.step("Нажать на кнопку Оплатить абонемент"):
+            url_get.click_link_abonement()
         with allure.step("В первой кнопке нажать Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_footer()
-        with allure.step("Маленький поп-ап Отображается popup-payment__price"):
-            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
-        with allure.step(
-                "Часть большого поп-ап НЕ отображается popup__text_intro (Проверяю по наличию кнопки (Подробнее »))"):
-            assert len(
-                self.driver.find_elements_by_css_selector(".ember-modal-dialog > div > div:nth-child(2) > a")) == 0
+        with allure.step("П редиректнуло на страницу оплаты"):
+            self.driver.switch_to_window(driver.window_handles[2])
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'

@@ -9,6 +9,13 @@ class URLAbonement(object):
         self.driver.get("https://staging.interneturok.ru/abonement")
         time.sleep(3)
 
+    def go_page_class(self):
+        self.driver.get('https://staging.interneturok.ru/class')
+        time.sleep(3)
+
+    def click_link_abonement(self):
+        self.driver.find_element_by_css_selector('div.col-12.col-sm-6.col-md-3:nth-child(4) li:nth-child(5) a ').click()
+
 
 class PageAbonement(object):
     def __init__(self, driver):

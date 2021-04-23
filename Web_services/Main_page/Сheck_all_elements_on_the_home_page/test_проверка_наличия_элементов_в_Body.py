@@ -13,7 +13,7 @@ from Web_services.SetUp import StartInterneturokClassMethod
 class ChecksAllElementsThePageInBody(StartInterneturokClassMethod):
     def test_000_go_old_main_page(self):
         self.driver.get('https://staging.interneturok.ru/subject/algebra')
-        self.driver.find_element_by_css_selector('span.subjects__grades-nav-back-text').click()
+        self.driver.find_element_by_css_selector('div.switcher__wrap.row a:nth-child(1)').click()
         time.sleep(2)
 
     @allure.step("В заголовке отображается текст (Уроки школьной программы)")

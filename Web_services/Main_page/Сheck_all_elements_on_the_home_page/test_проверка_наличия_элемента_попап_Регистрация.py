@@ -37,31 +37,9 @@ class CheckPopupReg(StartInterneturokClassMethod):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "span.switcher.popup-switcher"))
         with allure.step("В элементе popup-switcher отображается текст (Вход)"):
             self.assertTrue(self.is_element_present(By.LINK_TEXT, u"Вход"))
-        with allure.step("В элементе popup-subtitle отображается текст (Быстрая регистрация)"):
-            self.assertEqual(u"Быстрая регистрация",
-                             self.driver.find_element_by_css_selector("span.popup-subtitle").text)
-
-    @allure.step("Проверить наличия иконок соцсетей")
-    def test_social_button_displayed(self):
-        with allure.step("Отображается иконока ВК"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social_vk"))
-        with allure.step("Отображается иконока Одноклассники"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social_od"))
-        with allure.step("Отображается иконока Mail.ru"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social_mm"))
-        with allure.step("Отображается иконока Facebook"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social_fb"))
-        with allure.step("Отображается иконока Google"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social_google"))
-        with allure.step("Отображается иконока Twitter"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social_tw"))
-        with allure.step("Отображается иконока Yandex.ru"):
-            self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.icon-social_ya"))
 
     @allure.step("Проверить наличие текста и элементов в popup-separator, popup-form__body")
     def test_Body_elements_and_text_displayed(self):
-        with allure.step("В элементе popup-separator__title отображается текст (или)"):
-            self.assertEqual(u"или", self.driver.find_element_by_css_selector("div.popup-separator__title").text)
         with allure.step("В элементе label.popup-label отображается текст (E-mail)"):
             self.assertEqual("E-mail", self.driver.find_element_by_css_selector("label.popup-label").text)
         with allure.step("Отображается поле ввода E-mail"):

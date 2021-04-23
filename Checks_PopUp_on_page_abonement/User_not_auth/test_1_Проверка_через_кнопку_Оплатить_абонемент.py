@@ -15,12 +15,14 @@ class ClickButtonBuyTicketOnPageAbonement(StartInterneturokClassMethod):
         url_get = URLAbonement(driver)
 
         with allure.step("Перейти на страницу урока Абонемент"):
-            url_get.go_page_abonement()
+            url_get.go_page_class()
+        with allure.step("Нажать на кнопку Оплатить абонемент"):
+            url_get.click_link_abonement()
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_header()
-        with allure.step("Поп-ап Регистрации появился"):
-            self.assertEqual(u"Зарегистрируйтесь",
-                             self.driver.find_element_by_css_selector("h5.popup-header__title").text)
+        with allure.step("П редиректнуло на страницу оплаты"):
+            self.driver.switch_to_window(driver.window_handles[2])
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'
 
     def test_click_button_buy_ticket_in_footer(self):
         driver = self.driver
@@ -28,9 +30,11 @@ class ClickButtonBuyTicketOnPageAbonement(StartInterneturokClassMethod):
         url_get = URLAbonement(driver)
 
         with allure.step("Перейти на страницу урока Абонемент"):
-            url_get.go_page_abonement()
+            url_get.go_page_class()
+        with allure.step("Нажать на кнопку Оплатить абонемент"):
+            url_get.click_link_abonement()
         with allure.step("Нажать на кнопку Оплатить абонемент"):
             step_user.click_button_buy_ticket_in_footer()
-        with allure.step("Поп-ап Регистрации появился"):
-            self.assertEqual(u"Зарегистрируйтесь",
-                             self.driver.find_element_by_css_selector("h5.popup-header__title").text)
+        with allure.step("П редиректнуло на страницу оплаты"):
+            self.driver.switch_to_window(driver.window_handles[1])
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'

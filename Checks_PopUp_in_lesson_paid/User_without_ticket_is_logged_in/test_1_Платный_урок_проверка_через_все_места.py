@@ -32,8 +32,8 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             get_url.go_chemistry_8_grade_video()
         with allure.step("В превью видеоурока нажать на кнопку Плей"):
             step_user.click_button_play_video()
-        with allure.step("Поп-ап Оплаты появился"):
-            assert (self.driver.find_element_by_css_selector("div.popup.popup-payment"))
+        with allure.step("П редиректнуло на страницу оплаты"):
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'
 
     def test_click_button_comment_in_tab_ask_question(self):
         driver = self.driver
@@ -44,12 +44,8 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             url_get.go_chemistry_8_grade_questions()
         with allure.step("Нажать на кнопку Комментировать"):
             step_user.click_button_comment()
-        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
-            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
-        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
-            self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_css_selector(
-                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
+        with allure.step("П редиректнуло на страницу оплаты"):
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'
 
     def test_click_button_save_in_note(self):
         driver = self.driver
@@ -62,12 +58,9 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             step_user.open_notes()
         with allure.step("Нажать на кнопку Сохранить"):
             step_user.save_note()
-        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
-            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
-        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
-            self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_css_selector(
-                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
+        with allure.step("П редиректнуло на страницу оплаты"):
+            self.driver.switch_to_window(driver.window_handles[3])
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'
 
     def test_click_input_field_in_note(self):
         driver = self.driver
@@ -80,12 +73,9 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             step_user.open_notes()
         with allure.step("Кликнуть мышкой в поле ввода текста"):
             step_user.click_textarea()
-        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
-            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
-        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
-            self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_css_selector(
-                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
+        with allure.step("П редиректнуло на страницу оплаты"):
+            self.driver.switch_to_window(driver.window_handles[4])
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'
 
     def test_click_button_favourites(self):
         driver = self.driver
@@ -96,12 +86,9 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             url_get.go_physics_7_grade_trainers()
         with allure.step("В подвале сайта нажать на кнопку В Избранное"):
             step_user.click_button_favourites()
-        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
-            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
-        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
-            self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_css_selector(
-                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
+        with allure.step("П редиректнуло на страницу оплаты"):
+            self.driver.switch_to_window(driver.window_handles[1])
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'
 
     def test_click_button_pay_ticket(self):
         driver = self.driver
@@ -111,9 +98,6 @@ class UserAuthCheckAppearancePopUpInAllPlaces(StartInterneturokClassMethod):
             url_get.go_to_my_profile()
         with allure.step("В ЛК в виджете Абонемент нажать на кнопку (Оплатить абонемент)"):
             url_get.click_button_buy_subscription()
-        with allure.step("Часть большого поп-ап Отображается popup-payment__price"):
-            assert (self.driver.find_element_by_css_selector("div.popup-payment__price"))
-        with allure.step("Часть большого поп-ап Отображается popup__text_intro"):
-            self.assertIn(u"По абонементу доступны:",
-                          driver.find_element_by_css_selector(
-                              "div.popup.popup-payment div:nth-child(2) h3:nth-child(1)").text)
+        with allure.step("П редиректнуло на страницу оплаты"):
+            self.driver.switch_to_window(driver.window_handles[2])
+            assert self.driver.current_url == 'https://staging.interneturok.ru/payment'

@@ -26,20 +26,16 @@ class ChecksAllElementsInSubjectPageTheHeadersUserNotAuth(StartInterneturokClass
 
     @allure.step("Кнопка Предметы отображается")
     def test_button_subjects_displayed(self):
-        self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[2]"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-menu-subjects"))
 
     @allure.step("Кнопка Классы отображается")
     def test_button_grades_displayed(self):
-        self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[1]"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-menu-grades"))
 
     @allure.step("Элемент Поиск отображается")
     def test_field_search(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-search__wraps"))
 
-    # @allure.step("Кнопка Флешка отображается")
-    # def test_button_flash(self):
-    #     self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "i.icon-flash"))
-
     @allure.step("Кнопка Войти отображается")
     def test_button_enter_is_displayed(self):
-        self.assertEqual(u"Войти", self.driver.find_element_by_css_selector("div.header-menu-wrapper").text)
+        self.assertEqual(u"Войти", self.driver.find_element_by_css_selector("span.button.button_login").text)

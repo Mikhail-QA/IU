@@ -29,15 +29,16 @@ class ChecksAllElementsInLessonPageTheHeadersUserAuth(StartInterneturokClassMeth
 
     @allure.step("Кнопка возврата на страницу Предмет/Класс отображается (Алгебра,11)")
     def test_button_back_page_subject(self):
-        self.assertEqual("Алгебра,11", self.driver.find_element_by_css_selector("a.header__back").text)
+        self.assertEqual("Алгебра, 11 класс",
+                         self.driver.find_element_by_css_selector("a.breadcrumbs__link.ember-view").text)
 
     @allure.step("Кнопка Предметы отображается")
     def test_button_subjects_displayed(self):
-        self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[2]"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-menu-grades"))
 
     @allure.step("Кнопка Классы отображается")
     def test_button_grades_displayed(self):
-        self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[1]"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-menu-subjects"))
 
     @allure.step("Элемент Поиск отображается")
     def test_field_search(self):
@@ -45,4 +46,8 @@ class ChecksAllElementsInLessonPageTheHeadersUserAuth(StartInterneturokClassMeth
 
     @allure.step("Кнопка Мой профиль отображается")
     def test_button_signIn_is_displayed(self):
-        self.assertEqual(u"Мой профиль", self.driver.find_element_by_css_selector("div.header__menu_profile").text)
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-userinfo"))
+
+    @allure.step("Кнопка меню-бургер отображается")
+    def test_button_signIn_is_displayed(self):
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.ember-basic-dropdown"))

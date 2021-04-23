@@ -35,11 +35,11 @@ class ChecksAllElementsInSubjectPageTheHeadersUserAuth(StartInterneturokClassMet
 
     @allure.step("Кнопка Предметы отображается")
     def test_button_subjects_displayed(self):
-        self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[2]"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-menu-grades"))
 
     @allure.step("Кнопка Классы отображается")
     def test_button_grades_displayed(self):
-        self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[1]"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-menu-subjects"))
 
     @allure.step("Элемент Поиск отображается")
     def test_field_search(self):
@@ -48,3 +48,7 @@ class ChecksAllElementsInSubjectPageTheHeadersUserAuth(StartInterneturokClassMet
     @allure.step("Кнопка Мой профиль отображается")
     def test_button_signIn_is_displayed(self):
         self.assertEqual(u"Мой профиль", self.driver.find_element_by_css_selector("div.header__menu_profile").text)
+
+    @allure.step("Кнопка меню-бургер отображается")
+    def test_button_signIn_is_displayed(self):
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-userlinks_trigger"))

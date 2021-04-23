@@ -14,7 +14,7 @@ from Web_services.SetUp import StartInterneturokClassMethod
 class CheckAllElementsTheGrades(StartInterneturokClassMethod):
     @allure.step("Нажать на кнопку Классы")
     def test_000_click_button_grades(self):
-        self.driver.find_element_by_xpath("//main/nav/div/a[2]").click()
+        self.driver.find_element_by_css_selector("div.switcher__wrap.row a:nth-child(2)").click()
         time.sleep(0.5)
 
     @allure.step("Элемент Логотип отображается")

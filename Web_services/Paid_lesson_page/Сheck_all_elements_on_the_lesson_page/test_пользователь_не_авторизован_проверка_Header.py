@@ -14,29 +14,25 @@ class ChecksAllElementsInLessonPageTheHeadersUserNotAuth(StartInterneturokClassM
         go_page.go_lesson_page()
 
     @allure.step("Элемент Логотип отображается")
-    def test_logo_interneturok(self):
+    def test_logo_is_displayed(self):
         self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "a.logo.header__logo"))
 
     @allure.step("Кнопка возврата на страницу Предмет/Класс отображается (Алгебра,11)")
     def test_button_back_page_subject(self):
-        self.assertEqual("Алгебра,11", self.driver.find_element_by_css_selector("a.header__back").text)
+        self.assertEqual("Алгебра, 11 класс", self.driver.find_element_by_css_selector("a.breadcrumbs__link.ember-view").text)
 
     @allure.step("Кнопка Предметы отображается")
     def test_button_subjects_displayed(self):
-        self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[2]"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-menu-grades"))
 
     @allure.step("Кнопка Классы отображается")
     def test_button_grades_displayed(self):
-        self.assertTrue(self.is_element_present(By.XPATH, "//header/div[1]/div[1]"))
+        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-menu-subjects"))
 
     @allure.step("Элемент Поиск отображается")
     def test_field_search(self):
-        self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.header-search__wraps"))
-
-    # @allure.step("Кнопка Флешка отображается")
-    # def test_button_flash(self):
-    #     self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "i.icon-flash"))
+        self.assertTrue(self.is_element_present(By.NAME, "q"))
 
     @allure.step("Кнопка Войти отображается")
     def test_button_enter_is_displayed(self):
-        self.assertEqual(u"Войти", self.driver.find_element_by_css_selector("div.header-menu-wrapper").text)
+        self.assertEqual(u"Войти", self.driver.find_element_by_css_selector("span.button.button_login").text)

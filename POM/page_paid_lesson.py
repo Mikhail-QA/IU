@@ -55,7 +55,7 @@ class PagePaidLessonQuestion(object):
 
     def click_button_comment(self):
         self.driver.find_element_by_css_selector("span.comment__action").click()
-
+        time.sleep(1)
 
 # https://staging.interneturok.ru/physics/7-klass/rabota-moshnost-energija/energiya-zakon-sohraneniya-energii
 class Notes(object):
@@ -93,6 +93,7 @@ class PaidLesson(object):
 
     def click_button_play_video(self):
         self.driver.find_element_by_css_selector("div.player__block-play").click()
+        time.sleep(1)
 
     def click_button_buy_ticket_in_stubs(self):
         self.driver.find_element_by_css_selector("a.abonement__buy").click()

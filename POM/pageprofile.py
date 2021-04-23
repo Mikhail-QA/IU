@@ -49,7 +49,7 @@ class PageProfile(object):
         time.sleep(1.5)
 
     def go_to_my_profile(self):
-        self.driver.get("https://staging.interneturok.ru/profile")
+        self.driver.get("https://staging.interneturok.ru/lk/comments")
         WebDriverWait(self.driver, 10).until(
             ec.visibility_of_element_located((By.CSS_SELECTOR, 'span.profile-abonement__title')))
 

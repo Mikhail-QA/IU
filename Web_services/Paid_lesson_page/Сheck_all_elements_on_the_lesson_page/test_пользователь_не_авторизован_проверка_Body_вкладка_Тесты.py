@@ -15,7 +15,8 @@ class ChecksAllElementsInLessonPageTheBodyTabTestUserNotAuth(StartInterneturokCl
 
     @allure.step("На странице урока отображается название урока (Тригонометрические функции y = sin t, y = cos t)")
     def test_lesson_title(self):
-        self.assertEqual("Тригонометрические функции y = sin t, y = cos t", self.driver.find_element_by_css_selector("h1.lesson-title").text)
+        self.assertEqual("АверНик.Тригонометрические функции y = sin t, y = cos t",
+                         self.driver.find_element_by_css_selector("h1.lesson-title").text)
 
     @allure.step("На странице урока отображается кнопка перейти на предыдущий урок (Кнопка влево)")
     def test_lesson_arrow_left(self):
@@ -125,7 +126,7 @@ class ChecksAllElementsInLessonPageTheBodyTabTestUserNotAuth(StartInterneturokCl
 
     @allure.step("В уроке в конце конспекта отображается ссылка (Комментарии (11))")
     def test_displayed_lesson_footer_button_comment(self):
-        self.assertEqual("Комментарии (8)",
+        self.assertEqual("Комментарии (11)",
                          self.driver.find_element_by_id("comments-link").text)
         with allure.step("В кнопке Комментарии (8) присутствует иконка "):
             self.assertTrue(self.is_element_present(By.CSS_SELECTOR, "div.icon-lesson-comments"))
